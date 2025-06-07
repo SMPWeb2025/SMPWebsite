@@ -1,0 +1,148 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbarsmp {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #142749;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2vw;
+  height: clamp(90px, 10vh, 100px);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbarsmp.scrolled {
+  height: clamp(80px, 8vh, 80px);
+  padding: 0 1vw;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.navItem {
+  position: relative;
+  padding: 10px 20px;
+  color: #e1f7f5;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navItem:hover:not(.selected) {
+  background-color: #e1f7f5;
+  color: #142749;
+}
+
+.navItem.selected {
+  background-color: #fff;
+  color: #142749;
+}
+
+.navItem.selected:hover {
+  background-color: #fff !important;
+  color: #142749 !important;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(225, 247, 245, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  border-radius: 10px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+}
+
+.dropdownItem {
+  padding: 10px 20px;
+  color: black;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdownItem:hover {
+  background-color: #e8c861;
+  border-radius: 10px;
+}
+/* ✅ Responsive behavior */
+@media screen and (max-width: 992px) {
+  .navbarsmp.scrolled {
+    height: clamp(80px, 8vh, 80px) !important;
+    padding: 0 1vw !important;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .navContainer {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #142749;
+    display: none;
+    padding: 10px 0;
+    transform: none; /* reset horizontal centering */
+    left: auto;
+  }
+
+  .navContainer.open {
+    display: flex;
+  }
+
+  .navItem {
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .dropdownMenu {
+    position: static;
+    box-shadow: none;
+    border-radius: 0;
+    background: none;
+    backdrop-filter: none;
+    margin-top: 0;
+  }
+} 
