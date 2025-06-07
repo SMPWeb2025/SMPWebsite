@@ -24,27 +24,27 @@
     align-items: center;
     padding: 20px;
     text-align: center;
-    animation: fadeIn 1.5s ease-out; /* Fade-in animation for the container */
+    /* animation: fadeIn 1.5s ease-out; Fade-in animation for the container */
 }
 
 .headersmpText h1{
-    font-size: 30px;
+    /* font-size: 30px; */
     color: #ffc50d;
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3px);
     width: 100vw;
-    opacity: 0; /* Start as invisible */
+    opacity: 0; /*Start as invisible*/
     transform: translateY(30px); /* Start slightly below */
-    animation: textSlideUp 1s ease-out forwards; /* Slide-up animation */
-    animation-delay: 0.5s; /* Delay so it comes after the container */
+    animation: textSlideUp 1s ease-out forwards; /*Slide-up animation*/
+    animation-delay: 0.5s; /*Delay so it comes after the container*/
 }
 
 .headersmpText h3 {
     color: white;
-    opacity: 0;
+    opacity: 1;
     transform: translateY(30px);
-    animation: textSlideUp 1s ease-out forwards;
-    animation-delay: 0.7s; /* Delay for secondary animation */
+    /* animation: textSlideUp 1s ease-out forwards; */
+    /* animation-delay: 0.7s; Delay for secondary animation */
 }
 
 /* Keyframes for container fade-in */
@@ -71,6 +71,9 @@
 /* Button CSS */
 .headersmpBtn{
     padding-bottom: 20px;
+    margin-top: 80px;
+    cursor: pointer;
+    font-size: large;
 }
 
 .btnsmp{
@@ -86,7 +89,7 @@
     z-index: 1;
     overflow: hidden;
     position: relative;
-
+    cursor: pointer;
 }
 .circlesmp{
     background-color: #ffc50d;
@@ -115,7 +118,7 @@
     font-weight: 600;
     color: white;
     z-index: 4;
-    transition: left 0.4s ease-in-out;
+    /* transition: left 0.4s ease-in-out; */
 }
 .btnsmp:hover .textsmp{
     color: black;

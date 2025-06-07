@@ -11,8 +11,8 @@ function Footer() {
     <>
       {/* <Announcements/> */}
       <div className="footersmp" style={{backgroundColor:"#142749"}} >
-        <div className="container " >
-          <footer className="grid lg:grid-cols-5 grid-cols-3 py-5 gap-4 mx-auto text-center border-top">
+        <div className="container" >
+          <footer className="grid lg:grid-cols-5 grid-cols-3 gap-5 py-5 mx-auto text-center border-top">
             <div className="lg:col-span-2 col-span-3 mb-3 text-center footerContainer">
               <a
                 href="/"
@@ -22,7 +22,7 @@ function Footer() {
                   src={logo}
                   style={{ height: "90px" }}
                   href="https://smp.gymkhana.iitb.ac.in/"
-                  classNameName="footer-img"
+                  className="footer-img"
                   alt="smp logo"
                 />
               </a>
@@ -141,20 +141,20 @@ function Footer() {
             </div>
           </footer>
           <div className="container">
-            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3  border-top border-black">
-              <div className="col-md-4 d-flex align-items-center">
+            <footer className="flex flex-wrap justify-between items-center py-3 border-t border-black">
+              <div className="md:w-1/3 flex items-center justify-center mx-auto">
                 <a
                   href="/"
                   className="mb-3 me-2 mb-md-0  text-decoration-none lh-1"
                 >
                   <svg className="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
+                    <use xlinkHref="#bootstrap"></use>
                   </svg>
                 </a>
                 <span className="mb-3 mb-md-0 ">Made with ❤️ SMP Web Team</span>
               </div>
 
-              <ul className="nav col-md-4 justify-content-end list-unstyled d-flex footerItems">
+              <ul className="md:w-1/3 justify-center list-none flex items-center mx-auto footerItems">
                 <li className="m-3">
                   <a className="" href="https://www.instagram.com/smp.iitb/">
                     <FontAwesomeIcon icon={faInstagram} />
