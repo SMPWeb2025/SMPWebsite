@@ -22,7 +22,6 @@ const About = () => {
   ];
   return (
     <>
-      <Navbar />
       <div className="about">
       <button className="sidebar-toggle" onClick={toggleSidebar}>☰</button>
       <Sidebar 
@@ -81,7 +80,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

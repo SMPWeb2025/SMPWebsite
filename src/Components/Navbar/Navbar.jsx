@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "./logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
@@ -41,9 +42,11 @@ const Navbar = () => {
   return (
     <div className={`navbarsmp ${scrolled ? "scrolled" : ""}`}>
       <div className="navLogo">
-        <a href="https://smp.gymkhana.iitb.ac.in/">
-          <img src={logo} alt="smp logo" height="60" />
-        </a>
+        <Link to='/' className="inline-block">
+          <img src={logo} alt="smp logo" className="h-16 w-auto"/>
+        </Link>
+
+        
         <button className="hamburger" onClick={toggleMobile}>
           ☰
         </button>

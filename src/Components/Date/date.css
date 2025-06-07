@@ -38,7 +38,7 @@
     align-items: baseline;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.271);
-    transition: 0.4s ease-in-out;;
+    transition: 0.4s ease-in-out;
 }
 
 .dateDates{

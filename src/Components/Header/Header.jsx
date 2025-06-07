@@ -8,7 +8,7 @@ function Header() {
       <div className="headersmpContainer">
         <div className="headersmpText">
           <h1>Welcome To IIT Bombay!</h1>
-          <h3>
+          <h3 className="w-3/4 mx-auto">
             This website has been created by the Student Mentor Program to
             introduce incoming freshers to life at IIT Bombay. We encourage you
             to browse through the various sections and make an informed choice
