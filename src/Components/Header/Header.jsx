@@ -9,11 +9,11 @@ function Header() {
   return (
     <div className="headersmp">
       <video src={videoBg} autoPlay loop muted className="videobg" />
-      <div className="headersmpContainer">
+      <div className="headersmpContainer mt-5">
         <div className="headersmpText">
           <h1 className="md:text-6xl text-2xl mt-20">{title}</h1>
           <h3 className="w-3/4 mx-auto">
-            <TextGenerateEffect duration={0.25} words={content} />
+            {content}
           </h3>
         </div>
         <div className="headersmpBtn">

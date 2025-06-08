@@ -12,7 +12,7 @@ function Footer() {
       {/* <Announcements/> */}
       <div className="footersmp" style={{backgroundColor:"#142749"}} >
         <div className="container" >
-          <footer className="grid lg:grid-cols-5 grid-cols-3 gap-5 py-5 mx-auto text-center border-top">
+          <footer className="grid lg:grid-cols-5 grid-cols-3 gap-1 md:gap-5 pt-6 pb-0 mx-auto text-center border-top">
             <div className="lg:col-span-2 col-span-3 mb-3 text-center footerContainer">
               <a
                 href="/"
@@ -34,7 +34,7 @@ function Footer() {
 
             {/* <div className="col mb-2"></div> */}
 
-            <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg">
+            <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg py-4">
               <div className="text-xs md:text-2xl font-bold mb-2">Navigate</div>
               <ul
                 className="nav flex-column footerItems"
@@ -73,7 +73,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg">
+            <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg py-4">
               <div className="text-xs md:text-2xl font-bold mb-2">Quick links</div>
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
@@ -104,7 +104,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg">
+            <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg py-4">
               <div className="text-xs md:text-2xl font-bold mb-2">Quick links</div>
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
@@ -154,23 +154,24 @@ function Footer() {
                 <span className="mb-3 mb-md-0 ">Made with ❤️ SMP Web Team</span>
               </div>
 
-              <ul className="md:w-1/3 justify-center list-none flex items-center mx-auto footerItems">
+              <ul className="md:w-1/3 justify-center list-none flex items-center mx-auto footerItems footer-socials">
                 <li className="m-3">
-                  <a className="" href="https://www.instagram.com/smp.iitb/">
+                  <a href="https://www.instagram.com/smp.iitb/">
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </li>
                 <li className="m-3">
-                  <a className="" href="https://www.facebook.com/smpiitb">
-                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                  <a href="https://www.facebook.com/smpiitb">
+                    <FontAwesomeIcon icon={faFacebook} />
                   </a>
                 </li>
                 <li className="m-3">
-                  <a className="" href="">
+                  <a href="">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </a>
                 </li>
               </ul>
+
             </footer>
           </div>
         </div>
