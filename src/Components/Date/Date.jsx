@@ -3,7 +3,7 @@ import "./date.css";
 function Date() {
   return (
     <div className="datesmp bg-blue-200">
-      <div className="dateContainer my-20">
+      <div className="dateContainer my-2">
         <div className="col-md-12 dateTitle py-3">
           <h1>Important Dates</h1>
         </div>

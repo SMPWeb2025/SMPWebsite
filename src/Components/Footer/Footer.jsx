@@ -11,7 +11,7 @@ function Footer() {
     <>
       {/* <Announcements/> */}
       <div className="footersmp" style={{backgroundColor:"#142749"}} >
-        <div className="container" >
+        <div className="container">
           <footer className="grid lg:grid-cols-5 grid-cols-3 gap-1 md:gap-5 pt-6 pb-0 mx-auto text-center border-top">
             <div className="lg:col-span-2 col-span-3 mb-3 text-center footerContainer">
               <a
@@ -143,14 +143,7 @@ function Footer() {
           <div className="container">
             <footer className="flex flex-wrap justify-between items-center py-3 border-t border-black">
               <div className="md:w-1/3 flex items-center justify-center mx-auto">
-                <a
-                  href="/"
-                  className="mb-3 me-2 mb-md-0  text-decoration-none lh-1"
-                >
-                  <svg className="bi" width="30" height="24">
-                    <use xlinkHref="#bootstrap"></use>
-                  </svg>
-                </a>
+                
                 <span className="mb-3 mb-md-0 ">Made with ❤️ SMP Web Team</span>
               </div>
 
