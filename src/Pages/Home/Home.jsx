@@ -8,7 +8,9 @@ function Home() {
       <Header />
 
       <Date />
-      <Annoucements />
+      <div className="fixed bottom-5 right-5">
+        <Annoucements />
+      </div>
     </div>
   );
 }

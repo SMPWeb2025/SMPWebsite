@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@popperjs/core": "^2.11.8",
+    "@radix-ui/themes": "^3.2.1",
     "@tailwindcss/vite": "^4.1.8",
     "clsx": "^2.1.1",
     "jquery": "^3.7.1",

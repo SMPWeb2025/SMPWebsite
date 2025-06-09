@@ -1,25 +1,24 @@
-import React , {useState} from 'react';
-import './announcements.css'; // Include the CSS file for styling
-import newGif from "../../assets/img/new.gif";
+import { Flex, Dialog, Text, Button } from "@radix-ui/themes";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamation , faXmark} from '@fortawesome/free-solid-svg-icons';
+import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
+import './announcements.css'
+import newGif from "../../assets/img/new.gif";
 
-const Announcements = () => {
-
-  const [openAnnouncements,setOpenAnnouncements] = useState(false);
+function Announcements() {
   return (
-    <>
-    <div className='announcements' onClick={() => setOpenAnnouncements(!openAnnouncements)}> 
-      <FontAwesomeIcon icon={faExclamation} size="xl"/></div>
-    {openAnnouncements &&  
-    <div className="announcement-container">
-    <div id="side">
-      <div id="news_section">
-        <div className="news-header">
-          <h4 className="text-left ">Announcements </h4>
-          <FontAwesomeIcon  className='close-icon' icon={faXmark} size="xs" onClick={() => setOpenAnnouncements(false)}/>
-        </div>
-        <div className="news-content">
+    <Flex gap="4" align="start">
+      <Dialog.Root>
+        <Dialog.Trigger>
+          <Button variant="classic" size="3" color="amber">
+            Announcements
+            <FontAwesomeIcon icon={faBullhorn} size="xl"/>
+          </Button>
+        </Dialog.Trigger>
+        <Dialog.Content size="2" maxWidth="500px">
+          <Dialog.Title>Announcements</Dialog.Title>
+          <Dialog.Description asChild>
+            
+          <div className="news-content">
           <ul>
             <li className="link" style={{ fontSize: '0.75em' }}>
               <sup>
@@ -55,12 +54,18 @@ const Announcements = () => {
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-  </div>}
-  
-  </>
-  );
-};
+          </Dialog.Description>
+          <Flex gap="3" justify="end">
+            <Dialog.Close>
+              <Button variant="soft" color="red">
+                Close
+              </Button>
+            </Dialog.Close>
+          </Flex>
+        </Dialog.Content>
+      </Dialog.Root>
+    </Flex>
+  )
+}
 
 export default Announcements;
