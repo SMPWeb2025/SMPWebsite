@@ -1,6 +1,3 @@
-import Announcements from '../../Components/Annoucements/Announcements'
-import Dropdown from '../../Components/NavigationDropdown/Dropdown'
-import TabNavigator from '../../Components/NavigationDropdown/TabNavigator'
 import PageLayout from '../../Components/PageLayout/PageLayout'
 
 function Academics() {
