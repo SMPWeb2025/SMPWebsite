@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
-import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import ScrollToTop from './Components/scrollToTop/scrollToTop.jsx';
 
 function App() {
 
