@@ -13,6 +13,18 @@
     padding: 10px 30px;
 }
 
-.h2, h3{
+h2, h3{
     color: #142749;
+}
+
+.link{
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+}
+
+.active-link{
+    background-color: #6f86ad;
+    color: white;
 }

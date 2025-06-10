@@ -1,10 +1,12 @@
 import React from "react";
-import './Page.css'
-import { Link } from "react-router-dom";
+import './Page.css';
+import { Link, useLocation } from "react-router-dom";
 
-const Page = ({content, sidebar, sideHeading}) => {
+const Page = ({ content, sidebar, sideHeading }) => {
+  const location = useLocation();  // Get current location
+
   return (
-    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 overall">
+    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-20 overall">
       
       {/* Main Content */}
       <div className="flex-1 content-container">
@@ -18,12 +20,23 @@ const Page = ({content, sidebar, sideHeading}) => {
         <div className="bg-white p-4 side-container">
           <h2 className="font-bold text-lg mb-3">{sideHeading}</h2>
           <ul className="space-y-2 text-sm">
-            {sidebar.map((navItem) => (
-              <li key={navItem.name}>
-                <Link to={'/' + navItem.link} className="hover:underline">{navItem.name}</Link>
-              </li>
-            ))}
-            
+            {sidebar.map((navItem) => {
+              const path = '/' + navItem.link;
+              const isActive = location.pathname === path;
+
+              return (
+                <li key={navItem.name}>
+                  <Link
+                    to={path}
+                    className={`block px-2 py-1 rounded link ${
+                      isActive ? 'active-link text-white' : ''
+                    }`}
+                  >
+                    {navItem.name}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
 
