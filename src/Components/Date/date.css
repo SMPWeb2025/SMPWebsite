@@ -71,16 +71,24 @@ a{
 /* Responsive */
 @media (max-width: 600px) {
   .section-table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
   }
 
   .section-table td {
-    padding: 10px 8px;
+    padding: 8px 6px;
+    font-size: 14px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
   }
 
   .dateEvent {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .dateDates {
+    font-size: 13px;
   }
 }

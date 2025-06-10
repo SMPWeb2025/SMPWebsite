@@ -42,7 +42,13 @@ const Navbar = () => {
   return (
     <div className={`navbarsmp ${scrolled ? "scrolled" : ""}`}>
       <div className="navLogo">
-        <Link to='/' className="inline-block">
+        <Link to='/' 
+              className="inline-block"
+              onClick={() => {
+                  setDropdown(null);
+                  setMobileOpen(false);
+                }}    
+          >
           <img src={logo} alt="smp logo" className="h-16 w-auto"/>
         </Link>
 
@@ -54,11 +60,12 @@ const Navbar = () => {
 
       <div className={`navContainer ${mobileOpen ? "open" : ""}`}>
         {[
-          "About Us",
-          "Academics",
-          "Extra Curriculars",
           "Incoming Students",
+          "Academics",
           "Life at IITB",
+          "Extra Curriculars",
+          "About Us",        
+          
         ].map((section) => (
           <div
             key={section}
@@ -71,7 +78,9 @@ const Navbar = () => {
           >
             {section}
             {dropdown === section && (
-              <div className="dropdownMenu">{getDropdownItems(section)}</div>
+              <div className="dropdownMenu">
+                {getDropdownItems(section, () => setMobileOpen(false))}
+              </div>
             )}
           </div>
         ))}
@@ -80,51 +89,57 @@ const Navbar = () => {
   );
 };
 
-const getDropdownItems = (section) => {
+const getDropdownItems = (section, closeMobileMenu) => {
   const items = {
     "About Us": [
-      "Our Objective",
-      "Mentorship",
-      "ISMP",
-      "English Learning Program",
-      "CAT",
-      "Team",
+      { text: "Our Objective", link: "/about/objective" },
+      { text: "Mentorship", link: "/about/mentorship" },
+      { text: "ISMP", link: "/about/ismp" },
+      { text: "English Learning Program", link: "/about/elp" },
+      { text: "CAT", link: "/about/cat" },
+      { text: "Team", link: "/about/team" },
     ],
     Academics: [
-      "Introduction",
-      "Curriculum",
-      "Departments",
-      "Semester-Exchange",
-      "IDDDP",
-      "CPI Calculation",
+      { text: "Introduction", link: "/academics/introduction" },
+      { text: "Curriculum", link: "/academics/curriculum" },
+      { text: "Departments", link: "/academics/departments" },
+      { text: "Semester-Exchange", link: "/academics/exchange" },
+      { text: "IDDDP", link: "/academics/idddp" },
+      { text: "CPI Calculation", link: "/academics/cpi" },
     ],
     "Extra Curriculars": [
-      "Gymkhana",
-      "Culturals",
-      "Media",
-      "Technical Affairs",
-      "Institute Bodies",
-      "Sports",
+      { text: "Gymkhana", link: "/extra/gymkhana" },
+      { text: "Culturals", link: "/extra/culturals" },
+      { text: "Media", link: "/extra/media" },
+      { text: "Technical Affairs", link: "/extra/tech" },
+      { text: "Institute Bodies", link: "/extra/bodies" },
+      { text: "Sports", link: "/extra/sports" },
     ],
     "Incoming Students": [
-      "Introduction",
-      "Onboarding",
-      "Accommodation",
-      "Scholarships",
-      "Fee Structure",
-      "Letter To Parents",
+      { text: "Introduction", link: "/incoming/introduction" },
+      { text: "Onboarding", link: "/incoming/onboarding" },
+      { text: "Accommodation", link: "/incoming/accommodation" },
+      { text: "Scholarships", link: "/incoming/scholarships" },
+      { text: "Fee Structure", link: "/incoming/fee" },
+      { text: "Letter To Parents", link: "/incoming/letter" },
     ],
     "Life at IITB": [
-      "Introduction",
-      "In and Around of the campus",
-      "Support Available",
-      "IITB Culture",
+      { text: "Introduction", link: "/life/introduction" },
+      { text: "In and Around of the campus", link: "/life/around" },
+      { text: "Support Available", link: "/life/support" },
+      { text: "IITB Culture", link: "/life/culture" },
     ],
   };
-  return items[section].map((text, i) => (
-    <div key={i} className="dropdownItem">
-      {text}
-    </div>
+
+  return items[section].map(({ text, link }, i) => (
+    <Link to={link} 
+          key={i} 
+          className="dropdownItem" 
+          onClick={() => {
+        if (window.innerWidth <= 992) closeMobileMenu();
+      }}>
+          {text}
+    </Link>
   ));
 };
 

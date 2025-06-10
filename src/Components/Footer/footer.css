@@ -5,6 +5,9 @@
     margin: 0;
     background-color: #142479;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footerContainer{
     padding: 0;

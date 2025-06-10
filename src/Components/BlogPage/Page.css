@@ -1,0 +1,18 @@
+.overall{
+    background-color: #ececec;
+}
+
+.content-container{
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.side-container{
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.h2, h3{
+    color: #142749;
+}
