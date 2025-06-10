@@ -1,0 +1,41 @@
+{
+    "About Us": [
+        {"link": "about/our-objective", "name": "Our Objective"},
+        {"link": "about/mentorship", "name": "Mentorship"},
+        {"link": "about/ismp", "name": "ISMP"},
+        {"link": "about/elp", "name": "ELP"},
+        {"link": "about/cat", "name": "CAT"},
+        {"link": "about/team", "name": "Team"}
+    ],
+    "Academics": [
+        {"link": "academics/introduction", "name": "Introduction"},
+        {"link": "academics/curriculum", "name": "Curriculum"},
+        {"link": "academics/departments", "name": "Departments"},
+        {"link": "academics/cpi-calculation", "name": "CPI Calculation"},
+        {"link": "academics/branch-change", "name": "Branch Change"},
+        {"link": "academics/iddp", "name": "IDDDP"},
+        {"link": "academics/semester-exchange", "name": "Semester Exchange"}
+    ],
+    "Extra Curriculars": [
+        {"link": "extra-curriculars/gymkhana", "name": "Gymkhana"},
+        {"link": "extra-curriculars/culturals", "name": "Culturals"},
+        {"link": "extra-curriculars/media", "name": "Media"},
+        {"link": "extra-curriculars/sports", "name": "Sports"},
+        {"link": "extra-curriculars/technical-affairs", "name": "Technical Affairs"},
+        {"link": "extra-curriculars/institute-bodies", "name": "Institute Bodies"}
+    ],
+    "Incoming Students": [
+        {"link": "incoming-students/introduction", "name": "Introduction"},
+        {"link": "incoming-students/onboarding", "name": "Onboarding"},
+        {"link": "incoming-students/accomodation", "name": "Accomodation"},
+        {"link": "incoming-students/scholarships", "name": "Scholarships"},
+        {"link": "incoming-students/fee-structure", "name": "Fee Structure"},
+        {"link": "incoming-students/letter-to-parents", "name": "Letter to parents"}
+    ],
+    "Life at IITB": [
+        {"link": "life-at-iitb/introduction", "name": "Introduction"},
+        {"link": "life-at-iitb/in-and-around-the-campus", "name": "In & Around the Campus"},
+        {"link": "life-at-iitb/support-available", "name": "Support Available"},
+        {"link": "life-at-iitb/culture-at-iitb", "name": "Culture @ IITB"}
+    ]
+}

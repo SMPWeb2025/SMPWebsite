@@ -1,9 +1,10 @@
 import React from "react";
 import './Page.css'
+import { Link } from "react-router-dom";
 
 const Page = ({content, sidebar}) => {
   return (
-    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-12 overall">
+    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 overall">
       
       {/* Main Content */}
       <div className="flex-1 content-container">
@@ -17,13 +18,12 @@ const Page = ({content, sidebar}) => {
         <div className="bg-white p-4 side-container">
           <h2 className="font-bold text-lg mb-3">Academics</h2>
           <ul className="space-y-2 text-sm">
-            <li><a href="#intro" className="hover:underline">Introduction</a></li>
-            <li><a href="#curriculum" className="hover:underline">Curriculum</a></li>
-            <li><a href="#departments" className="hover:underline">Departments</a></li>
-            <li><a href="#cpi" className="hover:underline">CPI Calculation</a></li>
-            <li><a href="#branch" className="hover:underline">Branch Change</a></li>
-            <li><a href="#iddp" className="hover:underline">IDDP</a></li>
-            <li><a href="#exchange" className="hover:underline">Semester - Exchange</a></li>
+            {sidebar.map((navItem) => (
+              <li key={navItem.name}>
+                <Link to={'/' + navItem.link} className="hover:underline">{navItem.name}</Link>
+              </li>
+            ))}
+            
           </ul>
         </div>
 

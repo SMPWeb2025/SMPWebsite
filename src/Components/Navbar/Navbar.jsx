@@ -92,7 +92,7 @@ const Navbar = () => {
 const getDropdownItems = (section, closeMobileMenu) => {
   const items = {
     "About Us": [
-      { text: "Our Objective", link: "/about/objective" },
+      { text: "Our Objective", link: "/about/our-objective" },
       { text: "Mentorship", link: "/about/mentorship" },
       { text: "ISMP", link: "/about/ismp" },
       { text: "English Learning Program", link: "/about/elp" },
@@ -108,26 +108,26 @@ const getDropdownItems = (section, closeMobileMenu) => {
       { text: "CPI Calculation", link: "/academics/cpi" },
     ],
     "Extra Curriculars": [
-      { text: "Gymkhana", link: "/extra/gymkhana" },
-      { text: "Culturals", link: "/extra/culturals" },
-      { text: "Media", link: "/extra/media" },
-      { text: "Technical Affairs", link: "/extra/tech" },
-      { text: "Institute Bodies", link: "/extra/bodies" },
-      { text: "Sports", link: "/extra/sports" },
+      { text: "Gymkhana", link: "/extra-curriculars/gymkhana" },
+      { text: "Culturals", link: "/extra-curriculars/culturals" },
+      { text: "Media", link: "/extra-curriculars/media" },
+      { text: "Technical Affairs", link: "/extra-curriculars/technical-affairs" },
+      { text: "Institute Bodies", link: "/extra-curriculars/institute-bodies" },
+      { text: "Sports", link: "/extra-curriculars/sports" },
     ],
     "Incoming Students": [
-      { text: "Introduction", link: "/incoming/introduction" },
-      { text: "Onboarding", link: "/incoming/onboarding" },
-      { text: "Accommodation", link: "/incoming/accommodation" },
-      { text: "Scholarships", link: "/incoming/scholarships" },
-      { text: "Fee Structure", link: "/incoming/fee" },
-      { text: "Letter To Parents", link: "/incoming/letter" },
+      { text: "Introduction", link: "/incoming-students/introduction" },
+      { text: "Onboarding", link: "/incoming-students/onboarding" },
+      { text: "Accommodation", link: "/incoming-students/accommodation" },
+      { text: "Scholarships", link: "/incoming-students/scholarships" },
+      { text: "Fee Structure", link: "/incoming-students/fee-structure" },
+      { text: "Letter To Parents", link: "/incoming-students/letter-to-parents" },
     ],
     "Life at IITB": [
-      { text: "Introduction", link: "/life/introduction" },
-      { text: "In and Around of the campus", link: "/life/around" },
-      { text: "Support Available", link: "/life/support" },
-      { text: "IITB Culture", link: "/life/culture" },
+      { text: "Introduction", link: "/life-at-iitb/introduction" },
+      { text: "In and Around of the campus", link: "/life-at-iitb/in-and-around-the-campus" },
+      { text: "Support Available", link: "/life-at-iitb/support-available" },
+      { text: "IITB Culture", link: "/life-at-iitb/culture-at-iitb" },
     ],
   };
 

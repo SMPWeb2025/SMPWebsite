@@ -46,7 +46,7 @@
 }
 
 .headersmpText h3 {
-    font-size: 18px;
+    /* font-size: 18px; */
     color: white;
     opacity: 0; /*Start as invisible*/
     transform: translateY(30px); /* Start slightly below */
