@@ -6,7 +6,7 @@ const ISMP = () => {
     const sidebar = navData["About Us"];
 
     return (
-        <Page content={content} sidebar={sidebar}/>
+        <Page content={content} sidebar={sidebar} sideHeading="About Us"/>
     )
 }
 

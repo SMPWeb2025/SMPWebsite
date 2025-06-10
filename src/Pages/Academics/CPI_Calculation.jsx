@@ -6,7 +6,7 @@ const CPI_Calculation = () => {
     const sidebar = navData["Academics"];
 
     return (
-        <Page content={content} sidebar={sidebar}/>
+        <Page content={content} sidebar={sidebar} sideHeading="Academics"/>
     )
 }
 

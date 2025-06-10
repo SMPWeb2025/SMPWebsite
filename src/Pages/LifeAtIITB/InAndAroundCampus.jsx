@@ -6,7 +6,7 @@ const InAndAroundCampus = () => {
     const sidebar = navData["Life at IITB"];
 
     return (
-        <Page content={content} sidebar={sidebar}/>
+        <Page content={content} sidebar={sidebar} sideHeading="Life At IITB" />
     )
 }
 

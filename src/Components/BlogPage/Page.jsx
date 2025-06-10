@@ -2,7 +2,7 @@ import React from "react";
 import './Page.css'
 import { Link } from "react-router-dom";
 
-const Page = ({content, sidebar}) => {
+const Page = ({content, sidebar, sideHeading}) => {
   return (
     <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 overall">
       
@@ -16,7 +16,7 @@ const Page = ({content, sidebar}) => {
         
         {/* Navigation Section */}
         <div className="bg-white p-4 side-container">
-          <h2 className="font-bold text-lg mb-3">Academics</h2>
+          <h2 className="font-bold text-lg mb-3">{sideHeading}</h2>
           <ul className="space-y-2 text-sm">
             {sidebar.map((navItem) => (
               <li key={navItem.name}>

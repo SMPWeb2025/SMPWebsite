@@ -6,7 +6,7 @@ const Scholarships = () => {
     const sidebar = navData["Incoming Students"];
 
     return (
-        <Page content={content} sidebar={sidebar}/>
+        <Page content={content} sidebar={sidebar} sideHeading="Incoming Students"/>
     )
 }
 

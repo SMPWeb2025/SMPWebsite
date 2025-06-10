@@ -6,7 +6,7 @@ const Media = () => {
     const sidebar = navData["Extra Curriculars"];
 
     return (
-        <Page content={content} sidebar={sidebar}/>
+        <Page content={content} sidebar={sidebar} sideHeading="Extra Curriculars" />
     )
 }
 
