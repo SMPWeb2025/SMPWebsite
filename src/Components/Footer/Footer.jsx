@@ -150,17 +150,17 @@ function Footer() {
               <ul className="md:w-1/3 justify-center list-none flex items-center mx-auto footerItems footer-socials">
                 <li className="m-3">
                   <a href="https://www.instagram.com/smp.iitb/">
-                    <FontAwesomeIcon icon={faInstagram} />
+                    <FontAwesomeIcon icon={faInstagram} size="lg"/>
                   </a>
                 </li>
                 <li className="m-3">
                   <a href="https://www.facebook.com/smpiitb">
-                    <FontAwesomeIcon icon={faFacebook} />
+                    <FontAwesomeIcon icon={faFacebook} size="lg"/>
                   </a>
                 </li>
                 <li className="m-3">
                   <a href="">
-                    <FontAwesomeIcon icon={faEnvelope} />
+                    <FontAwesomeIcon icon={faEnvelope} size="lg"/>
                   </a>
                 </li>
               </ul>
