@@ -4,7 +4,7 @@
 
 .content-container{
     background-color: white;
-    padding: 30px 40px;
+    padding: 40px 60px;
     border-radius: 10px;
 }
 
@@ -27,4 +27,10 @@ h2, h3{
 .active-link{
     background-color: #6f86ad;
     color: white;
+}
+@media (max-width: 768px) {
+    .content-container {
+        padding: 35px;
+    }
+    
 }

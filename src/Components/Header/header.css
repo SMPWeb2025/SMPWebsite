@@ -24,9 +24,15 @@
     align-items: center;
     padding: 20px;
     text-align: center;
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.3);
+    
+    
+    background-color: rgba(255, 255, 255, 0.15); /* Light semi-transparent bg */
     border-radius: 10px;
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    
     width: 80%;
     /* animation: fadeIn 1.5s ease-out; Fade-in animation for the container */
 }

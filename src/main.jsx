@@ -13,7 +13,7 @@ import CPI_Calculation from './Pages/Academics/CPI_Calculation.jsx'
 import Departments from './Pages/Academics/Departments.jsx'
 import Curriculum from './Pages/Academics/Curriculum.jsx'
 import BranchChange from './Pages/Academics/BranchChange.jsx'
-import IDDP from './Pages/Academics/IDDP.jsx'
+import IDDDP from './Pages/Academics/IDDDP.jsx'
 
 // About Us Components
 import OurObjective from './Pages/About/OurObjective';
@@ -109,8 +109,8 @@ const router = createBrowserRouter([
             element: <BranchChange />
           },
           {
-            path: 'iddp',
-            element: <IDDP />
+            path: 'idddp',
+            element: <IDDDP />
           },
           {
             path: 'semester-exchange',

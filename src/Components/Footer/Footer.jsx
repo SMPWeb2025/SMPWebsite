@@ -144,7 +144,7 @@ function Footer() {
             <footer className="flex flex-wrap justify-between items-center py-3 border-t border-black">
               <div className="md:w-1/3 flex items-center justify-center mx-auto">
                 
-                <span className="mb-3 mb-md-0 ">Made with ❤️ SMP Web Team</span>
+                <span className="mb-3 mb-md-0 ">Made with ❤️ by SMP Web Team</span>
               </div>
 
               <ul className="md:w-1/3 justify-center list-none flex items-center mx-auto footerItems footer-socials">

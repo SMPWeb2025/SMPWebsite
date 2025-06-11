@@ -6,7 +6,7 @@ const Page = ({ content, sidebar, sideHeading }) => {
   const location = useLocation();  // Get current location
 
   return (
-    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-20 overall">
+    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-12 overall">
       
       {/* Main Content */}
       <div className="flex-1 content-container">
@@ -14,7 +14,7 @@ const Page = ({ content, sidebar, sideHeading }) => {
       </div>
 
       {/* Sidebar Container (stacked nav + announcements) */}
-      <div className="hidden lg:flex flex-col w-85 sticky top-5 self-start space-y-6">
+      <div className="hidden lg:flex flex-col w-85 sticky top-30 self-start space-y-6">
         
         {/* Navigation Section */}
         <div className="bg-white p-4 side-container">

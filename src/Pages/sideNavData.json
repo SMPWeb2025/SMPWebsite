@@ -13,7 +13,7 @@
         {"link": "academics/departments", "name": "Departments"},
         {"link": "academics/cpi-calculation", "name": "CPI Calculation"},
         {"link": "academics/branch-change", "name": "Branch Change"},
-        {"link": "academics/iddp", "name": "IDDDP"},
+        {"link": "academics/idddp", "name": "IDDDP"},
         {"link": "academics/semester-exchange", "name": "Semester Exchange"}
     ],
     "Extra Curriculars": [

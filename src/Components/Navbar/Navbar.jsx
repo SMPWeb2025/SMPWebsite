@@ -103,9 +103,9 @@ const getDropdownItems = (section, closeMobileMenu) => {
       { text: "Introduction", link: "/academics/introduction" },
       { text: "Curriculum", link: "/academics/curriculum" },
       { text: "Departments", link: "/academics/departments" },
-      { text: "Semester-Exchange", link: "/academics/exchange" },
+      { text: "CPI Calculation", link: "/academics/cpi-calculation" },
       { text: "IDDDP", link: "/academics/idddp" },
-      { text: "CPI Calculation", link: "/academics/cpi" },
+      { text: "Semester-Exchange", link: "/academics/semester-exchange" },
     ],
     "Extra Curriculars": [
       { text: "Gymkhana", link: "/extra-curriculars/gymkhana" },
