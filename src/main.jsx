@@ -19,9 +19,8 @@ import DeptRouteWrapper from './Components/DepartmentPage/DeptRouteWrapper.jsx'
 // About Us Components
 import OurObjective from './Pages/About/OurObjective';
 import Mentorship from './Pages/About/Mentorship';
-import ISMP from './Pages/About/ISMP';
 import ELP from './Pages/About/ELP';
-import CAT from './Pages/About/CAT';
+import CTO from './Pages/About/CTO';
 import Team from './Pages/About/Team';
 
 // Extra Curriculars Components
@@ -67,16 +66,16 @@ const router = createBrowserRouter([
                 element: <Mentorship />
             },
             {
-                path: 'ismp',
-                element: <ISMP />
+                // path: 'ismp',
+                // element: <ISMP />
             },
             {
                 path: 'elp',
                 element: <ELP />
             },
             {
-                path: 'cat',
-                element: <CAT />
+                path: 'cto',
+                element: <CTO />
             },
             {
                 path: 'team',
