@@ -117,7 +117,7 @@ const getDropdownItems = (section, closeMobileMenu) => {
     "Incoming Students": [
       { text: "Introduction", link: "/incoming-students/introduction" },
       { text: "Onboarding", link: "/incoming-students/onboarding" },
-      { text: "Accommodation", link: "/incoming-students/accommodation" },
+      { text: "Accomodation", link: "/incoming-students/accomodation" },
       { text: "Scholarships", link: "/incoming-students/scholarships" },
       { text: "Fee Structure", link: "/incoming-students/fee-structure" },
       { text: "Letter To Parents", link: "/incoming-students/letter-to-parents" },
