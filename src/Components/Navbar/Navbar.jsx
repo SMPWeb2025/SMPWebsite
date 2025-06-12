@@ -112,8 +112,7 @@ const getDropdownItems = (section, closeMobileMenu) => {
       { text: "Culturals", link: "/extra-curriculars/culturals" },
       { text: "Media", link: "/extra-curriculars/media" },
       { text: "Technical Affairs", link: "/extra-curriculars/technical-affairs" },
-      { text: "Institute Bodies", link: "/extra-curriculars/institute-bodies" },
-      { text: "Sports", link: "/extra-curriculars/sports" },
+      { text: "Institute Bodies", link: "/extra-curriculars/institute-bodies" }
     ],
     "Incoming Students": [
       { text: "Introduction", link: "/incoming-students/introduction" },

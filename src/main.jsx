@@ -27,7 +27,6 @@ import Team from './Pages/About/Team';
 import Gymkhana from './Pages/ExtraCurriculars/Gymkhana';
 import Culturals from './Pages/ExtraCurriculars/Culturals';
 import Media from './Pages/ExtraCurriculars/Media';
-import Sports from './Pages/ExtraCurriculars/Sports';
 import TechnicalAffairs from './Pages/ExtraCurriculars/TechnicalAffairs';
 import InstituteBodies from './Pages/ExtraCurriculars/InstituteBodies';
 
@@ -133,10 +132,6 @@ const router = createBrowserRouter([
             {
                 path: 'media',
                 element: <Media />
-            },
-            {
-                path: 'sports',
-                element: <Sports />
             },
             {
                 path: 'technical-affairs',
