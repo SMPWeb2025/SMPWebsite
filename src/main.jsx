@@ -14,12 +14,14 @@ import Departments from './Pages/Academics/Departments.jsx'
 import Curriculum from './Pages/Academics/Curriculum.jsx'
 import BranchChange from './Pages/Academics/BranchChange.jsx'
 import IDDDP from './Pages/Academics/IDDDP.jsx'
+import DeptRouteWrapper from './Components/DepartmentPage/DeptRouteWrapper.jsx'
 
 // About Us Components
 import OurObjective from './Pages/About/OurObjective';
 import Mentorship from './Pages/About/Mentorship';
+import ISMP from './Pages/About/ISMP';
 import ELP from './Pages/About/ELP';
-import CTO from './Pages/About/CTO';
+import CAT from './Pages/About/CAT';
 import Team from './Pages/About/Team';
 
 // Extra Curriculars Components
@@ -65,12 +67,16 @@ const router = createBrowserRouter([
                 element: <Mentorship />
             },
             {
+                path: 'ismp',
+                element: <ISMP />
+            },
+            {
                 path: 'elp',
                 element: <ELP />
             },
             {
-                path: 'cto',
-                element: <CTO />
+                path: 'cat',
+                element: <CAT />
             },
             {
                 path: 'team',
@@ -93,6 +99,10 @@ const router = createBrowserRouter([
           {
             path: 'departments',
             element: <Departments />
+          },
+          {
+            path: 'departments/:dept',
+            element: <DeptRouteWrapper />,  // dynamic sub-routes for each department
           },
           {
             path: 'cpi-calculation',
