@@ -94,9 +94,8 @@ const getDropdownItems = (section, closeMobileMenu) => {
     "About Us": [
       { text: "Our Objective", link: "/about/our-objective" },
       { text: "Mentorship", link: "/about/mentorship" },
-      { text: "ISMP", link: "/about/ismp" },
       { text: "English Learning Program", link: "/about/elp" },
-      { text: "CAT", link: "/about/cat" },
+      { text: "CTO", link: "/about/cto" },
       { text: "Team", link: "/about/team" },
     ],
     Academics: [

@@ -3,7 +3,7 @@ import navData from "../sideNavData.json";
 
 const InstituteBodies = () => {
     const content = (<>
-        <h1 className="text-4xl font-bold mb-5">IBs</h1>
+        <h1 className="text-4xl font-bold mb-5">Institute Bodies(IBs)</h1>
         <h2 className="text-xl font-bold mb-2">NSS</h2>
         <h2 className="text-lg font-semibold mb-2">NSS IIT Bombay</h2>
         <p className="mb-4">

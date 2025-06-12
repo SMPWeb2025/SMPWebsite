@@ -2,9 +2,8 @@
     "About Us": [
         {"link": "about/our-objective", "name": "Our Objective"},
         {"link": "about/mentorship", "name": "Mentorship"},
-        {"link": "about/ismp", "name": "ISMP"},
         {"link": "about/elp", "name": "ELP"},
-        {"link": "about/cat", "name": "CAT"},
+        {"link": "about/cto", "name": "CTO"},
         {"link": "about/team", "name": "Team"}
     ],
     "Academics": [
