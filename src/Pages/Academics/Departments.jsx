@@ -34,7 +34,7 @@ const Departments = () => {
   { name: "IEOR", src: IEOR, path: "ieor" },
   { name: "Mathematics", src: Maths, path: "maths" },
   { name: "Mechanical Engineering", src: Mech, path: "mech" },
-  { name: "Metallurgical Engineering and Materials Science", src: Meta, path: "metallurgy" },
+  { name: "Metallurgical Engineering and Materials Science", src: Meta, path: "meta" },
 ];
 
   const content = (
