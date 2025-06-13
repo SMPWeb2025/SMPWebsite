@@ -93,6 +93,11 @@ const departmentData = {
     heroImage: mechBanner,
     content: departmentContent.mech,
   },
+    meta : {
+    title: "Metallurgical Engineering and Materials Science",
+    heroImage: metaBanner,
+    content: departmentContent.meta,
+  },
 
   // Add more departments as needed
 };
