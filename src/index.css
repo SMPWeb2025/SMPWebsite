@@ -3,6 +3,10 @@
 @plugin "daisyui";
 
 
+@theme {
+  --breakpoint-lg: 1025px;
+}
+
 /* :root {
   
   color-scheme: light dark;

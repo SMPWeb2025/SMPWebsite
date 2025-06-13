@@ -1,237 +1,176 @@
 [
     {
         "designation": "Overall Coordinator",
-        "members": [
-            {
-                "name": "Amritansh Joshi",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Sara Atnoorkar",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Amritansh Joshi",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Overall Coordinator",
+        "name": "Sara Atnoorkar",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Counselling, Training and Outreach Head (CTO)",
-        "members": [
-            {
-                "name": "Ashutosh Gandhe",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Ashutosh Gandhe",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "ELP Cabinet Head",
-        "members": [
-            {
-                "name": "Aditya Rana",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Ayush Jaiswal ",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Aditya Rana",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "ELP Cabinet Head",
+        "name": "Ayush Jaiswal ",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Academic and DAMP Cabinet Head (ACDC)",
-        "members": [
-            {
-                "name": "Hridyansh Bhargava",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Hridyansh Bhargava",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Aerospace DAMPC",
-        "members": [
-            {
-                "name": "Ayush Singh ",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Gouri Rathi",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Ayush Singh ",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Aerospace DAMPC",
+        "name": "Gouri Rathi",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Chemical DAMPC",
-        "members": [
-            {
-                "name": "Aditya Shrungarpure",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Varun Ram Narayanan",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Aditya Shrungarpure",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Chemical DAMPC",
+        "name": "Varun Ram Narayanan",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Chemistry DAMPC",
-        "members": [
-            {
-                "name": "Jasmine Kaur Multani",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Jasmine Kaur Multani",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Civil DAMPC",
-        "members": [
-            {
-                "name": "Arnav Dhamankar",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Rishi Naik",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Arnav Dhamankar",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Civil DAMPC",
+        "name": "Rishi Naik",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Computer Science DAMPC",
-        "members": [
-            {
-                "name": "Brian Mackwan",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Tanishka Kabra",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Brian Mackwan",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Computer Science DAMPC",
+        "name": "Tanishka Kabra",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Economics DAMPC",
-        "members": [
-            {
-                "name": "Anoushka Singh",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Pranjal Deshmukh",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Anoushka Singh",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Economics DAMPC",
+        "name": "Pranjal Deshmukh",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Electrical DAMPC",
-        "members": [
-            {
-                "name": "Anshu Arora",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Keshav Maheshwari",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Anshu Arora",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Electrical DAMPC",
+        "name": "Keshav Maheshwari",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Energy DAMPC",
-        "members": [
-            {
-                "name": "S.S. Gayathri",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "S.S. Gayathri",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Engineering Physics DAMPC",
-        "members": [
-            {
-                "name": "Rahul Lande",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Rahul Lande",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Environment DAMPC",
-        "members": [
-            {
-                "name": "Athena Stephen ",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Athena Stephen ",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Mathematics DAMPC",
-        "members": [
-            {
-                "name": "Maathangi S",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Maathangi S",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Mechanical DAMPC",
-        "members": [
-            {
-                "name": "Parul Diwan",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Taniishq Kadam",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Parul Diwan",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Mechanical DAMPC",
+        "name": "Taniishq Kadam",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "MEMS DAMPC",
-        "members": [
-            {
-                "name": "Yash Kakade",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Debashish Das",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Yash Kakade",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "MEMS DAMPC",
+        "name": "Debashish Das",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     },
     {
         "designation": "Web Nominee",
-        "members": [
-            {
-                "name": "Aryan Badkul ",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            },
-            {
-                "name": "Atharv Roday ",
-                "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-                "caption": "sample caption"
-            }
-        ]
+        "name": "Aryan Badkul",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
+    },
+    {
+        "designation": "Web Nominee",
+        "name": "Atharv Roday",
+        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "caption": "sample caption"
     }
 ]

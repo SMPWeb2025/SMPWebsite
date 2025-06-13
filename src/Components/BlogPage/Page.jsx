@@ -10,22 +10,9 @@ const Page = ({ content, sidebar, sideHeading }) => {
     <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-12 overall w-full">
 
       {/* Main Content */}
-      <div className="flex-1 content-container md:w-4/5">
-        {/* <div className="w-full"> */}
+      <div className="flex-1 content-container lg:w-3/5">
         {content}
       </div>
-      {/* <div className="tabs tabs-box bg-[#ececec] border-2 border-black">
-        {sidebar.map((navItem) => (
-          <>
-            <input type="radio" name="my_tabs_6" className="tab w-1/5 bg-[#142749]" aria-label={navItem.name} />
-            <div className="tab-content border-base-300">
-                <div className="flex-1 content-container">
-                    {content}
-                </div>
-            </div>
-          </>
-        ))}
-      </div> */}
 
       {/* Sidebar Container (stacked nav + announcements) */}
       <div className="hidden lg:flex flex-col w-85 sticky top-30 self-start space-y-6">
@@ -53,17 +40,6 @@ const Page = ({ content, sidebar, sideHeading }) => {
             })}
           </ul>
         </div>
-
-      {/* Announcements Section */}
-      {/* <div className="bg-white p-4 side-container">
-          <h2 className="font-bold text-lg mb-3">Announcements</h2>
-          <ul className="text-sm space-y-3">
-            <li>🟢 You can check the Academic calendar here.</li>
-            <li>🟡 <strong>Update:</strong> Branch change removed for 2024-25. Refer to video and page for more.</li>
-            <li>🔵 Follow us on Instagram for updates.</li>
-            <li>🟣 Info for prospective women students available.</li>
-          </ul>
-        </div> */}
 
       </div> 
       <div className="fixed bottom-5 right-5">
