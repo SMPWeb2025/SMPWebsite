@@ -42,7 +42,6 @@
     /* font-size: 30px; */
     color: #ffc50d;
     /* background-color: rgba(0, 0, 0, 0.1); */
-    font-weight:600;
     width: 100vw;
     opacity: 0; /*Start as invisible*/
     transform: translateY(30px); /* Start slightly below */

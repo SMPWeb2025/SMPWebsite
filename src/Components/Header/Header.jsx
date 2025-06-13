@@ -31,7 +31,7 @@ function Header() {
       <video src={videoSrc} autoPlay loop muted className="videobg" />
       <div className="headersmpContainer mt-5">
         <div className="headersmpText">
-          <h1 className="mt-10 md:mt-20 lg:text-6xl md:text-4xl text-2xl">{title}</h1>
+          <h1 className="font-bold mt-10 md:mt-20 lg:text-6xl md:text-4xl text-2xl">{title}</h1>
           <h3 className="w-3/4 mx-auto text-sm md:text-2xl">
             {content}
           </h3>

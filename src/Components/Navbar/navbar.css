@@ -87,7 +87,7 @@ html {
   backdrop-filter: blur(10px);
   z-index: 100;
   border-radius: 10px;
-  margin-top: 1px;
+  margin-top: 0.3px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
