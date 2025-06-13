@@ -48,6 +48,11 @@ const departmentData = {
     heroImage: cseBanner,
     content: departmentContent.cse,
   },
+  economics : {
+    title: "Economics",
+    heroImage: ecoBanner,
+    content: departmentContent.economics,
+  },
   // Add more departments as needed
 };
 
