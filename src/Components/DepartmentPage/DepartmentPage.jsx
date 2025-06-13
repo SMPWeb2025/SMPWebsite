@@ -42,7 +42,12 @@ const departmentData = {
     title: "Civil Engineering",
     heroImage: civilBanner,
     content: departmentContent.civil,
-  }
+  },
+  cse : {
+    title: "Computer Science and Engineering",
+    heroImage: cseBanner,
+    content: departmentContent.cse,
+  },
   // Add more departments as needed
 };
 
