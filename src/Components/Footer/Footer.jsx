@@ -122,11 +122,11 @@ function Footer() {
                     Media
                   </Link>
                 </li>
-                <li className="nav-item mb-2">
+                {/* <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/sports" className="nav-link p-0 ">
                     Sports
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/institute-bodies" className="nav-link p-0 ">
                     Institute Bodies
