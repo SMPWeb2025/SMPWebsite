@@ -53,6 +53,47 @@ const departmentData = {
     heroImage: ecoBanner,
     content: departmentContent.economics,
   },
+  electrical : {
+    title: "Electrical Engineering",
+    heroImage: elecBanner,
+    content: departmentContent.elec,
+  },
+    energy : {
+    title: "Energy Science and Engineering",
+    heroImage: energyBanner,
+    content: departmentContent.esed,
+  },
+    ep : {
+    title: "Engineering Physics",
+    heroImage: epBanner,
+    content: departmentContent.ep,
+  },
+    environmental : {
+    title: "Environmental Sciences",
+    heroImage: enviroBanner,
+    content: departmentContent.envi,
+  },
+    idc : {
+    title: "Industrial Design Centre",
+    heroImage: idcBanner,
+    content: departmentContent.idc,
+  },
+    ieor : {
+    title: "Industrial Engineering and Operations Research",
+    heroImage: ieorBanner,
+    content: departmentContent.ieor,
+  },
+    maths : {
+    title: "Mathematics",
+    heroImage: mathsBanner,
+    content: departmentContent.maths,
+  },
+    mech : {
+    title: "Mechanical Engineering",
+    heroImage: mechBanner,
+    content: departmentContent.mech,
+  },
+
   // Add more departments as needed
 };
 

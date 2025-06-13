@@ -28,12 +28,12 @@ const Departments = () => {
   { name: "Economics", src: Eco, path: "economics" },
   { name: "Electrical Engineering", src: Elec, path: "electrical" },
   { name: "Energy Science and Engineering", src: Energy, path: "energy" },
-  { name: "Engineering Physics", src: Ep, path: "engineering-physics" },
+  { name: "Engineering Physics", src: Ep, path: "ep" },
   { name: "Environmental Sciences", src: Enviro, path: "environmental" },
   { name: "Industrial Design Centre", src: IDC, path: "idc" },
   { name: "IEOR", src: IEOR, path: "ieor" },
   { name: "Mathematics", src: Maths, path: "maths" },
-  { name: "Mechanical Engineering", src: Mech, path: "mechanical" },
+  { name: "Mechanical Engineering", src: Mech, path: "mech" },
   { name: "Metallurgical Engineering and Materials Science", src: Meta, path: "metallurgy" },
 ];
 

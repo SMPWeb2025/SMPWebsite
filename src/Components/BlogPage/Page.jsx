@@ -6,7 +6,7 @@ const Page = ({ content, sidebar, sideHeading }) => {
   const location = useLocation();  // Get current location
 
   return (
-    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-12 overall items-center justify-center">
+    <div className="flex flex-col lg:flex-row p-5 md:p-10 lg:p-20 gap-5 lg:gap-20 mt-12 overall">
       
       {/* Main Content */}
       <div className="flex-1 content-container">

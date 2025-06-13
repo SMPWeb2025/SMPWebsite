@@ -15,9 +15,9 @@ function Date() {
                   <tbody>
                     <tr className="dateItem">
                       <td className="dateEvent">
-                        Results of JEE Advanced (2023)
+                        Results of JEE Advanced (2025)
                       </td>
-                      <td className="dateDates">18th June 2023</td>
+                      <td className="dateDates">2nd June 2025</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Tentative Start of Seat Allotment</td>
@@ -35,21 +35,21 @@ function Date() {
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Reporting Date (for IITB)</td>
-                      <td className="dateDates">31st July 2023</td>
+                      <td className="dateDates">21st July 2025</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Orientation reporting (for IITB)</td>
-                      <td className="dateDates">31st July 2023 (Monday), 08:30 AM</td>
+                      <td className="dateDates">21st July 2025, 08:30 AM</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Orientation week (for IITB)</td>
                       <td className="dateDates">
-                        31st July 2023 (Monday) to 4 August, 2023 (Friday)
+                        21st July 2025 (Monday) to 25th July, 2025 (Friday)
                       </td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Instructions Begins (for IITB)</td>
-                      <td className="dateDates">7th August 2023</td>
+                      <td className="dateDates">28th July 2025</td>
                     </tr>
                   </tbody>
                 </table>
@@ -63,7 +63,7 @@ function Date() {
                   <li>
                     <a
                       className="link"
-                      href="https://www.iitb.ac.in/newacadhome/ugNewEntrants2023-24.jsp"
+                      href="https://acad.iitb.ac.in/files/Academic%20Calendar%202025-26_FINAL.pdf"
                     >
                       IITB Academic Calendar
                     </a>
