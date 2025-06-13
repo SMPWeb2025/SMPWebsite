@@ -641,6 +641,69 @@ const departmentContent = {
           
         </p>
       </>
-  )
+  ),
+  economics : (
+    <>
+      <h1 className="text-4xl font-bold mb-5">Introduction</h1>
+        <p className="mb-4"> 
+          The vision of the department is to create a unique brand of students who will be equipped to balance economics,enterprise, science and technology with social objectives and produce well-trained professionals with inter and multi-disciplinary skills for applied economic analysis and efficient decision -making.
+        </p>
+      <h1 className="text-4xl font-bold mt-15 mb-5">What is Economics all about?</h1>
+        <p className="mb-4"> 
+          The programme aims to create a unique brand of students who will be equipped with the temper of ethically strong society while achieving technological applications and breakthroughs. In this regard, educationists have emphasized the need for a balance among economics, ethics and enterprise. The new programme aims to produce well-trained professionals with inter and multi-disciplinary skills for Applied Economic Analysis.
+        </p>
+      <h1 className="text-4xl font-bold mt-15 mb-5">What kind of courses do you have to do?</h1>
+        <p className="mb-4"> 
+          In the first year of the programme, the courses would be common for all new entrants of IIT Bombay.
+          <br/>
+          <br/>
+          Courses in Mathematics [MA 105- Calculus, MA 106- Linear Algebra, MA 108- Differential Equations] and CS 101- Computer programming and utilization would be highly useful for the Economics students
+          In the second semester, the Economics UG students would do HS 101 Economics course [6 credits] as a departmental introductory course - a basic level course. That is, if one takes Bachelor of Science Chemistry programme of the Institute. In the Second Semester of the first year of the programme, the course CH 104 Chemistry 2 will be replaced by HS 101 Economics [with 6 credits].
+          All other courses and labs will remain the same, totalling to 69 credits
+          <br/>
+          <br/>
+          Students in the new Economics programme would also be allowed branch change at the end of first year, as is the case in the Institute.
+        </p>
+      
+        <h1 className="text-4xl font-bold mt-15 mb-5">Core specializations</h1>
+        <p className="mb-4"> 
+          Some of the elective courses that are offered to the students of B.S Economics
+            <br/>
+            <br/>
+            Elective Group I: Courses in HSS Elective group 1 basket for the B.S., Economics students
+            <br/>
+            Faculty members in the HSS Department have designed and been teaching various courses in related to Ethics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in HSS Elective Group 1 basket for the B.S., Economics students. They are:
+            <br/>
+            HS 414 Justice, Ethics, and Community <br/>
+            HS 448 Professional Ethics<br/>
+            HS 632 Making Choices: Ethical Dimensions in the Scientific Endeavour HS 640 Civil Society: Its Foundations and Future<br/>
+            HS 702 Law, Governance, Rights and Development<br/>
+            <br/><br/>
+            Elective Group III: Courses related to Economics for the B.S., Economics students
+<br/>
+            Faculty members in the Economics group of the Department have designed and been teaching various courses in Economics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in Elective Group III for the B.S., Economics students. They are:
+<br/>
+            HS 417 Economics of Life<br/>
+            HS 416 Energy Economics<br/>
+            HS 419 Economic Reforms in India<br/>
+            HS 426 Theory and Policy of Managerial Finance<br/>
+            HS 439 Health Economics<br/>
+            HS 440 Industrial Economics<br/>
+            HS 457 Managerial Economics<br/>
+            HS 487 Planning and Economic Policies in India<br/>
+<br/>
+<br/>
+            The students will also have an option of a Supervised Learning course (only one allowed during the entire program, in lieu of an elective course).
+<br/>
+<br/>
+            In addition, some more courses are likely to be designed and offered in the Electives basket Two new course proposals, titled (i) Economics and Ethics and (ii) Philosophy of Economics are included in the new courses for approval.
+          <br/>
+          <br/>
+            You can check out the latest post by Economics Students Association on 
+            Intstagram <a className="text-blue-600 hover:underline" style={{ padding: '0' }} target="_blank" href="https://instagram.com/">here</a>.<br />
+        </p>
+      
+      </>
+  ),
 };
 export default departmentContent;
