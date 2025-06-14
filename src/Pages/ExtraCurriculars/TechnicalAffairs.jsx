@@ -67,7 +67,7 @@ const TechnicalAffairs = () => {
             To know more about us, visit our website <a href="https://enclub.github.io/home/." className="text-blue-600 hover:underline p-0!">https://enclub.github.io/home/.</a>
         </p>
 
-        <h2 className="text-xl font-bold mb-2">Energy Club</h2>
+        <h2 className="text-xl font-bold mb-2">Krittika</h2>
         <p className="mb-4">
             IIT Bombay’s focal point for amateur astronomers and stargazers, Krittika (ASTRONOMY CLUB, IIT BOMBAY), organizes weekly lectures on various domains of Astronomy, Astrophysics along with observation sessions, organizes observational trips to Observational sites and Planetariums which prove to be a once in a lifetime experience for many. The club boasts of a few telescopes which are used during the observations like comet sightings, messier marathons, etc.
         </p>
