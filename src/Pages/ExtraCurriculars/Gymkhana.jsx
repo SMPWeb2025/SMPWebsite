@@ -97,7 +97,7 @@ Moreover, considering the level at which the competition operates and the fact t
         </p>
 
         <p className="mb-4">
-            To know more about Sports at IIT Bombay, visit <a href="https://gymkhana.iitb.ac.in/~sports/" className="text-blue-600 hover:underline p-0! inline" target="_blank">https://gymkhana.iitb.ac.in/~sports/.</a>
+            To know more about Sports at IIT Bombay, visit <a href="https://gymkhana.iitb.ac.in/sports/" className="text-blue-600 hover:underline p-0! inline" target="_blank">https://gymkhana.iitb.ac.in/sports/.</a>
         </p>
     </>);
     const sidebar = navData["Extra Curriculars"];

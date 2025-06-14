@@ -25,7 +25,7 @@ function Date() {
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Start of JoSAA registration/choice filling</td>
-                      <td className="dateDates">19th June 2023</td>
+                      <td className="dateDates">3rd June 2025</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Hostel Check-in for students</td>

@@ -40,7 +40,7 @@ function Header() {
           <button className="btnsmp" type="button">
             <span className="circlesmp"></span>
             <span className="arrowsmp"></span>
-            <span className="textsmp">Learn more</span>
+            <span className="textsmp"><a href="/incoming-students/introduction">Learn more</a></span>
           </button>
         </div>
       </div>
