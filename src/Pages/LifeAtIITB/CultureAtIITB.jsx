@@ -194,7 +194,7 @@ For Girls - A separate wing of Hostel 16 (Hostel 16 C) is allotted to girls, aga
   const sidebar = navData["Life at IITB"];
   
   return (
-    <Page content={content} sidebar={sidebar} sideHeading="Academics" />
+    <Page content={content} sidebar={sidebar} sideHeading="Life at IITB" />
   )
 }
 export default CultureAtIITB

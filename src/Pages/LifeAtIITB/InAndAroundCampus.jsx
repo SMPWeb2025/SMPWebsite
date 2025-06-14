@@ -85,7 +85,7 @@ const InAndAroundCampus = () => {
   const sidebar = navData["Life at IITB"];
   
   return (
-    <Page content={content} sidebar={sidebar} sideHeading="Academics" />
+    <Page content={content} sidebar={sidebar} sideHeading="Life at IITB" />
   )
 }
 export default InAndAroundCampus

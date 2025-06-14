@@ -21,7 +21,7 @@ const IncomingIntroduction = () => {
     </p>
 
     <p className="mb-4">
-        We hope this website gives you some clarity. In case of any doubts or concerns, feel free to email us on <Link to="mailto:smpcs2024@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2024@gmail.com</Link> and we will reply to you as soon as possible. Our team is always there to assist you and you can visit <Link to="/about/team"
+        We hope this website gives you some clarity. In case of any doubts or concerns, feel free to email us on <Link to="mailto:smpcs2025@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2025@gmail.com</Link> and we will reply to you as soon as possible. Our team is always there to assist you and you can visit <Link to="/about/team"
         className="text-blue-600 hover:underline p-0!">this page</Link> to access our contact information.
     </p>
 

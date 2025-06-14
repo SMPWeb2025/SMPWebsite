@@ -67,7 +67,7 @@ const TechnicalAffairs = () => {
             To know more about us, visit our website <a href="https://enclub.github.io/home/." className="text-blue-600 hover:underline p-0!">https://enclub.github.io/home/.</a>
         </p>
 
-        <h2 className="text-xl font-bold mb-2">Energy Club</h2>
+        <h2 className="text-xl font-bold mb-2">Krittika</h2>
         <p className="mb-4">
             IIT Bombay’s focal point for amateur astronomers and stargazers, Krittika (ASTRONOMY CLUB, IIT BOMBAY), organizes weekly lectures on various domains of Astronomy, Astrophysics along with observation sessions, organizes observational trips to Observational sites and Planetariums which prove to be a once in a lifetime experience for many. The club boasts of a few telescopes which are used during the observations like comet sightings, messier marathons, etc.
         </p>
@@ -94,13 +94,13 @@ const TechnicalAffairs = () => {
             We conduct sessions and workshops, hold lectures and talks, and even host coding competitions and hackathons. There is something for everyone. Whether you want to learn, participate in hackathons and win big prizes, or prepare for the ACM-ICPC and GSoC, you can do it all here. We have a list of events planned up for the coming year. Keep watching this space to know more.
         </p>
         <p className="mb-4">
-            To know more about us, visit our website <a href="http://www.wncc-iitb.org/." className="text-blue-600 hover:underline p-0!">http://www.wncc-iitb.org/.</a>
+            To know more about us, visit our website <a href="https://wncc.tech-iitb.org/." className="text-blue-600 hover:underline p-0!">https://wncc.tech-iitb.org/.</a>
         </p>
         <p className="mb-4">
             We also have an educational wiki, meant to help beginners get started with programming. It’s got a large number of tutorials, on various programming topics. All tutorials are hand-tailored by students of IIT Bombay. However, unlike conventional programming tutorials, these take a slightly different approach. Rather than reinventing the wheel, Grundy aims at bringing together a number of online tutorials and resources along with a set of pre-requisites and motivation to learn a programming skill. We also have exhaustive lists of our community resources, projects and GSoC recommendations.
         </p>
         <p className="mb-4">
-            Here’s a detailed summary about how the wiki was built.Check it out here <a href="https://wncc-iitb.org/wiki" className="text-blue-600 hover:underline p-0!">https://wncc-iitb.org/wiki</a>
+            Here’s a detailed summary about how the wiki was built.Check it out here <a href="https://wncc.tech-iitb.org/" className="text-blue-600 hover:underline p-0!">https://wncc.tech-iitb.org/</a>
         </p>
 
         <h2 className="text-xl font-bold mb-2">Tinkerers’ Lab</h2>
@@ -108,7 +108,7 @@ const TechnicalAffairs = () => {
             A tinkerer is one who enjoys experimenting with machines. If you are a tinkerer who loves to work, who wants limitless hands-on experience or is turned on by machines and technology, this lab is just the right place for you. Tinkerers’ Lab was established with the vision to provide hands on experience to help students become innovators so that creative ideas get converted into actual engineering products. It has been equipped with the latest workstations of electrical and mechanical tools including power mechanical machines, electronic test instruments, 3D modelling software,several basic electronic equipment etc. This Lab is open to all students of the Institute, irrespective of their discipline, and is accessible 24×7.
         </p>
         <p className="mb-4">
-            To know more about us, visit our website <a href="https://tinkerers-lab.org/." className="text-blue-600 hover:underline p-0!">https://tinkerers-lab.org/.</a>
+            To know more about us, visit our website <a href="https://sites.google.com/view/tinkererslaboratory/home" className="text-blue-600 hover:underline p-0!">https://sites.google.com/view/tinkererslaboratory/home</a>.
         </p>
 
         <h2 className="text-xl font-bold mb-2">Technovation</h2>
@@ -133,7 +133,7 @@ const TechnicalAffairs = () => {
             We look forward to having enthusiastic and smart working people in the team! The only prerequisite is the thirst for doing something that has never been done before!
         </p>
         <p className="mb-4">
-            Please visit our website <a href="http://www.umiciitb.com" className="text-blue-600 hover:underline p-0!">http://www.umiciitb.com</a> for more information.
+            Please visit our website <a href="http://www.umiciitb.org" className="text-blue-600 hover:underline p-0!">http://www.umiciitb.org</a> for more information.
         </p>
 
         <h2 className="text-xl font-bold mb-2">Advitiy - The IIT Bombay Student Satellite (Previously, known as Pratham)</h2>
@@ -157,7 +157,7 @@ const TechnicalAffairs = () => {
             The team comprises of students from various disciplines like Energy, Mechanical, Civil, Electrical and Architecture with a vision to sustainably meet the growing demand and need for urban housing in India. The team participates in the Solar Decathlon competition, an international student competition that takes place every two years. The Solar Decathlon challenges 20 collegiate teams to design, build, and operate the most attractive, effective, and energy-efficient solar-powered house. The winner of the competition is the team that best blends affordability, consumer appeal, and design excellence with optimal energy production.
         </p>
         <p className="mb-4">
-            You can find more details at <a href="http://teamshunya.in/home.php" className="text-blue-600 hover:underline p-0!">http://teamshunya.in/home.php</a>
+            You can find more details at <a href="https://teamshunya.com/" className="text-blue-600 hover:underline p-0!">https://teamshunya.com/</a>
         </p>
 
         <h2 className="text-xl font-bold mb-2">IIT IIT-B Mars Rover Team</h2>

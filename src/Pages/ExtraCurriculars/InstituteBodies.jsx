@@ -22,7 +22,7 @@ const InstituteBodies = () => {
         </p>
         <p className="mb-4">
 
-        For more details, you may visit <a href="https://nss.iitb.ac.in/home/" className="text-blue-600 hover:underline p-0!">NSS IIT Bombay website</a>or facebook page.
+        For more details, you may visit <a href="https://nss.gymkhana.iitb.ac.in/home/" className="text-blue-600 hover:underline p-0!">NSS IIT Bombay website</a> or facebook page.
         </p>
 
         <h2 className="text-xl font-bold mb-2">SARC</h2>
@@ -37,7 +37,7 @@ const InstituteBodies = () => {
         </p>
         <p className="mb-4">
         To know more visit us at:<br /> 
-        <a href="www.sarc-iitb.org/" className="text-blue-600 hover:underline p-0!">www.sarc-iitb.org/</a><br />
+        <a href="https://acr.iitbombay.org/sarc/" className="text-blue-600 hover:underline p-0!">https://acr.iitbombay.org/sarc/</a><br />
         <a href="www.facebook.com/SARC.IITB/" className="text-blue-600 hover:underline p-0!">www.facebook.com/SARC.IITB/</a>
         </p>
 
@@ -93,7 +93,7 @@ const InstituteBodies = () => {
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
         <iframe
         border="0"
-          src="https://www.youtube.com/embed/Is_QjfVSG50?si=LTWHGpgBkvsz1ryW"
+          src="https://www.youtube.com/embed/P8orgejheRE?si=La5ATj4fHfrgziA-"
           title="ESummit'20 Official Aftermovie"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -123,7 +123,7 @@ const InstituteBodies = () => {
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
         <iframe
         border="0"
-          src="https://www.youtube.com/embed/f4haw4C8gZk?si=2vmzjY4Ot00ChsRl"
+          src="https://www.youtube.com/embed/qmOxHKe6f6Y?si=02Ws-rJSdTh7c5ed"
           title="Mood Indigo, IIT Bombay 2019 Official Aftermovie"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

@@ -50,7 +50,7 @@ const SupportAvailable = () => {
       </p>
       <p className="mb-4">
         You can find all the rules and regulation of IITB 
-        Hospital <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://gymkhana.iitb.ac.in/hostels/#/hospital">here</a>. 
+        Hospital <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://www.iitb.ac.in/hospital/hospirules.html">here</a>. 
       </p>
        
       
@@ -59,7 +59,7 @@ const SupportAvailable = () => {
   const sidebar = navData["Life at IITB"];
   
   return (
-    <Page content={content} sidebar={sidebar} sideHeading="Academics" />
+    <Page content={content} sidebar={sidebar} sideHeading="Life at IITB" />
   )
 }
 export default SupportAvailable

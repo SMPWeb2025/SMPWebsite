@@ -6,7 +6,7 @@ const OurObjective = () => {
     const content = (<>
     <h1 className="text-4xl font-bold mb-5">About Us</h1>
     <p className="mb-8">
-        Welcome! This website has been created by the Student Mentor Program to introduce incoming freshers to life at IIT Bombay. We encourage you to browse through the various sections and make an informed choice about your college and department. Though we've tried to cover most questions on this website, feel free to mail us at <Link to="mailto:smpcs2024@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2024@gmail.com</Link> for any queries you may have.
+        Welcome! This website has been created by the Student Mentor Program to introduce incoming freshers to life at IIT Bombay. We encourage you to browse through the various sections and make an informed choice about your college and department. Though we've tried to cover most questions on this website, feel free to mail us at <Link to="mailto:smpcs2025@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2025@gmail.com</Link> for any queries you may have.
     </p>
     <h1 className="text-4xl font-bold mb-5">Our Objective</h1>
     <p className="mb-4">

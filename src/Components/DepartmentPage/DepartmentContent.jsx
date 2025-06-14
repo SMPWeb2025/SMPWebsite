@@ -1176,7 +1176,7 @@ const departmentContent = {
           <br/><br/>
           The curriculum includes basic science courses and incorporates elective courses from science, engineering and humanities disciplines. The key courses to be covered in five years will include solid mechanics, mass transfer, fluid mechanics, water resource management, microbiology, wastewater engineering, air pollution control, numerical methods for environmental engineers. Along with this the students would also be made aware about environmental law and policy. All students are supposed to also submit a Master’s thesis in their final year as a part of their dual degree project.
           <br/><br/>
-          The students will also be eligible to pursue a Minor degree that would enable their pursuit of interests in other departments.Students in the new Environmental Sciences and Engineering programme would be allowed branch change at the end of first year, according to institute rules.
+          The students will also be eligible to pursue a Minor degree that would enable their pursuit of interests in other departments.
         </p>
         </>
   ),
