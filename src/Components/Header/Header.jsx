@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 function Header() {
   const title = "Welcome To IIT Bombay!"
-  const content = `This website has been created by the Student Mentor Program to introduce incoming freshers to life at IIT Bombay. We encourage you to browse through the various sections and make an informed choice about your college and department. Though we've tried to cover most questions on this website, feel free to mail us at ismp@iitb.ac.in`
+  const content = `This website has been created by the Student Mentor Program to introduce incoming freshers to life at IIT Bombay. We encourage you to browse through the various sections and make an informed choice about your college and department. Though we've tried to cover most questions on this website, feel free to mail us at smpcs2025@gmail.com`
 
   // Smart serve video selection based on internet speed
   const [videoSrc, setVideoSrc] = useState(video720); // Default to 720p
