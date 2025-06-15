@@ -56,13 +56,13 @@ function Date() {
                 <h3 className="pt-4">Sources</h3>
                 <ul className="section-ul-list">
                   <li>
-                    <a className="link" href="https://jeeadv.ac.in/">
+                    <a className="hover-underline text-blue-600" href="https://jeeadv.ac.in/">
                       JEE Advanced Website
                     </a>
                   </li>
                   <li>
                     <a
-                      className="link"
+                      className="hover-underline text-blue-600"
                       href="https://acad.iitb.ac.in/files/Academic%20Calendar%202025-26_FINAL.pdf"
                     >
                       IITB Academic Calendar
