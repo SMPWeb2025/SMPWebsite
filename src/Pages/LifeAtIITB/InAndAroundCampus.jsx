@@ -15,6 +15,8 @@ const InAndAroundCampus = () => {
       <h2 className="text-xl font-bold mb-2">Daily needs</h2>
       <p className="mb-4">
         For the most basic of amenities such as toothpaste, toothbrush, pens, soaps, and other such items (which one should use daily), one can go to the hostel Xerox shop itself. Another alternative would be the Hostel 12/18 shops which stock almost everything one would need and more- from slippers to stationery to biscuits and towels. One can also go to Haiko or D-Mart in the Hiranandani Complex for these. Alternatively, the shopping complex at the Y-Point Gate can also take care of most of your needs. The YP market has a post office, a dry cleaner and a tailor and a barber as well, just in case.
+        <br/>
+        Quick commerce apps like Zepto, Blinkit, and Instamart can also be used conveniently to get daily essentials delivered straight to your hostel within minutes.
       </p>
       <h2 className="text-xl font-bold mb-2">Banks and ATMs</h2>
       <p className="mb-4">
@@ -27,8 +29,11 @@ const InAndAroundCampus = () => {
             <li className="mb-2"><b>Eateries within the institute:</b> <br/>
                 <ol className="list-decimal ml-5">
                     <li className="mb-1"><b>Gulmohar Restaurant and Café: </b>Tasty food, reasonable prices and right-next-door!</li>
+                    <li className="mb-1"><b>Domino’s Pizza: </b> Craving a cheesy slice after a long day? You’re in luck—Domino’s is just outside the OAT, right in front of Hostel 1. Whether it's post-event hunger or midnight munchies, it's got you covered.</li>
                     <li className="mb-1"><b>Academic area:</b> The KReSIT canteen is popular for a quick samosa-chai. Besides this, several departments have canteens of their own, like the Electrical, Civil and Chemical Engineering Buildings. There is also a staff canteen located next to the library.</li>
+                    <li className="mb-1"><b>LHC Food Court:</b> A welcome addition, offering a clean, modern space with multiple stalls serving a variety of meals and snacks—perfect for grabbing a quick bite between lectures without venturing far from class.</li>
                     <li className="mb-1"><b>Cafe 92: </b> A go to place for some quick bites and tasty fast food servings. Perfectly situated on the lane connecting the academic area to the Main building, the store is always bustling with energy as students head out here after classes.</li>
+                    <li className="mb-1"><b>Café Coffee Day (CCD): </b> Need a caffeine kick or a cozy place to chill? CCD sits snugly on the ground floor of the ESED building, perfect for a study break or a quiet chat.</li>
                     <li className="mb-1"><b>Laxmi: </b> Vegetarian restaurant right outside the Main Gate.</li>
                 </ol>
             </li>
@@ -40,14 +45,7 @@ const InAndAroundCampus = () => {
       </p>
       <h2 className="text-xl font-bold mb-2">Doorstep Delivery</h2>
       <p className="mb-4">
-        <b>Square Pizza : </b> 022-3312 6250 <br/>
-        <b>Subway : </b> 022-25700034 <br/>
-        <b>Laxmi : </b> 022-25770171 <br/>
-        <b>Monginis :  </b> 022-25788257 <br/>
-        <b>Faaso's :  </b> 022-30932023 <br/>
-      </p>
-      <p className="mb-4">
-        For almost anything else, you always have Justdial! Just call 08888888888 and state your request. Feel free to explore Zomato and NearFox for recommendations for food and travel!
+        For almost anything else, you always have Swiggy, Zomato, etc! Feel free to explore these for recommendations for food and travel!
       </p>
 
       <h2 className="text-xl font-bold mb-2">Entertainment</h2>

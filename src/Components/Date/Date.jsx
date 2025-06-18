@@ -20,17 +20,17 @@ function Date() {
                       <td className="dateDates">2nd June 2025</td>
                     </tr>
                     <tr className="dateItem">
-                      <td className="dateEvent">Tentative Start of Seat Allotment</td>
-                      <td className="dateDates">Oct 27 - Nov 20, 2021</td>
-                    </tr>
-                    <tr className="dateItem">
                       <td className="dateEvent">Start of JoSAA registration/choice filling</td>
                       <td className="dateDates">3rd June 2025</td>
                     </tr>
                     <tr className="dateItem">
+                      <td className="dateEvent">Tentative Start of Seat Allotment</td>
+                      <td className="dateDates">14th June 2025</td> 
+                    </tr>
+                    <tr className="dateItem">
                       <td className="dateEvent">Hostel Check-in for students</td>
                       <td className="dateDates">
-                        29th July, 2023(saturday), 10:00 AM onwards
+                        Will be anounced shortly.
                       </td>
                     </tr>
                     <tr className="dateItem">
