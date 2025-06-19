@@ -653,7 +653,7 @@ const departmentContent = {
         <p className="mb-4"> 
           The programme aims to create a unique brand of students who will be equipped with the temper of ethically strong society while achieving technological applications and breakthroughs. In this regard, educationists have emphasized the need for a balance among economics, ethics and enterprise. The new programme aims to produce well-trained professionals with inter and multi-disciplinary skills for Applied Economic Analysis.
           <br/><br/>
-          You can check out the latest post by Economics Students Association on 
+          You can check out the latest post by Economics Student Association on 
           Intstagram <a className="text-blue-600 hover:underline" style={{ padding: '0' }} target="_blank" href="https://www.instagram.com/p/DKzXZW-CSOC/">here</a>.
         </p>
       <h1 className="text-4xl font-bold mt-15 mb-5">What kind of courses do you have to do?</h1>
@@ -672,46 +672,7 @@ const departmentContent = {
         <h2 className="text-xl font-bold mt-5 mb-3">B.S. Project </h2>
         Economics students have to undertake a compulsory B.S. Project, which spans two semesters, seventh and eight. This project allows students to explore a specific area of interest in Economics, working closely with a faculty advisor on a research problem. It provides valuable exposure to academic research and can serve as a stepping stone for those considering postgraduate studies or research careers.
       
-        <h1 className="text-4xl font-bold mt-15 mb-5">Core specializations</h1>
-        <p className="mb-4"> 
-          Some of the elective courses that are offered to the students of B.S Economics
-            <br/>
-            <br/>
-            Elective Group I: Courses in HSS Elective group 1 basket for the B.S., Economics students
-            <br/>
-            Faculty members in the HSS Department have designed and been teaching various courses in related to Ethics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in HSS Elective Group 1 basket for the B.S., Economics students. They are:
-            <br/>
-            <ul className='list-disc ml-8'>
-                <li>HS 414 Justice, Ethics, and Community </li>
-                <li>HS 448 Professional Ethics</li>
-                <li>HS 632 Making Choices: Ethical Dimensions in the Scientific Endeavour HS 640 Civil Society: Its Foundations and Future</li>
-                <li>HS 702 Law, Governance, Rights and Development</li>
-            </ul>
-            <br/><br/>
-            Elective Group III: Courses related to Economics for the B.S., Economics students
-<br/>
-            Faculty members in the Economics group of the Department have designed and been teaching various courses in Economics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in Elective Group III for the B.S., Economics students. They are:
-<br/>
-            <ul className='list-disc ml-8'>
-              <li>HS 417 Economics of Life</li>
-              <li>HS 416 Energy Economics</li>
-              <li>HS 419 Economic Reforms in India</li>
-              <li>HS 426 Theory and Policy of Managerial Finance</li>
-              <li>HS 439 Health Economics</li>
-              <li>HS 440 Industrial Economics</li>
-              <li>HS 457 Managerial Economics</li>
-              <li>HS 487 Planning and Economic Policies in India</li>
-            </ul>
-            
-<br/>
-<br/>
-            The students will also have an option of a Supervised Learning course (only one allowed during the entire program, in lieu of an elective course).
-<br/>
-<br/>
-            In addition, some more courses are likely to be designed and offered in the Electives basket Two new course proposals, titled (i) Economics and Ethics and (ii) Philosophy of Economics are included in the new courses for approval.
-          <br/>
-          <br/>
-            
+        <p className='mb-4'>
             <h1 className="text-4xl font-bold mt-15 mb-5">Department Alumni</h1>
             <h2 className="text-xl font-bold mt-5 mb-3">Keerthana P, BS Economics (2024)</h2>
             <ul className='list-disc ml-8'>
