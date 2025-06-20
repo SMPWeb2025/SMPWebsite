@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import PixelTransition from './PixelTransition';
-import { px } from 'motion';
 
 const TeamCarousel = ({ teamData }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -232,14 +231,14 @@ const TeamCarousel = ({ teamData }) => {
                                 }
                                 secondContent={
                                     <div className="w-full h-full grid place-items-center bg-[#111]">
-                                        <p className="text-center md:text-sm h-full text-white p-4 flex items-center text-[12px]">
-                                            {member.caption}
+                                        <p className="text-center md:text-sm h-full text-white p-4 flex items-center text-[12px] italic">
+                                            "{member.caption}"
                                         </p>
                                     </div>
                                 }
                                 gridSize={12}
                                 pixelColor='#ffffff'
-                                animationStepDuration={0.4}
+                                animationStepDuration={0.2}
                             />
                             <div className="card-body">
                                 <h2 className="card-title text-center justify-center">{member.name}</h2>

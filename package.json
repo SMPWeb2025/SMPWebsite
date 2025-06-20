@@ -19,7 +19,6 @@
     "@radix-ui/themes": "^3.2.1",
     "@tailwindcss/vite": "^4.1.8",
     "bootstrap": "^5.3.6",
-    "clsx": "^2.1.1",
     "gsap": "^3.13.0",
     "jquery": "^3.7.1",
     "lucide-react": "^0.518.0",
