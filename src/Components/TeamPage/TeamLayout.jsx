@@ -1,4 +1,6 @@
 import teamData from "./teamData.json";
+// import PixelTransition from './PixelTransition';
+import TeamCarousel from "./TeamCarausel";
 
 function TeamLayout() {
     return (
@@ -10,25 +12,7 @@ function TeamLayout() {
                 </p>
             </div>
 
-            <div className="carousel rounded-box md:w-4/5 w-full">
-                {teamData.map((member) => (
-                    <div className="carousel-item md:w-60 w-50 p-6" key={member.name}>
-                        <div className="card shadow-sm w-full">
-                            <figure>
-                                <img
-                                    src={member.link}
-                                    alt={member.name}
-                                    className="object-cover w-full md:h-64 h-40"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title text-center">{member.name}</h2>
-                                <p className="text-center">{member.designation}</p>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
+            <TeamCarousel teamData={teamData}/>
 
         </div>
     )
