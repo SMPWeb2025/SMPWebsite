@@ -57,6 +57,7 @@
     transform: translateY(30px); /* Start slightly below */
     animation: textSlideUp 1s ease-out forwards; /*Slide-up animation*/
     animation-delay: 0.5s; /*Delay so it comes after the container*/
+    font-weight: 400;
 }
 
 /* Keyframes for container fade-in */

@@ -32,7 +32,7 @@ const CPI_Calculation = () => {
 
         <div style={{ minWidth: 0, maxWidth: '100%', marginTop: '1rem' }}>
           <MathComponent
-            tex={String.raw`= \frac{\text{SPI}_1 \times \text{Credits in semester}_1 + \text{SPI}_2 \times \text{Credits in semester}_2 + \cdots}{\text{Total credits}}`}
+            tex={String.raw`\text{CPI} = \frac{\text{SPI}_1 \times \text{Credits in semester}_1 + \text{SPI}_2 \times \text{Credits in semester}_2 + \cdots}{\text{Total credits}}`}
             display={true}
             style={{ maxWidth: '100%', overflowWrap: 'break-word' }}
           />
@@ -79,7 +79,7 @@ const CPI_Calculation = () => {
         }}
       >
         <MathComponent
-          tex={String.raw`= \frac{7.62 \times 32 + 8.2 \times 36}{32 + 36} = 7.93`}
+          tex={String.raw`\text{CPI} = \frac{7.62 \times 32 + 8.2 \times 36}{32 + 36} = 7.93`}
           display={true}
         />
       </div>

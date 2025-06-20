@@ -40,7 +40,9 @@
   border: 1px solid #ccc;
   vertical-align: middle;
 }
-
+.section-ul-list{
+  margin: 0px 0px 15px 0px;
+}
 .dateEvent {
   font-size: 18px;
   font-weight: 600;

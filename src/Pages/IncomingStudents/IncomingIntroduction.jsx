@@ -17,7 +17,7 @@ const IncomingIntroduction = () => {
         This website has a lot of carefully curated information that we believe is relevant to you. Take your time to go through the different sections, we’ve covered various aspects of <Link to="/life-at-iitb/introduction" className="text-blue-600 hover:underline p-0!">life at IITB</Link> - from academics to <Link to="/extra-curriculars/gymkhana" className="text-blue-600 hover:underline p-0!">extracurriculars</Link>.
     </p>
     <p className="mb-4">
-        Before you begin exploring, we urge you to visit the official website of IIT Bombay which covers important official information for prospective students: <Link to="https://www.iitb.ac.in/en/students/information-prospective-students" className="text-blue-600 hover:underline p-0!" target="_blank">Information for Prospective Students | Indian Institute of Technology Bombay</Link>
+        Before you begin exploring, we urge you to visit the official website of IIT Bombay which covers important official information for prospective students: <Link to="https://www.iitb.ac.in/admissions/why-iitb" className="text-blue-600 hover:underline p-0!" target="_blank">Why IITB?</Link>
     </p>
 
     <p className="mb-4">

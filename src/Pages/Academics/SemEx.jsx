@@ -24,10 +24,10 @@ const SemEx = () => {
         <b>
         Shirsh Sawarna<br/>
         Institute Secretary | International Relations<br/>
-        IIT Bombay<br/>
+        IIT Bombay<br/></b>
         Email: <a style={{padding: '0'}} href="mailto:isecir@iitb.ac.in" className="text-blue-600 underline">isecir@iitb.ac.in</a><br/>
-        Blog : <a style={{padding: '0'}} target="_blank" href="https://exchangeblogiitb.wordpress.comn" className="text-blue-600 underline">https://exchangeblogiitb.wordpress.com</a><br/>
-        </b>
+        Blog : <a style={{padding: '0'}} target="_blank" href="https://exchangeblogiitb.wordpress.com" className="text-blue-600 underline">https://exchangeblogiitb.wordpress.com</a><br/>
+        
       </p>
       
     </>

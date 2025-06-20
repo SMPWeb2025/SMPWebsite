@@ -8,7 +8,7 @@ const Accomodation = () => {
             It is true that the guest houses at IIT Bombay are extremely pocket-friendly and are known for their cozy atmosphere, but booking needs to be done quite in advance as they are rarely available and the procedure for the same is also pretty long!
         </p>
         <p className="mb-4">
-            <b>Note:</b> For first year students coming to campus with their parents/guardians, guesthouse and hostel booking is <b>not allowed</b> during the orientation period. You are requested to find accommodation for your parents/family members/guardians off-campus during that time.
+            <span className="bg-yellow-200"><b>Note:</b> For first year students coming to campus with their parents/guardians, guesthouse and hostel booking is <b>not allowed</b> during the orientation period. You are requested to find accommodation for your parents/family members/guardians off-campus during that time.</span>
         </p>
         <h1 className="text-4xl font-bold mb-5">For Incoming batch of UG 2025-26 (during the orientation period):
         </h1>

@@ -7,29 +7,28 @@ const Intro = () => {
       <h1 className="text-4xl font-bold mb-5">Introduction</h1>
       <p className="mb-4">
         Message from the General Secretary, Academic Affairs (UG):
-      </p>
+      </p> 
       <p className="mb-4">
-        Congratulations, and give
-        yourself a round of applause, for you are the new waves in this vast ocean of possibilities...
-      </p>
-      <p className="mb-4">
-        As an academic institution, IIT Bombay can and will teach you a lot of things during your stay here.
-        The important thing is to keep your mind open and keep learning. It's truly a warehouse of
-        opportunities...
-      </p>
-      <p className="mb-4">
-        Try your best to maintain a balance between your academics and the plethora of extra-curricular activities...
-      </p>
-      <p className="mb-4">
-        Lastly, your time is limited. You can fail even at what you don’t want, so you might as well take
-        a chance on doing what you love/desire...
-      </p>
-      <p className="mt-8">
-        Regards,<br />
-        <span className="font-bold">Arjun Saikumar Simha</span><br />
-        General Secretary Academic Affairs (UG)<br />
-        IIT Bombay<br />
-        Email:<a style={{padding: '0'}} href="mailto:gsecaaug@iitb.ac.in" className="text-blue-600 underline">gsecaaug@iitb.ac.in</a>
+        Dear IITB 2025 Admits,
+        <br/><br/>
+        Welcome to IIT Bombay!
+        <br/>
+        We hope you are looking forward to the academic and personal odyssey that awaits you. It will be very different from what you've been used to so far, but the honesty and commitment that you forged through your preparation for JEE will remain your most valuable assets — don't let that go.
+        <br/><br/>
+        As students of this nation's finest engineering college, you now have a special responsibility. If the graduates of IIT Bombay are not going to help India advance technologically, then who will? The country awaits your work with hope, and your time here is a chance to prepare yourself to fulfil that hope with purpose and integrity.
+        <br/><br/>
+        IIT Bombay provides a phenomenal array of opportunities in academics, research, innovation, and leadership. It is your responsibility to exploit them to the fullest. And if at any point the sheer number of options seems daunting, do not be afraid to contact us. Your mentors and the Undergraduate Academic Council are always here to support you — our contact details are provided below.
+        <br/>
+        <br/>
+        All the best, and may you have a memorable journey.
+        <br/><br/>
+        <b>To Be of Service | सेवा परमो धर्म: <br/>
+        Kartik Shilpi Singhal<br/>
+        General Secretary, Academic Affairs (UG)<br/>
+        Indian Institute of Technology, Bombay<br/>
+        Powai, Mumbai - 400076<br/></b>
+        <a style={{padding: '0'}} href="mailto:gsecaaug@iitb.ac.in" className="text-blue-600 underline">gsecaaug@iitb.ac.in</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a style={{padding: '0'}} href="mailto:isaaug@iitb.ac.in" className="text-blue-600 underline">isaaug@iitb.ac.in</a>
+        <br/>
       </p>
     </>
   )
