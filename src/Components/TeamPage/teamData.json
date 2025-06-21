@@ -2,8 +2,8 @@
     {
         "designation": "Overall Coordinator",
         "name": "Amritansh Joshi",
-        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-        "caption": "sample caption"
+        "link": "/team_images/Amritansh_Joshi.webp",
+        "caption": "Hi, I’m Amritansh. I play the guitar, love music, and you’ll usually find me at the H5 canteen. Always open to sharing perspectives :)"
     },
     {
         "designation": "Overall Coordinator",
@@ -141,7 +141,7 @@
         "designation": "Mechanical DAMPC",
         "name": "Parul Diwan",
         "link": "/team_images/Parul_Diwan.webp",
-        "caption": "sample caption"
+        "caption": "Hey I'm Parul! I'm from Bangalore. I love chai, trekking and swimming (in that order, precisely). In my free time, I also like to play football and read books. Feel free to reach out for any help, even if you just want to talk!"
     },
     {
         "designation": "Mechanical DAMPC",
@@ -164,13 +164,13 @@
     {
         "designation": "Web Nominee",
         "name": "Aryan Badkul",
-        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
-        "caption": "sample caption"
+        "link": "/team_images/Aryan_Badkul.webp",
+        "caption": "Hi and welcome! I’m a tech enthusiast who loves diving into code, playing badminton and cricket, and getting lost in anime. Feel free to reach out!"
     },
     {
         "designation": "Web Nominee",
         "name": "Atharv Roday",
         "link": "/team_images/Atharv_Roday.webp",
-        "caption": "sample caption"
+        "caption": "Hey, I’m Atharv — a tech enthusiast who’s always up for any sport. Feel free to reach out."
     }
 ]
