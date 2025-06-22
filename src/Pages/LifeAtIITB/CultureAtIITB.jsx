@@ -10,11 +10,17 @@ const CultureAtIITB = () => {
         Room allotment for first year students are done in following manner :
       </p>
       <p className="mb-4">
-        For Boys - They will be allotted 2 wings of hostel 16. On each floor, there are three subsections (also called wings!) - each wing has 6 rooms, each of which will be shared by 2 students.
-For Girls - A separate wing of Hostel 16 (Hostel 16 C) is allotted to girls, again on a twin sharing basis.
+        For Boys – Students will be allotted either Hostel 1 Hostel 16.
+        <ul className="list-disc ml-6 mb-4">
+          <li>Hostel 1: It has 4 wings, each with approximately 12 rooms. Each room will be shared by 2 students.</li>
+          <li>Hostel 16: On each floor, there are three subsections (also called wings!) – each wing has 6 rooms, each of which will be shared by 2 students.</li>
+        </ul>
+        For Girls – A separate wing of Hostel 16 (Hostel 16C) is allotted to girls, again on a twin-sharing basis.
+
+
       </p>
       <p className="mb-4">
-        You get the room right when you reach IIT Bombay (on the day of registrations i.e. 25th July 2024), after arriving and noting down your details in the hostel warden’s office.
+        You get the room right when you reach IIT Bombay (on the day of registrations i.e. 20th July 2025), after arriving and noting down your details in the hostel warden’s office.
       </p>
         <h2 className="text-xl font-bold mb-2">Basic Amenities</h2>
       <p className="mb-4">
@@ -151,11 +157,27 @@ For Girls - A separate wing of Hostel 16 (Hostel 16 C) is allotted to girls, aga
         <b>“There’s life without the Internet? Really? Send me the link.”</b>
       </p>
       <p className="mb-4">
-        The Internet is one of the first things you want to get sorted out once you are on campus, be it to upload your stories on Snapchat, Facebook and Instagram, or to get your lecture notes and books, and get down to studying. So how and where can I access the Internet? Hostel LAN Access The most preferred option. All hostel rooms have a LAN Port which you can use to connect to the IIT Bombay network and to the Internet, provided you have a computer. Just hook your computer up to the LAN port with a cable, and you should be connected to the network. Once that’s done, there are two ways to access the Internet.
+        The Internet is one of the first things you want to get sorted out once you are on campus, be it to upload your stories on Snapchat, Facebook and Instagram, or to get your lecture notes and books, and get down to studying. So how and where can I access the Internet?  
       </p>
-        <h2 className="text-xl font-bold mb-2">Proxyless Access(recommended)</h2>
+      <h2 className="text-xl font-bold mb-2">WiFi Access (recommended)</h2>
       <p className="mb-4">
-        Go 
+        Almost all areas on campus, including hostels, the Library, and classrooms in the Lecture Hall Complex (LHs, LCs, and LTs), are equipped with high-speed WiFi. Students can connect using their LDAP ID and password.
+        <br/>
+        Simply turn on your WiFi and connect to either IITB-Wireless or eduroam. Some devices may ask for an “anonymous identity” while connecting — this field can be left blank.
+        <br/>
+        This WiFi system is the most convenient way to stay connected, offering seamless internet access without any physical cables.
+        <br/>
+        For short-term visitors, the IITB-Guest WiFi network is available, which also requires LDAP authentication through a separate login portal.
+<br/><br/>
+        For Configuration Settings, follow this link: <br/>
+        <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://www.cc.iitb.ac.in/#v-pills-howto-wireless">https://www.cc.iitb.ac.in/#v-pills-howto-wireless</a>  <br/>
+        (CC IITB Website → How To’s → Wireless)
+
+      </p>
+        <h2 className="text-xl font-bold mb-2">Hostel LAN Access</h2>
+      <p className="mb-4">
+        All hostel rooms have a LAN Port which you can use to connect to the IIT Bombay network and to the Internet, provided you have a computer. Just hook your computer up to the LAN port with a cable, and you should be connected to the network. Once that’s done, to access internet,
+        go 
         to <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://internet.iitb.ac.in">https://internet.iitb.ac.in</a>,
         log in your LDAP ID (Roll number) and password, and you're good to go. <br/>
         For more details, please 
@@ -178,17 +200,6 @@ For Girls - A separate wing of Hostel 16 (Hostel 16 C) is allotted to girls, aga
       <p className="mb-4">
         The entire library complex is WiFi enabled. There are also a few PCs distributed across the library. These are, however, intended to be used to look for books and you should refrain from using them for other purposes.
       </p>
-      <h2 className="text-xl font-bold mb-2">WiFi Access</h2>
-      <p className="mb-4">
-        The Library, and the classrooms in the Lecture Hall Complex(LHs, LCs and LTs) are wifi enabled. Just turn on your WiFi and connect to IITB-Wireless or eduroam with your LDAP ID and password. Your device may also have an anonymous identity field while connecting, which can be left blank. The IITB-Guest WiFi is meant for short term visitors, and will also require LDAP authentication through a separate portal.
-      </p>
-      <p className="mb-4">
-        For Configuration Settings, follow this link: <br/>
-        <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://www.cc.iitb.ac.in/#v-pills-howto-wireless">https://www.cc.iitb.ac.in/#v-pills-howto-wireless</a>  <br/>
-        (CC IITB Website → How To’s → Wireless)
-      </p>
-       
-      
     </>
   )
   const sidebar = navData["Life at IITB"];

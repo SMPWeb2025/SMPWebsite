@@ -223,6 +223,7 @@ const TeamCarousel = ({ teamData }) => {
                                 firstContent={
                                     <figure className="h-full">
                                         <img
+                                            loading='lazy'
                                             src={member.link}
                                             alt={member.name}
                                             className="object-cover w-full h-full"
