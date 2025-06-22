@@ -20,7 +20,7 @@ const CultureAtIITB = () => {
 
       </p>
       <p className="mb-4">
-        You get the room right when you reach IIT Bombay (on the day of registrations i.e. 21st July 2025), after arriving and noting down your details in the hostel warden’s office.
+        You get the room right when you reach IIT Bombay (on the day of registrations i.e. 20th July 2025), after arriving and noting down your details in the hostel warden’s office.
       </p>
         <h2 className="text-xl font-bold mb-2">Basic Amenities</h2>
       <p className="mb-4">
