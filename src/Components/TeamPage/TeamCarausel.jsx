@@ -224,7 +224,7 @@ const TeamCarousel = ({ teamData }) => {
                                     <figure className="h-full">
                                         <img
                                             loading='lazy'
-                                            src={member.link}
+                                            src={`${import.meta.env.BASE_URL}${member.link}`}
                                             alt={member.name}
                                             className="object-cover w-full h-full"
                                         />

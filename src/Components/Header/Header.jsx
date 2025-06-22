@@ -2,6 +2,7 @@ import "./header.css";
 import video576 from './video-576p.mp4'
 import video720 from './video-720p.mp4'
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -40,7 +41,7 @@ function Header() {
           <button className="btnsmp" type="button">
             <span className="circlesmp"></span>
             <span className="arrowsmp"></span>
-            <span className="textsmp"><a href="/incoming-students/introduction">Learn more</a></span>
+            <span className="textsmp"><Link to="/incoming-students/introduction">Learn more</Link></span>
           </button>
         </div>
       </div>
