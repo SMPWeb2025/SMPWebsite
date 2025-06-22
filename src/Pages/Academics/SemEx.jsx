@@ -22,7 +22,7 @@ const SemEx = () => {
       </p>
       <p className="mb-4">
         <b>
-        Shirsh Sawarna<br/>
+        Parag Ingle<br/>
         Institute Secretary | International Relations<br/>
         IIT Bombay<br/></b>
         Email: <a style={{padding: '0'}} href="mailto:isecir@iitb.ac.in" className="text-blue-600 underline">isecir@iitb.ac.in</a><br/>
