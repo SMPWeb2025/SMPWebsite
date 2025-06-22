@@ -160,7 +160,7 @@ const router = createBrowserRouter([
                 element: <Onboarding />
             },
             {
-                path: 'accomodation', // Note: Typo 'Accomodation' from your data, keeping it for consistency
+                path: 'accomodation', 
                 element: <Accommodation />
             },
             {
@@ -201,7 +201,11 @@ const router = createBrowserRouter([
       }
     ]
   }
-]);
+],{
+  basename: '/smp'
+}
+
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
