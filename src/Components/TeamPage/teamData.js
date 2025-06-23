@@ -1,4 +1,4 @@
-[
+export const teamData = [
     {
         "designation": "Overall Coordinator",
         "name": "Amritansh Joshi",
@@ -50,7 +50,7 @@
     {
         "designation": "Chemical DAMPC",
         "name": "Aditya Shrungarpure",
-        "link": "https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256_1280.png",
+        "link": "/team_images/user.webp",
         "caption": ""
     },
     {

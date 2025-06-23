@@ -1,4 +1,4 @@
-import teamData from "./teamData.json";
+import { teamData } from "./teamData.js";
 import TeamCarousel from "./TeamCarausel";
 
 function TeamLayout() {
