@@ -81,7 +81,7 @@ export const teamData = [
         "designation": "Computer Science DAMPC",
         "name": "Brian Mackwan",
         "link": "/team_images/Brian_Mackwan.webp",
-        "caption": ""
+        "caption": "I am Brian Mackwan, a final year undergraduate from the CSE Department. Born and brought up in Mumbai, I am a trained bathroom singer and on most nights, you can find me at Amul trying out a new ice cream flavor. Feel free to join me!"
     },
     {
         "designation": "Computer Science DAMPC",
