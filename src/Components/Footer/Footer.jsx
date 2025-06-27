@@ -77,6 +77,11 @@ function Footer() {
               <div className="text-xs md:text-2xl font-bold mb-2">Quick links</div>
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
+                  <Link to="incoming-students/things-to-bring" className="nav-link p-0 ">
+                    Things to bring
+                  </Link>
+                </li>
+                <li className="nav-item mb-2">
                   <Link to="academics/curriculum" className="nav-link p-0 ">
                     Curriculum
                   </Link>
