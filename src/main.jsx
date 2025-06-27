@@ -33,6 +33,7 @@ import InstituteBodies from './Pages/ExtraCurriculars/InstituteBodies';
 // Incoming Students Components
 import IncomingIntroduction from './Pages/IncomingStudents/IncomingIntroduction';
 import Onboarding from './Pages/IncomingStudents/Onboarding';
+import ThingsToBring from './Pages/IncomingStudents/ThingsToBring.jsx'
 import Accommodation from './Pages/IncomingStudents/Accomodation';
 import Scholarships from './Pages/IncomingStudents/Scholarships';
 import FeeStructure from './Pages/IncomingStudents/FeeStructure';
@@ -158,6 +159,10 @@ const router = createBrowserRouter([
             {
                 path: 'onboarding',
                 element: <Onboarding />
+            },
+            {
+                path: 'things-to-bring',
+                element: <ThingsToBring />
             },
             {
                 path: 'accomodation', 
