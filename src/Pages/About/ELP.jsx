@@ -12,8 +12,8 @@ const ELP = () => {
     </p>
     <ol className="list-decimal ml-4 mb-4">
         <li><b>1-on-1</b> - Here, we provide personlized help to students and address the specific issues faced by them including- reading, writing, speaking and listening.</li>
-        <li><b>Conversations club</b> - The aim is to improve the communication skills of the students by involving in a bunch of activities like debating, presentations and impromptu.</li>
-        <li><b>Grammar & Writing module</b> - Here, the main objective is to improve equip the students with the basic grammar concepts that is useful in everyday life and help them write emails, letters, SoPs and other things.</li>
+        <li><b>Conversations club</b> - The aim is to improve the communication skills of the students by involving them in a bunch of activities like debating, presentations and impromptu.</li>
+        <li><b>Grammar & Writing module</b> - Here, the main objective is to improve and equip the students with the basic grammar concepts that is useful in everyday life and help them write emails, letters, SoPs and other things.</li>
         <li><b>Book club</b> - This club helps students inculcate a habit of reading books and gives them an essence of how to read and understand a book</li>
     </ol>
 <p className="mb-4">
