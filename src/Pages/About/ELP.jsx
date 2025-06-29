@@ -21,7 +21,7 @@ const ELP = () => {
 </p>
     <ol className="list-decimal ml-4">
 
-        <li><b>Demystifying Interviews</b>- an series of internship and placement preparatory webinars by seniors from relevent fields and experts from industry covering topics to help the students prepare better for the recruitement drive.</li>
+        <li><b>Demystifying Interviews</b>- A series of internship and placement preparatory webinars by seniors from relevent fields and experts from industry covering topics to help the students prepare better for the recruitement drive.</li>
         <li><b>Session on GRE & TOEFL</b>- This session is taken by an expert from ETS (the body that conducts GRE & TOEFL) covering the the key concepts of these exams and sharing tips and tricks.</li>
     </ol>
     </>);
