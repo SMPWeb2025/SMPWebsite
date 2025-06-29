@@ -50,8 +50,8 @@ export const teamData = [
     {
         "designation": "Chemical DAMPC",
         "name": "Aditya Shrungarpure",
-        "link": "/team_images/user.webp",
-        "caption": ""
+        "link": "/team_images/Aditya_Shrungarpure.webp",
+        "caption": "Also known as Singapore and vile_pechora, you'll find me playing some strategy game/puzzle in my free time or watching some food videos! I am a sucker for trying out new foods and making others try it... You can count on me to listen to for hours with a measly fee of 1 plate dahi Puri ✨"
     },
     {
         "designation": "Chemical DAMPC",
