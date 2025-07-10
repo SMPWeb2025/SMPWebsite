@@ -65,8 +65,7 @@ function Announcements() {
           <div className="portal">
             <ul>
               <li>
-                <a href="">FAQs and Query Portal</a> 
-                <span style={{color: 'gray', fontSize: '15px'}}><em>(Will be updated shortly)</em></span>
+                <a target="_blank" href="https://gymkhana.iitb.ac.in/newbee">FAQs and Query Portal</a> 
               </li>
             </ul>
           </div>
