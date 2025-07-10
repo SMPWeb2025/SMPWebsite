@@ -26,8 +26,17 @@ function Announcements() {
               <sup>
                 <img src={newGif} alt="" />
               </sup>
+              All the details for the new UG entrants is availabe <a target="_blank" className="text-blue-600 hover:underline" style={{padding: 0}} href="https://acad.iitb.ac.in/information-ug-new-entrants-2025-2026">
+                here
+              </a>
+              . 
+            </li>
+            <li style={{ fontSize: '0.75em' }}>
+              <sup>
+                <img src={newGif} alt="" />
+              </sup>
               You can check the Academic calendar{' '}
-              <a className="text-blue-600 hover:underline" style={{padding: 0}} href="https://www.iitb.ac.in/newacadhome/toacadcalender.jsp">
+              <a className="text-blue-600 hover:underline" target="_blank" style={{padding: 0}} href="https://www.iitb.ac.in/newacadhome/toacadcalender.jsp">
                 here
               </a>
               . Note that the dates are subject to change.
@@ -51,12 +60,17 @@ function Announcements() {
               Contact information for prospective women students:{' '}
               <a className="text-blue-600 hover:underline" href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a>
             </li>
-            <li>
-              <a href="">FAQs and Query Portal</a> 
-              <span style={{color: 'gray', fontSize: '15px'}}><em>(Will be updated shortly)</em></span>
-            </li>
           </ul>
         </div>
+          <div className="portal">
+            <ul>
+              <li>
+                <a href="">FAQs and Query Portal</a> 
+                <span style={{color: 'gray', fontSize: '15px'}}><em>(Will be updated shortly)</em></span>
+              </li>
+            </ul>
+          </div>
+            
           </Dialog.Description>
           <Flex gap="3" justify="end">
             <Dialog.Close>

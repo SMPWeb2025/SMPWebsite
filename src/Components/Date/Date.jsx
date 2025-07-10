@@ -30,7 +30,7 @@ function Date() {
                     <tr className="dateItem">
                       <td className="dateEvent">Hostel Check-in for students</td>
                       <td className="dateDates">
-                        Will be anounced shortly.
+                        20th July 2025 (Sunday), 09:00 am onwards
                       </td>
                     </tr>
                     <tr className="dateItem">
@@ -44,11 +44,11 @@ function Date() {
                     <tr className="dateItem">
                       <td className="dateEvent">Orientation week (for IITB)</td>
                       <td className="dateDates">
-                        21st July 2025 (Monday) to 25th July, 2025 (Friday)
+                        21st July 2025 (Monday) to 26th July, 2025 (Saturday)
                       </td>
                     </tr>
                     <tr className="dateItem">
-                      <td className="dateEvent">Instructions Begins (for IITB)</td>
+                      <td className="dateEvent">Instructions Begin (for IITB)</td>
                       <td className="dateDates">28th July 2025</td>
                     </tr>
                   </tbody>
