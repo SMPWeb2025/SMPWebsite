@@ -45,6 +45,8 @@ import InAndAroundCampus from './Pages/LifeAtIITB/InAndAroundCampus';
 import SupportAvailable from './Pages/LifeAtIITB/SupportAvailable';
 import CultureAtIITB from './Pages/LifeAtIITB/CultureAtIITB';
 
+import NotFound from './Pages/404/404.jsx'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -203,6 +205,10 @@ const router = createBrowserRouter([
                 element: <CultureAtIITB />
             }
         ]
+      },
+      {
+        path: '*',
+        element: <NotFound/>
       }
     ]
   }
