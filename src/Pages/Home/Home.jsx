@@ -7,6 +7,7 @@ function Home() {
   return (
     <>
       <Helmet>
+          <title>Student Mentor Program | IIT Bombay</title>
           <meta
           name="description"
           content="Welcome to the website of Student Mentor Program, IIT Bombay! The main aim of this website is to acquaint you with the different facets of this college which you might be curious about. We hope this will help in making the difficult choice ahead of you and give you some insight into the culture at IIT Bombay from a student’s perspective!"
