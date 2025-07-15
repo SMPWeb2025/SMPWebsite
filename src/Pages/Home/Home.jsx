@@ -16,6 +16,8 @@ function Home() {
           name="keywords"
           content="SMP, SMP IIT Bombay, SMP IITB, SMP IIT, smp IIT, smp bombay, smp, Incoming Students, Incoming IIT Bombay, Freshers IIT, Student Mentorship Program, IIT Bombay, IITB, IIT Powai, Freshers IITB, ISMP, JEE Advanced, IIT, NewBee portal IIT, NewBee IITB"
         />
+        <link rel="icon" href="../../assets/logo_dark.svg" type="image/x-icon" />
+        <link rel="shortcut icon" href="../../assets/logo_dark.svg" type="image/x-icon" />
       </Helmet>
       <div>
         <Header />
