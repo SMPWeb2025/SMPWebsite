@@ -1,6 +1,5 @@
 {
   "name": "my-react-app",
-  "homepage": "/~smp/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

@@ -213,7 +213,7 @@ const router = createBrowserRouter([
     ]
   }
 ],{
-  basename: '/~smp/'
+  basename: '/'
 }
 
 );
