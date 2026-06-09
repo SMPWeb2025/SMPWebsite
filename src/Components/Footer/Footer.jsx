@@ -159,7 +159,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="m-3">
-                  <Link to="mailto:smpcs2025@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Link to="mailto:smpcs2026@gmail.com" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faEnvelope} size="lg"/>
                   </Link>
                 </li>

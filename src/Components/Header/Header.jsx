@@ -34,7 +34,7 @@ function Header() {
           <h1 className="font-bold mt-10 md:mt-20 lg:text-6xl md:text-6xl text-2xl">{title}</h1>
           <h3 className="w-3/4 mx-auto text-sm md:text-2xl">
             This website has been created by the Student Mentor Program to introduce incoming freshers to life at IIT Bombay. We encourage you to browse through the various sections and make an informed choice about your college and department. Though we've tried to cover most questions on this website, feel free to mail us 
-            at <a style={{padding: 0, fontWeight: 'bold'}} className="hover-underline text-blue-600" href="mailto:smpcs2025@gmail.com">smpcs2025@gmail.com</a>.
+            at <a style={{padding: 0, fontWeight: 'bold'}} className="hover-underline text-blue-600" href="mailto:smpcs2026@gmail.com">smpcs2026@gmail.com</a>.
           </h3>
         </div>
         <div className="headersmpBtn">

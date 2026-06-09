@@ -36,7 +36,7 @@ function Announcements() {
                 <img src={newGif} alt="" />
               </sup>
               You can check the Academic calendar{' '}
-              <a className="text-blue-600 hover:underline" target="_blank" style={{padding: 0}} href="https://www.iitb.ac.in/newacadhome/toacadcalender.jsp">
+              <a className="text-blue-600 hover:underline" target="_blank" style={{padding: 0}} href="https://acad.iitb.ac.in/sites/default/files/Academic_Calendar_2026-27_FINAL.pdf">
                 here
               </a>
               . Note that the dates are subject to change.
@@ -45,8 +45,8 @@ function Announcements() {
               <sup>
                 <img src={newGif} alt="" />
               </sup>{' '}
-              <b>Update</b>: The option for branch change has been removed for the academic year
-              2024-25. Please refer to{' '}
+              <b>Update</b>: The option for branch change has been removed from the academic year
+              2024-25 onwards. Please refer to{' '}
               <a className="text-blue-600 hover:underline" style={{padding: 0}} href="https://youtu.be/F8XGjwg41p0">
                 this
               </a>{' '}

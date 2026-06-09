@@ -15,41 +15,41 @@ function Date() {
                   <tbody>
                     <tr className="dateItem">
                       <td className="dateEvent">
-                        Results of JEE Advanced (2025)
+                        Results of JEE Advanced (2026)
                       </td>
-                      <td className="dateDates">2nd June 2025</td>
+                      <td className="dateDates">1st June 2026</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Start of JoSAA registration/choice filling</td>
-                      <td className="dateDates">3rd June 2025</td>
+                      <td className="dateDates">2nd June 2026</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Tentative Start of Seat Allotment</td>
-                      <td className="dateDates">14th June 2025</td> 
+                      <td className="dateDates">13th June 2026</td> 
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Hostel Check-in for students</td>
                       <td className="dateDates">
-                        20th July 2025 (Sunday), 09:00 am onwards
+                        20th July 2026 (Monday), 09:00 am onwards
                       </td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Reporting Date (for IITB)</td>
-                      <td className="dateDates">21st July 2025</td>
+                      <td className="dateDates">20th July 2026</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Orientation reporting (for IITB)</td>
-                      <td className="dateDates">21st July 2025, 08:30 AM</td>
+                      <td className="dateDates">21st July 2026, 08:30 AM</td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Orientation week (for IITB)</td>
                       <td className="dateDates">
-                        21st July 2025 (Monday) to 26th July, 2025 (Saturday)
+                        21st July 2026 (Tuesday) to 25th July, 2026 (Saturday)
                       </td>
                     </tr>
                     <tr className="dateItem">
                       <td className="dateEvent">Instructions Begin (for IITB)</td>
-                      <td className="dateDates">28th July 2025</td>
+                      <td className="dateDates">27th July 2026</td>
                     </tr>
                   </tbody>
                 </table>
@@ -63,7 +63,7 @@ function Date() {
                   <li>
                     <a
                       className="hover-underline text-blue-600"
-                      href="https://acad.iitb.ac.in/files/Academic%20Calendar%202025-26_FINAL.pdf"
+                      href="https://acad.iitb.ac.in/sites/default/files/Academic_Calendar_2026-27_FINAL.pdf"
                     >
                       IITB Academic Calendar
                     </a>
