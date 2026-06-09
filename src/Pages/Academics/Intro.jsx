@@ -9,7 +9,7 @@ const Intro = () => {
         Message from the General Secretary, Academic Affairs (UG):
       </p> 
       <p className="mb-4">
-        Dear IITB 2025 Admits,
+        Dear IITB 2026 Admits,
         <br/><br/>
         Welcome to IIT Bombay!
         <br/>

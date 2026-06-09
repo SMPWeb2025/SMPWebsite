@@ -123,9 +123,9 @@ export const teamData = [
     },
     {
         "designation": "Engineering Physics DAMPC",
-        "name": "Rahul Lande",
-        "link": "/team_images/Rahul_Lande.webp",
-        "caption": "Hello there! I am a tech enthusiast with an insatiable curiosity for interesting subjects. Hopeful that your journey here at IITB would be a memorable one. Looking forward to having conversations with you all."
+        "name": "Astitva Raj",
+        "link": "/team_images 2026-27/Astitva_Raj.webp",
+        "caption": "Hey everyone, Astitva here. I’m a cinephile and love trying out new sports. And also, I may not wear a cape but definitely here to save the day, your friendly neighbourhood DAMP-C."
     },
     {
         "designation": "Environment DAMPC",

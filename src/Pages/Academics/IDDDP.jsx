@@ -12,7 +12,7 @@ const IDDDP = () => {
         All BS, Btech or Dual Degree students can convert from their 4-year undergraduate degree into a 5-year Undergraduate + Masters degree. IDDDP is offered in several departments and centres including Data Science (under CMInDS), Systems and Controls, Digital Health (under Koita Centre for Digital Health) and Management (under Shailesh J Mehta School of Management) to name a few. The CPI cutoffs for the coveted IDDDP programmes are usually high; this truly goes to show the importance of CPI in your institute life. For further details regarding the program, it’s eligibility criteria and application process, you can visit the following links -
       </p>
       <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://acad.iitb.ac.in/files/IDDDP_Guidelines_2025.pdf">https://acad.iitb.ac.in/files/IDDDP_Guidelines_2025.pdf</a> <br/>
-      <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://acad.iitb.ac.in/files/IDDP%20Guidelines.pdf">https://acad.iitb.ac.in/files/IDDP%20Guidelines.pdf</a><br/>
+      <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://www.iitb.ac.in/newacadhome/GuidelinesDDDprg.pdf">https://www.iitb.ac.in/newacadhome/GuidelinesDDDprg.pdf</a><br/>
       {/* <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://sss-iitb.github.io/idddp/booklet2022.html">https://sss-iitb.github.io/idddp/booklet2022.html</a> <br/> */}
     </>
   )

@@ -7,7 +7,7 @@ const BranchChange = () => {
     <>
       <h1 className="text-4xl font-bold mb-5">Branch Change</h1>
       <p className="mb-4">
-        <b>Update:</b> The option for branch change has been removed for the academic year 2024-25. Please refer to <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://youtu.be/F8XGjwg41p0">this</a> video 
+        <b>Update:</b> The option for branch change has been discontinued from the academic year 2024-25 onwards. Please refer to <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://youtu.be/F8XGjwg41p0">this</a> video 
         and <Link
              to="/academics/departments"
              className="text-blue-600 hover:underline"
