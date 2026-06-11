@@ -1,7 +1,12 @@
 import Page from "../../Components/BlogPage/Page";
 import navData from "../sideNavData.json";
+import TeamCard from "../../Components/TeamPage/TeamCard";
+import { teamData } from "../../Components/TeamPage/teamData";
 
 const ELP = () => {
+    const head1 = teamData.find(member => member.name === "Mann Gabani");
+    const head2 = teamData.find(member => member.name === "Ayush Jaiswal");
+
     const content = (<>
     <h1 className="text-4xl font-bold mb-5">English Learning Program(ELP)</h1>
     <p className="mb-4">
@@ -24,7 +29,32 @@ const ELP = () => {
         <li><b>Demystifying Interviews</b>- A series of internship and placement preparatory webinars by seniors from relevent fields and experts from industry covering topics to help the students prepare better for the recruitement drive.</li>
         <li><b>Session on GRE & TOEFL</b>- This session is taken by an expert from ETS (the body that conducts GRE & TOEFL) covering the the key concepts of these exams and sharing tips and tricks.</li>
     </ol>
-    </>);
+
+    {/* Add the section for ELP Heads */}
+        <div className="mt-8">
+                <h2 className="text-3xl font-bold mb-8 text-center">Meet the ELP Heads</h2>
+                
+                {/* Flex container to place cards side-by-side and center them */}
+                <div className="flex flex-wrap justify-center items-center gap-8">
+                    
+                    {/* Render Head 1 if found in the data */}
+                    {head1 && (
+                        <div className="box-content shrink-0 md:w-[22rem] w-[16rem] h-[25rem] md:p-6 p-2">
+                            <TeamCard member={head1} />
+                        </div>
+                    )}
+
+                    {/* Render Head 2 if found in the data */}
+                    {head2 && (
+                        <div className="box-content shrink-0 md:w-[22rem] w-[16rem] h-[25rem] md:p-6 p-2">
+                            <TeamCard member={head2} />
+                        </div>
+                    )}
+                    
+                </div>
+        </div>
+    </>
+    );
     const sidebar = navData["About Us"];
 
     return (

@@ -21,9 +21,9 @@ export const teamData = [
     },
     {
         "designation": "ELP Cabinet Head",
-        "name": "Aditya Rana",
-        "link": "/team_images/Aditya_Rana.webp",
-        "caption": "I enjoy spending my free time playing badminton or listening to music. I'm always happy to have a conversation if you ever feel like talking."
+        "name": "Mann Gabani",
+        "link": "/team_images 2026-27/Mann_Gabani.webp",
+        "caption": "I am Mann Gabani, hailing from Mumbai, India. You’ll find me chasing patterns in datasets and sometimes for positive gambles. A cinephile by choice, a sports enthusiast by habit, and a Formula 1 fan by conviction. Music and running are my preferred pit stops whenever life gets a little too chaotic. Inherently a Gujarati so Food and Money runs in my veins ;)"
     },
     {
         "designation": "ELP Cabinet Head",
@@ -33,9 +33,9 @@ export const teamData = [
     },
     {
         "designation": "Academic and DAMP Cabinet Head (ACDC)",
-        "name": "Hridyansh Bhargava",
-        "link": "/team_images/Hridyansh_Bhargava.webp",
-        "caption": "Strumming strings, hitting chords, and making trades- all while staying bullish on good vibes and bearish on boredom! PS:They call me the AC⚡️DC as well."
+        "name": "Aagam Kasaliwal",
+        "link": "/team_images 2026-27/Aagam_Kasaliwal.webp",
+        "caption": "Hey, I’m Aagam from Nashik. Big fan of football, sitcoms (name one, I've seen it), and constantly picking up new hobbies. Always learning, always exploring, and hoping to keep it that way!"
     },
     {
         "designation": "Aerospace DAMPC",
@@ -51,9 +51,9 @@ export const teamData = [
     },
     {
         "designation": "Chemical DAMPC",
-        "name": "Aditya Shrungarpure",
-        "link": "/team_images/Aditya_Shrungarpure.webp",
-        "caption": "Also known as Singapore and vile_pechora, you'll find me playing some strategy game/puzzle in my free time or watching some food videos! I am a sucker for trying out new foods and making others try it... You can count on me to listen to for hours with a measly fee of 1 plate dahi Puri ✨"
+        "name": "Damodar Pendse",
+        "link": "/team_images 2026-27/Damodar_Pendse.webp",
+        "caption": "Hi guys, Damodar here from Pune. I enjoy cycling, playing badminton, reading fiction, and feasting on the wonderfully limited vegetarian cuisine. I'm currently into core chemical engg, and a bit of finance as well. Always happy to connect and share a conversation, especially if you come armed with sports discussions, book recommendations, or any earth shattering financial advice! :)"
     },
     {
         "designation": "Chemical DAMPC",
@@ -81,9 +81,9 @@ export const teamData = [
     },
     {
         "designation": "Computer Science DAMPC",
-        "name": "Brian Mackwan",
-        "link": "/team_images/Brian_Mackwan.webp",
-        "caption": "I am Brian Mackwan, a final year undergraduate from the CSE Department. Born and brought up in Mumbai, I am a trained bathroom singer and on most nights, you can find me at Amul trying out a new ice cream flavor. Feel free to join me!"
+        "name": "Abhilasha Sharma Suman",
+        "link": "/team_images 2026-27/Abhilasha_Sharma_Suman.webp",
+        "caption": "Currently on Plan G. Plans A through F did not go exactly as intended, but they did provide valuable learning experiences. Coincidentally, that's corporate speak for \"failed spectacularly\". Fortunately, there are still 19 letters left. "
     },
     {
         "designation": "Computer Science DAMPC",
@@ -105,9 +105,9 @@ export const teamData = [
     },
     {
         "designation": "Electrical DAMPC",
-        "name": "Anshu Arora",
-        "link": "/team_images/Anshu_Arora.webp",
-        "caption": "Hey, I'm Anshu and I'm from Bahadurgarh, Haryana. I love playing basketball and you can often find me at the H3 fruit shop drinking chiku shake. I am a part of the tech team AUV and that has been an important part of my college journey. I am also very passionate about Electrical Engineering, so if you ever bump into me I'd be glad to have a chat about the same!"
+        "name": "Nandana M A",
+        "link": "/team_images 2026-27/Nandana_M_A.webp",
+        "caption": "Hi, I'm Nandana. Originally from Kerala, I'm someone who loves the peace of a slow life but equally enjoys the thrill of a fast-paced one. In my free time, I appreciate the simple things—good music, books, drawing and long walks. I love being a supportive presence for others. If you need some help, a bit of perspective, or just want to talk things through, feel free to reach out."
     },
     {
         "designation": "Electrical DAMPC",
@@ -129,27 +129,27 @@ export const teamData = [
     },
     {
         "designation": "Environment DAMPC",
-        "name": "Athena Stephen",
-        "link": "/team_images/Athena_Stephen.webp",
-        "caption": "Hailing from Kerala and much farther away from the bustle of Mumbai in every way, I hold a deep appreciation for diversity in thought and action. Be it a love for the cosmos or a play with words, I am always up for a conversation. I feel that a well-rounded campus life is key to a fulfilling academic journey, and to that extend, I would encourage exploring all opportunities possible. I enjoy literature, music, playing basketball, and learning more. After all, aren't we all on an eternal walk of knowledge?"
+        "name": "Shresth Anand",
+        "link": "/team_images 2026-27/Shresth_Anand.webp",
+        "caption": "My name is Shresth, final year undergraduate in Environmental Science and Engineering department. I enjoy good conversations, spontaneous plans and playing basketball. Currently working on becoming the kind of person my LinkedIn bio claims I am."
     },
     {
         "designation": "Mathematics DAMPC",
-        "name": "Maathangi S",
-        "link": "/team_images/Maathangi_S.webp",
-        "caption": "Hey! This is Maathangi! I'm into sudoku, puzzles, chinese dramas (probably one amongst this niche group) and sitcoms. Feel free to hit me up if you are up for any discussion!"
+        "name": "Harsh Agrawal",
+        "link": "/team_images 2026-27/Harsh_Agrawal.webp",
+        "caption": "A mathematics student passionate about singing and listening to music, solving puzzles and an avid cricket follower. I enjoy interacting with people and having deep talks about life. Please feel free to reach out if you have questions about academics, extracurriculars, or in general life at IIT Bombay—I'd be happy to help!"
     },
     {
         "designation": "Mechanical DAMPC",
-        "name": "Parul Diwan",
-        "link": "/team_images/Parul_Diwan.webp",
-        "caption": "Hey I'm Parul! I'm from Bangalore. I love chai, trekking and swimming (in that order, precisely). In my free time, I also like to play football and read books. Feel free to reach out for any help, even if you just want to talk!"
+        "name": "Vraj Shah",
+        "link": "/team_images 2026-27/Vraj_Shah.webp",
+        "caption": "Fun, enthusiastic, and always replying to plans with a classic 'Dekhte hai'."
     },
     {
         "designation": "Mechanical DAMPC",
-        "name": "Taniishq Kadam",
-        "link": "/team_images/Taniishq_Kadam.webp",
-        "caption": "I’m the boy from Mumbai who eats three fruits every day and likes chatting with new people. I enjoy swimming, following sports, playing the Tabla and listening to good music. Feel free to connect if you need someone to just listen to your rants or help you out :)"
+        "name": "Purvi Rathore",
+        "link": "/team_images 2026-27/Purvi_Rathore.webp",
+        "caption": "Hii all, If you discover a new dessert place, call me..."
     },
     {
         "designation": "MEMS DAMPC",
@@ -171,8 +171,8 @@ export const teamData = [
     },
     {
         "designation": "Web Nominee",
-        "name": "Atharv Roday",
-        "link": "/team_images/Atharv_Roday.webp",
-        "caption": "Hey, I’m Atharv — a tech enthusiast who’s always up for any sport. Feel free to reach out."
+        "name": "Tanmay Sonkar",
+        "link": "/team_images 2026-27/Tanmay_Sonkar.webp",
+        "caption": "Hi, I am Tanmay. I am a tech enthusiast definitely but I don't stop there, in my free time I dive deep into psychology, history and even geopolitics. Apart from that I love taking random walks in the insti and going to the gym. Hit me up if you wish to reach out, happy to help anytime. :)"
     }
 ]

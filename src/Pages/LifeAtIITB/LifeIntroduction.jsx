@@ -27,7 +27,7 @@ const LifeIntroduction = () => {
       </p>
       <p className="mb-4">
         <b>
-        Abhay Pratap Singh<br/>
+        Aditya Adinath Joshi<br/>
         General Secretary, Hostel Affairs (GSHA)<br/>
         Indian Institute of Technology, Bombay<br/>
         <a style={{padding: '0'}} href="mailto:gsecha@iitb.ac.inn" className="text-blue-600 underline">gsecha@iitb.ac.in</a><br/>
