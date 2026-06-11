@@ -37,6 +37,21 @@ const Departments = () => {
   { name: "Metallurgical Engineering and Materials Science", src: Meta, path: "meta" },
 ];
 
+  const deptGrid = (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10">
+      {departments.map((dept, index) => (
+        <Link
+          to={`/academics/departments/${dept.path}`}
+          key={index}
+          className="flex flex-col items-center text-center p-4 rounded-[10px] hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+        >
+          <img src={dept.src} alt={dept.name} className="w-24 h-24 mb-4 object-contain" />
+          <p className="font-medium">{dept.name}</p>
+        </Link>
+      ))}
+    </div>
+  );
+
   const content = (
     <>
       <h1 className="text-4xl font-bold mb-5">Departments</h1>
@@ -55,27 +70,32 @@ const Departments = () => {
       <p className="mb-4">
         <b>Humble Appeal :</b> Many students have fallen bait to the practice of blindly following the cutoffs of the previous years and have ended up disliking the branch that they choose. We hope YOU, the future IITian will make judicious use of this initiative and make an informed choice!
       </p>
-      
-      {/* Department Grid Starts Here */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10">
-        {departments.map((dept, index) => (
-          <Link
-            to={`/academics/departments/${dept.path}`}
-            key={index}
-            className="flex flex-col items-center text-center p-4 rounded-[10px] hover:shadow-lg transition-shadow duration-300 cursor-pointer"
-          >
-            <img src={dept.src} alt={dept.name} className="w-24 h-24 mb-4 object-contain" />
-            <p className="font-medium">{dept.name}</p>
-          </Link>
-        ))}
-      </div>
+      {deptGrid}
+    </>
+  )
 
+  const contentHi = (
+    <>
+      <h1 className="text-4xl font-bold mb-5">विभाग</h1>
+      <p className="mb-4">
+        <em>विभिन्न विभागों, विभागीय गतिविधियों और पूर्व छात्रों का संक्षिप्त परिचय</em>
+      </p>
+      <p className="mb-4">
+        यह वेबसाइट आपके लिए बनाई गई है — भविष्य के IIT में प्रवेश करने वाले छात्रों के लिए — ताकि आप जान सकें कि विभिन्न शाखाएँ वास्तव में क्या करती हैं और इंजीनियरिंग/विज्ञान में क्या होता है। IIT बॉम्बे के छात्रों ने यहाँ के कार्यक्रमों का विवरण अपने अनुभव के आधार पर तैयार किया है।
+      </p>
+      <p className="mb-4">
+        कृपया ध्यान दें कि यह जानकारी IIT बॉम्बे द्वारा आधिकारिक रूप से समर्थित नहीं है और केवल योगदान करने वाले छात्रों की राय है।
+      </p>
+      <p className="mb-4">
+        <b>विनम्र अपील:</b> कई छात्र पिछले वर्षों के कट-ऑफ का अंधाधुंध अनुसरण करते हैं और अंत में अपनी चुनी हुई शाखा से असंतुष्ट हो जाते हैं। हम उम्मीद करते हैं कि आप इस पहल का विवेकपूर्ण उपयोग करके एक सूचित निर्णय लेंगे!
+      </p>
+      {deptGrid}
     </>
   )
   const sidebar = navData["Academics"];
-  
+
   return (
-    <Page content={content} sidebar={sidebar} sideHeading="Academics" />
+    <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Academics" />
   )
 }
 export default Departments

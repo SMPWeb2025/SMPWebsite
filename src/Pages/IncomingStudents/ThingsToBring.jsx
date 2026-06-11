@@ -78,10 +78,60 @@ const ThingsToBring = () => {
             There are many places to go around the insti, including the boathouse, Sameer Hill, Lakeside, etc. We don’t want to give away too many of these :P. Explore for yourself :)
         </p>
     </>);
+    const contentHi = (<>
+        <h1 className="text-4xl font-bold mb-5">क्या लाएँ</h1>
+        <p className="mb-4">
+            यह शायद पहली बार होगा जब आप में से अधिकांश घर से दूर जाएंगे। कमरे आमतौर पर छोटे होते हैं, जो दो बातें सिखाता है:
+            <ol className="list-decimal ml-6 mt-2 mb-2">
+                <li>कमरे के बाहर ज्यादा समय बिताना (परीक्षा के समय को छोड़कर :D)</li>
+                <li>अपने रूममेट के साथ तालमेल बिठाना</li>
+            </ol>
+            हमारे अनुभव से, वस्तुओं की एक रंग-कोडित सूची:
+            <ol style={{listStyleType: 'lower-alpha'}} className="ml-6 mt-2 mb-2">
+                <li><span className="red">लाल</span> - घर से <b>जरूर लाएँ।</b></li>
+                <li><span className="blue">नीला</span> - यदि पहले से है तो ला सकते हैं।</li>
+                <li><span className="green">हरा</span> - मुंबई से खरीदना बेहतर।</li>
+            </ol>
+        </p>
+        <h2 className="text-xl font-bold mb-2">कमरे की जरूरतें:</h2>
+        <p className="mb-4">
+            (संस्थान प्रत्येक कमरे में दो चारपाई, एक मेज, एक कुर्सी और एक अलमारी प्रदान करता है)
+            <ol className="list-decimal ml-6 mt-2 mb-2">
+                <li className="mt-3"><span className="red b">कपड़े + बरसाती:</span> मुंबई में गर्म गर्मी, भारी बारिश और हल्की सर्दी होती है। छाता और/या रेनकोट जरूर लाएँ।</li>
+                <li className="mt-3"><span className="red b">जूते:</span> चप्पल/फ्लोटर, सैंडल और <span className="red">बंद जूते</span> (लैब के लिए जरूरी) की एक-एक जोड़ी।</li>
+                <li className="mt-3"><span className="red b">बिस्तर की चादरें</span>, <span className="green b">गद्दे और तकिए</span>, <span className="red b">तकिया कवर</span>, कंबल या रजाई।</li>
+                <li className="mt-3"><span className="green b">बाल्टी, मग, कूड़ेदान, साबुन केस:</span> मार्केट/YP गेट के बाहर की दुकानों से खरीदें।</li>
+                <li className="mt-3"><span className="red b">ताला और चाबियाँ</span> (2 सेट)।</li>
+                <li className="mt-3"><span className="red b">दवा किट</span>, साबुन, शैम्पू, हैंडवॉश, डिटर्जेंट, ब्रश, टॉर्च आदि।</li>
+            </ol>
+        </p>
+        <h1 className="text-4xl font-bold mb-5">कैंपस चेकलिस्ट</h1>
+        <h2 className="text-xl font-bold mb-2">पंजीकरण</h2>
+        <p className="mb-4">
+            पहले दिन प्रवेश पत्र में निर्दिष्ट दस्तावेज़ लाएँ। दस्तावेज़ सत्यापन के बाद कोर्स पंजीकरण होगा।
+        </p>
+        <h2 className="text-xl font-bold mb-2">अस्पताल</h2>
+        <p className="mb-4">
+            सभी छात्र IITB अस्पताल में निःशुल्क उपचार के हकदार हैं। पिछला मेडिकल रिकॉर्ड और टीकाकरण रिकॉर्ड जमा करें।
+        </p>
+        <h2 className="text-xl font-bold mb-2">शुल्क भुगतान</h2>
+        <p className="mb-4">
+            SBI या Canara Bank, पवई में बैंक खाता खोलें। शुल्क नेट बैंकिंग से ऑनलाइन भुगतान करें।
+        </p>
+        <h2 className="text-xl font-bold mb-2">अपने मेंटर से मिलें</h2>
+        <p className="mb-4">
+            ओरिएंटेशन के लिए कैंपस आने पर अपने आवंटित मेंटर से अवश्य मिलें। वे सेमेस्टर भर आपकी मदद के लिए उपलब्ध हैं।
+        </p>
+        <h2 className="text-xl font-bold mb-2">संस्थान का अन्वेषण</h2>
+        <p className="mb-4">
+            बोटहाउस, समीर हिल, लेकसाइड — इंस्टी में घूमने की बहुत सारी जगहें हैं। अपने मेंटर से टूर में मदद लें! :)
+        </p>
+    </>);
+
     const sidebar = navData["Incoming Students"];
 
     return (
-        <Page content={content} sidebar={sidebar} sideHeading="Incoming Students" />
+        <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Incoming Students" />
     )
 }
 

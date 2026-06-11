@@ -9,7 +9,7 @@ const Team = () => {
     const sidebar = navData["About Us"];
 
     return (
-        <Page content={content} sidebar={sidebar} sideHeading="About Us"/>
+        <Page content={content} contentHi={content} sidebar={sidebar} sideHeading="About Us"/>
     )
 }
 
