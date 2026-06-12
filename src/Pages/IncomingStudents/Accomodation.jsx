@@ -10,7 +10,7 @@ const Accomodation = () => {
         <p className="mb-4">
             <span className="bg-yellow-200"><b>Note:</b> For first year students coming to campus with their parents/guardians, guesthouse and hostel booking is <b>not allowed</b> during the orientation period. You are requested to find accommodation for your parents/family members/guardians off-campus during that time.</span>
         </p>
-        <h1 className="text-4xl font-bold mb-5">For Incoming batch of UG 2025-26 (during the orientation period):
+        <h1 className="text-4xl font-bold mb-5">For Incoming batch of UG 2026-27 (during the orientation period):
         </h1>
         <h2 className="text-xl font-bold mb-2">Hotels/Guesthouses near the campus</h2>
         <p className="mb-4">

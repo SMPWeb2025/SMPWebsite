@@ -27,7 +27,7 @@ const IncomingIntroduction = () => {
 
     <p className="mb-4">Happy exploring!</p>
     <p className="mb-4">Warm Regards</p>
-    <p className="mb-4"><b>Dev Arora | Ojas Joshi</b><br /><b>Overall Coordinators, Student Mentor Program 2026-27, IIT Bombay</b>
+    <p className="mb-4"><b>Dev Arora | Ojas Joshi</b><br /><b>Overall Coordinators, Student Mentor Program, IIT Bombay</b>
     </p>
     <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
 

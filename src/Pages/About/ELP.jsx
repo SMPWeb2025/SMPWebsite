@@ -5,7 +5,7 @@ import { teamData } from "../../Components/TeamPage/teamData";
 
 const ELP = () => {
     const head1 = teamData.find(member => member.name === "Mann Gabani");
-    const head2 = teamData.find(member => member.name === "Ayush Jaiswal");
+    const head2 = teamData.find(member => member.name === "Samriddhi Kedia");
 
     const content = (<>
     <h1 className="text-4xl font-bold mb-5">English Learning Program(ELP)</h1>

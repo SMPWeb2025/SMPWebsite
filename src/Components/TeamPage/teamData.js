@@ -15,9 +15,9 @@ export const teamData = [
     },
     {
         "designation": "Counselling, Training and Outreach Head (CTO)",
-        "name": "Ashutosh Gandhe",
-        "link": "/team_images/Ashutosh_Gandhe.webp",
-        "caption": "Hi, first of all welcome to IIT Bombay! I am Ashutosh Gandhe, the Counselling, Training and Outreach Cabinet Head at SMP. I come from Pune, and am a fourthie in the MEMS department. My hobbies include trekking and cycling. I am a competitive swimmer and a part of the Inter IIT Aquatics team. Always up for a chat about maths, sports and TV shows. Feel free to reach out any time!"
+        "name": "Adwait Shelke",
+        "link": "/team_images 2026-27/Adwait_Shelke.webp",
+        "caption": "Hey y'all, Congrats on making it to this wonderful place. I'm Adwait, a big fan of exploring, trying out new habits, die-hearted Coffee-Head, always up for a quick chat, and a stroll around insti, so even if you don't know me, feel free to come say hai :) May the force be with you!!"
     },
     {
         "designation": "ELP Cabinet Head",
@@ -27,9 +27,9 @@ export const teamData = [
     },
     {
         "designation": "ELP Cabinet Head",
-        "name": "Ayush Jaiswal",
-        "link": "/team_images/Ayush_Jaiswal.webp",
-        "caption": "Often found indulging in cricket, photography, and stargazing sessions in between exam chaos. Excited to be part of your IITB journey and always around if you need a hand!"
+        "name": "Samriddhi Kedia",
+        "link": "/team_images 2026-27/Samriddhi_Kedia.webp",
+        "caption": "I'm a third-year student in the MEMS department. I love reading, writing and dancing."
     },
     {
         "designation": "Academic and DAMP Cabinet Head (ACDC)",
@@ -57,21 +57,21 @@ export const teamData = [
     },
     {
         "designation": "Chemical DAMPC",
-        "name": "Varun Ram Narayanan",
-        "link": "/team_images/Varun_Ram_Narayanan.webp",
-        "caption": "Resourceful, numbers-driven enthusiast and keen sportsman. Consider me your go-to for information about literally anything campus-related."
+        "name": "Vivaan Shah",
+        "link": "/team_images 2026-27/Vivaan_Shah.webp",
+        "caption": "I’m Vivaan and I’m the DAMP-C for the chemical department. I’m from Bombay itself (will not accept any city as superior) and I love football, music, geography and psychology (a lot). I hate introductions and I love good conversations. I also hated POR’s but look at me now I guess."
     },
     {
         "designation": "Chemistry DAMPC",
-        "name": "Jasmine Kaur Multani",
-        "link": "/team_images/Jasmin_Kaur_Multani.webp",
-        "caption": "Hey! I’m Jasmine Kaur Multani, a third-year undergrad from the Chemistry department. I’m someone who’s always curious to learn new things, whether it’s diving into a random research topic or picking up a new skill. I play squash, strum the guitar occasionally, and enjoy conversations that make me think. I like exploring beyond academics and believe college is the best time to try, fail, and figure things out."
+        "name": "Gaurav Kumar",
+        "link": "/team_images 2026-27/Gaurav_Kumar.webp",
+        "caption": "Usually found juggling too many things at once, but always up for a conversation."
     },
     {
         "designation": "Civil DAMPC",
-        "name": "Arnav Dhamankar",
-        "link": "/team_images/Arnav_Dhamankar.webp",
-        "caption": "Hey, I'm Arnav Dhamankar. I love rockets and football. Feel free to hit me up for debates on these topics, I'll keep you occupied for hours"
+        "name": "Vivaan Jain",
+        "link": "/team_images 2026-27/Vivaan_Jain.webp",
+        "caption": "Hey guys, Vivaan Jain this side ! Born and brought up in Mumbai, I’ve spent pretty much my entire life here (college weekends included). I am quite enthusiastic and inquisitive by nature (a fancy word for being a bore) and am always down for any plan. I’d describe myself as an extroverted person that loves meeting new people, having conversations, and getting to know more about them. If you get me talking about something I’m interested in, there’s a good chance I’ll keep yapping for a while. In my free time, I enjoy playing the guitar, football (die-hard Chelsea fan, so I’ve built quite a bit of emotional resilience over the years), exploring new restaurants (certified foodaholic) and reading books. Warning : I can spend hours talking about finance, economics, geopolitics, and anything remotely interesting as I look forward to building a career in that space. Looking forward to interacting with y’all and having a rocking tenure together! :)"
     },
     {
         "designation": "Civil DAMPC",
@@ -87,9 +87,9 @@ export const teamData = [
     },
     {
         "designation": "Computer Science DAMPC",
-        "name": "Tanishka Kabra",
-        "link": "/team_images/Tanishka_Kabra.webp",
-        "caption": "I am Tanishka Kabra, a UG 4th year student in the Computer Science and Engineering Department. Born and brought up in Ahmedabad, Gujarat, I like to roam the campus streets at night."
+        "name": "Jigyasa Chouhan",
+        "link": "/team_images 2026-27/Jigyasa_Chouhan.webp",
+        "caption": "Can recognise any Taylor Swift song from its first 3 seconds"
     },
     {
         "designation": "Economics DAMPC",
@@ -117,9 +117,9 @@ export const teamData = [
     },
     {
         "designation": "Energy DAMPC",
-        "name": "S.S. Gayathri",
-        "link": "/team_images/Gayathri_S_S.webp",
-        "caption": "Hey! This is S.S.Gayathri, a final year student of the Energy dept and of course, the current DAMPC. I love reading story books (especially crime novels ). I love sketching and painting(To be noted- not good at portraits ). I am also a person who loves a good series/anime(that is just a nonchalant way of saying that I watch English series/anime way too much). Jokes apart, am a very welcoming, fun person, feel free to reach out anytime :)"
+        "name": "Vedant Umesh Bagde",
+        "link": "/team_images 2026-27/Vedant_Umesh_Bagde.webp",
+        "caption": "Heading into my final year of college, I’m still figuring out how to manage my time. When I’m not procrastinating, you’ll probably find me reading a crime or mystery novel, watching anime or sci-fi shows, or getting lost in a good poem or shayari that happens to show up on my feed. I’m always up for deep conversations, long walks around campus, and falling down random rabbit holes on the internet. I also spend a surprising amount of time chatting with LLMs, part curiosity, part research, and part avoiding actual work. Despite all these interests, a significant portion of my screen time is still sacrificed to reels and whatever the latest brainrot trend happens to be. It’s a work in progress."
     },
     {
         "designation": "Engineering Physics DAMPC",
@@ -132,6 +132,12 @@ export const teamData = [
         "name": "Shresth Anand",
         "link": "/team_images 2026-27/Shresth_Anand.webp",
         "caption": "My name is Shresth, final year undergraduate in Environmental Science and Engineering department. I enjoy good conversations, spontaneous plans and playing basketball. Currently working on becoming the kind of person my LinkedIn bio claims I am."
+    },
+    {
+        "designation": "IEOR and Applied Geophysics DAMPC",
+        "name": "Khushi Taxak",
+        "link": "/team_images 2026-27/Khushi_Taxak.webp",
+        "caption": "UG at Electrical engineering department. Love to explore new things and learning life on the go."
     },
     {
         "designation": "Mathematics DAMPC",
@@ -165,14 +171,14 @@ export const teamData = [
     },
     {
         "designation": "Web Nominee",
-        "name": "Aryan Badkul",
-        "link": "/team_images/Aryan_Badkul.webp",
-        "caption": "Hi and welcome! I’m a tech enthusiast who loves diving into code, playing badminton and cricket, and getting lost in anime. Feel free to reach out!"
-    },
-    {
-        "designation": "Web Nominee",
         "name": "Tanmay Sonkar",
         "link": "/team_images 2026-27/Tanmay_Sonkar.webp",
         "caption": "Hi, I am Tanmay. I am a tech enthusiast definitely but I don't stop there, in my free time I dive deep into psychology, history and even geopolitics. Apart from that I love taking random walks in the insti and going to the gym. Hit me up if you wish to reach out, happy to help anytime. :)"
+    },
+    {
+        "designation": "Web Nominee",
+        "name": "Arnav Oza",
+        "link": "/team_images 2026-27/Arnav_Oza.webp",
+        "caption": "Hello there, I’m Arnav, I play keys and absolutely love music and watching movies. You’ll find me either in the music room or the gym, always open for a match of cricket or badminton as well :)"
     }
 ]

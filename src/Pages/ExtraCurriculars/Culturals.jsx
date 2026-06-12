@@ -20,7 +20,7 @@ const Culturals = () => {
         <p className="mb-4">
             At the Institute level, the scene is governed by the Institute Cultural Council, headed by the General Secretary of Cultural Affairs. Working with him are 8 Institute Secretaries, for the aforementioned 10 genres. Each secretary is the head of the club(s) under his/her domain. Also, at the hostel level, each hostel has a Cultural Councilor along with a secretary for each of the genres. The incoming freshers are pre allocated to the hostels they are going into the next year and they represent their senior hostels throughout the year.
         </p>
-        <h2 className="text-lg font-medium mb-2 p-0">Freshizza</h2>
+        <h2 className="text-xl font-semibold mb-2 p-0">Freshiezza</h2>
         <p className="mb-4">
             The most important cultural event of your first semester here is Freshiezza, the inter-hostel freshmen cultural competition. Usually held in 2 phases over the first semester, Freshiezza is where you battle it out for hostel glory in a host of events from all areas of the cult sphere and explore what insti ‘cult’ has to offer for you. Do participate, if you can, or else at least come and cheer your hostel on. Stay back that weekend, we guarantee you won't regret it.
         </p>
@@ -160,7 +160,7 @@ const Culturals = () => {
 
         <h2 className="text-lg font-semibold mb-2 p-0">Fashion Club – Style Up</h2>
         <p className="mb-4">
-            Style Club, IIT Bombay is a fashion-focused club under the Institute Cultural Council, promoting self-expression through modelling, styling, and runway culture.
+            Style Up Club, IIT Bombay is a fashion-focused club under the Institute Cultural Council, promoting self-expression through modelling, styling, and runway culture.
             Its flagship event, Showstopper, showcases fashion through performance. Other key events include Mr. and Miss Freshie, Glamour Grandé, and Halloween, the General Championship inter-hostel costume showcase.
             <br /><br />
             <span className="font-medium">Connect to Style Up:</span>
