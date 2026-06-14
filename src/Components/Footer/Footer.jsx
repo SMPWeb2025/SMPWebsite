@@ -114,7 +114,7 @@ function Footer() {
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/gymkhana" className="nav-link p-0 ">
-                    Gymkhana
+                    Sports
                   </Link>
                 </li>
                 <li className="nav-item mb-2">

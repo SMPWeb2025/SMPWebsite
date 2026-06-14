@@ -3,12 +3,11 @@ import navData from "../sideNavData.json";
 
 const Gymkhana = () => {
     const content = (<>
-        <h1 className="text-4xl font-bold mb-5">Gymkhana</h1>
+        <h1 className="text-4xl font-bold mb-5">Sports</h1>
         <p className="mb-4">
             The student community at IITB is an active and thriving one. The development and management of all student activities comes under the purview of Students' Gymkhana. It is instrumental in identifying student issues and promoting discussion on them. It functions as the office for all elections and nominations of students for gymkhana activities. There are several student bodies that work under the aegis of the Gymkhana.
         </p>
-
-        <h1 className="text-4xl font-bold mb-5">Sports</h1>
+        
         <h2 className="text-xl font-bold mb-2">Introduction</h2>
         <p className="mb-4">
             Excellence in sports is a direct index of the stature and intellectual maturity of an institute. IIT Bombay has always aimed to set a precedent for other institutions by laying utmost emphasis on the multifaceted development of its students and pushing them to raise the bar by striving to be ‘Citius, Altius, Fortius’. With a deeply ingrained sports culture and the ‘Right of Sports for all’ as a cornerstone of its Sports policy, the institute has, over the years, channelized its resources towards the development of a state of the art sporting complex that caters to over fourteen sports. All the facilities are helmed by seasoned training staff so that even beginners have a beautiful chance to learn the craft and their more experienced counterparts can receive the requisite guidance.
@@ -22,21 +21,24 @@ const Gymkhana = () => {
             <div className="grid grid-cols-2">
                 <span className="border-t-1 border-gray-400 p-1">AQUATICS</span>
                 <span className="border-t-1 border-gray-400 p-1">ATHLETICS</span>
-                <span className="border-t-1 border-gray-400 p-1">BADMINToN</span>
+                <span className="border-t-1 border-gray-400 p-1">BADMINTON</span>
                 <span className="border-t-1 border-gray-400 p-1">BASKETBALL</span>
                 <span className="border-t-1 border-gray-400 p-1">BOARD GAMES</span>
                 <span className="border-t-1 border-gray-400 p-1">CRICKET</span>
                 <span className="border-t-1 border-gray-400 p-1">FOOTBALL</span>
                 <span className="border-t-1 border-gray-400 p-1">HOCKEY</span>
-                <span className="border-t-1 border-gray-400 p-1">KHO KHO</span>
+                <span className="border-t-1 border-gray-400 p-1">INDIAN GAMES</span>
                 <span className="border-t-1 border-gray-400 p-1">LAWN TENNIS</span>
                 <span className="border-t-1 border-gray-400 p-1">SQUASH</span>
                 <span className="border-t-1 border-gray-400 p-1">TABLE TENNIS</span>
                 <span className="border-t-1 border-gray-400 p-1">VOLLEYBALL</span>
                 <span className="border-t-1 border-gray-400 p-1">WEIGHTLIFTING</span>
-                <span className="border-t-1 border-gray-400 p-1">ADVENTURE SPORTS</span>
-                <span className="border-t-1 border-gray-400 p-1">DARK KNIGHT (CHESS)</span>
-                <span className="border-t-1 border-b-1 border-gray-400 p-1">FITNESS CLUB</span>
+                <span className="border-t-1 border-gray-400 p-1">ADVENTURE CLUB</span>
+                <span className="border-t-1 border-gray-400 
+                p-1">DARK KNIGHT (CHESS CLUB)</span>
+                <span className="border-t-1 border-gray-400 p-1">RUBIK'S CLUB</span>
+                <span className="border-t-1 border-gray-400 p-1">ULTIMATE FRISBEE CLUB</span>
+                <span className="border-t-1 border-b-1 border-gray-400 p-1">YOGASTHA (YOGA CLUB)</span>
                 <span className="border-t-1 border-gray-400 p-1"></span>
             </div>
             

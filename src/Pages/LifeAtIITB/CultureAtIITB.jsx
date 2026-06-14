@@ -7,20 +7,17 @@ const CultureAtIITB = () => {
       <h1 className="text-4xl font-bold mb-5">Hostel Culture</h1>
       <h2 className="text-xl font-bold mb-2">Hostel Allocation</h2>
       <p className="mb-4">
-        Room allotment for first year students are done in following manner :
+        Room allotment for first year students will be done in following manner this year :
       </p>
       <p className="mb-4">
-        For Boys – Students will be allotted either Hostel 1 Hostel 16.
+        For Boys – Students will be allotted either Hostel 15 or Hostel 16. <br/>
+        For Girls – A separate wing of Hostel 16 (Hostel 16C) is allotted to girls. 
         <ul className="list-disc ml-6 mb-4">
-          <li>Hostel 1: It has 4 wings, each with approximately 12 rooms. Each room will be shared by 2 students.</li>
-          <li>Hostel 16: On each floor, there are three subsections (also called wings!) – each wing has 6 rooms, each of which will be shared by 2 students.</li>
+          <li>Hostel struture: On each floor, there are three subsections (called wings) – each wing has 6 rooms, each of which will be shared by 2 students.</li>
         </ul>
-        For Girls – A separate wing of Hostel 16 (Hostel 16C) is allotted to girls, again on a twin-sharing basis.
-
-
       </p>
       <p className="mb-4">
-        You get the room right when you reach IIT Bombay (on the day of registrations i.e. 20th July 2025), after arriving and noting down your details in the hostel warden’s office.
+        You get the room right when you reach IIT Bombay (on the day of registrations i.e. 20th July 2026), after arriving and noting down your details in the hostel warden’s office.
       </p>
         <h2 className="text-xl font-bold mb-2">Basic Amenities</h2>
       <p className="mb-4">
@@ -28,7 +25,7 @@ const CultureAtIITB = () => {
       </p>
       <h2 className="text-xl font-bold mb-2">Hostel/Room Change</h2>
       <p className="mb-4">
-        The procedure of shifting rooms basically goes through the warden of the hostel through a written application citing the reasons for the change. It will be a great experience to have a new guy as a roommate which will eventually help you in making new friends which you'll cherish for your life. Though, definitely if both of you agree, it will make things easier.
+        The procedure of shifting rooms basically goes through the warden of the hostel through a written application citing the reasons for the change. It will be a great experience to have a new person as a roommate which will eventually help you in making new friends which you'll cherish for your life. Though, definitely if both of you agree, it will make things easier.
       </p>
       <h2 className="text-xl font-bold mb-2">Rules for visitors</h2>
       <p className="mb-4">

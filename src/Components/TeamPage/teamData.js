@@ -33,15 +33,21 @@ export const teamData = [
     },
     {
         "designation": "Academic and DAMP Cabinet Head (ACDC)",
+        "name": "Diya Sharma",
+        "link": "/team_images 2026-27/Diya_Sharma.webp",
+        "caption": "Hii, I am Diya 🪔, a very ‘chill hai’ and ‘just happy to be here’ type of a person. I like collecting stickers, taking long walks, and having jamun juice. Feel free to approach me anytime! ⚡️"
+    },
+    {
+        "designation": "Academic and DAMP Cabinet Head (ACDC)",
         "name": "Aagam Kasaliwal",
         "link": "/team_images 2026-27/Aagam_Kasaliwal.webp",
         "caption": "Hey, I’m Aagam from Nashik. Big fan of football, sitcoms (name one, I've seen it), and constantly picking up new hobbies. Always learning, always exploring, and hoping to keep it that way!"
     },
     {
         "designation": "Aerospace DAMPC",
-        "name": "Ayush Singh",
-        "link": "/team_images/Ayush_Singh.webp",
-        "caption": ""
+        "name": "Krupa Pai",
+        "link": "/team_images 2026-27/Krupa_Pai.webp",
+        "caption": "Hello everyone! I'm Krupa Pai. I have lived in Mumbai all my life but don't assume i know the routes or great places to go to. I love singing and dancing but please don't ask me to perform randomly. I absolutely love listening to songs and dramatizing my life according to them. I also play the guitar. If I'm around, there'll always be someone laughing at your jokes,even the lame ones. "
     },
     {
         "designation": "Aerospace DAMPC",
@@ -71,13 +77,13 @@ export const teamData = [
         "designation": "Civil DAMPC",
         "name": "Vivaan Jain",
         "link": "/team_images 2026-27/Vivaan_Jain.webp",
-        "caption": "Hey guys, Vivaan Jain this side ! Born and brought up in Mumbai, I’ve spent pretty much my entire life here (college weekends included). I am quite enthusiastic and inquisitive by nature (a fancy word for being a bore) and am always down for any plan. I’d describe myself as an extroverted person that loves meeting new people, having conversations, and getting to know more about them. If you get me talking about something I’m interested in, there’s a good chance I’ll keep yapping for a while. In my free time, I enjoy playing the guitar, football (die-hard Chelsea fan, so I’ve built quite a bit of emotional resilience over the years), exploring new restaurants (certified foodaholic) and reading books. Warning : I can spend hours talking about finance, economics, geopolitics, and anything remotely interesting as I look forward to building a career in that space. Looking forward to interacting with y’all and having a rocking tenure together! :)"
+        "caption": "Hey guys, Vivaan Jain here ! Born and brought up in Mumbai, I’ve spent pretty much my entire life here (college weekends included). I enjoy meeting new people, building connections, and learning from their experiences. In my free time, I enjoy playing football (die-hard Chelsea fan, hence the emotional resilience), exploring new restaurants (certified foodaholic) and reading books. Warning : I can spend hours yapping about finance, economics and geopolitics as I look forward to building a career in that domain. Looking forward to having a memorable tenure ahead ! :)"
     },
     {
         "designation": "Civil DAMPC",
-        "name": "Rishi Naik",
-        "link": "/team_images/Rishi_Naik.webp",
-        "caption": "Avid Reader! Always up for chat on Cricket, Investing and Philosophy."
+        "name": "Jinay Vora",
+        "link": "/team_images 2026-27/Jinay_Vora.webp",
+        "caption": "Mumbai-born, sports-loving, and Gujarati enough to always have snacks on me. You’ll probably find me anywhere except my room.I’m convinced that the best mentorship happens over a casual chat, preferably with an H16-Dhun brownie in hand. Feel free to reach out for anything - from academics to completely unserious matters :)"
     },
     {
         "designation": "Computer Science DAMPC",
@@ -93,9 +99,9 @@ export const teamData = [
     },
     {
         "designation": "Economics DAMPC",
-        "name": "Anoushka Singh",
-        "link": "/team_images/Anoushka_Singh.webp",
-        "caption": "I'm Anoushka Singh, the DAMP Coordinator of Economics Department. Outside academics, you'll often find me dancing, singing, or just enjoying meaningful conversations. I genuinely enjoy being there for people—whether it's helping you navigate college life or simply being someone to talk to after a long day.\n As you begin this new chapter, know that you're not alone. I’m just a message away—count on me (like 1, 2, 3 🎶) whenever you need support, guidance, or a friendly chat!"
+        "name": "Aarushi Shah",
+        "link": "/team_images 2026-27/Aarushi_Shah.webp",
+        "caption": "Heyy guys, I am Aarushi, a certified Mumbaikar, part-time napper and full-time garba paglu. Think of me as your go-to person for doubts, banter, random reel sharing or deep 2 AM conversations :))"
     },
     {
         "designation": "Economics DAMPC",
@@ -119,7 +125,7 @@ export const teamData = [
         "designation": "Energy DAMPC",
         "name": "Vedant Umesh Bagde",
         "link": "/team_images 2026-27/Vedant_Umesh_Bagde.webp",
-        "caption": "Heading into my final year of college, I’m still figuring out how to manage my time. When I’m not procrastinating, you’ll probably find me reading a crime or mystery novel, watching anime or sci-fi shows, or getting lost in a good poem or shayari that happens to show up on my feed. I’m always up for deep conversations, long walks around campus, and falling down random rabbit holes on the internet. I also spend a surprising amount of time chatting with LLMs, part curiosity, part research, and part avoiding actual work. Despite all these interests, a significant portion of my screen time is still sacrificed to reels and whatever the latest brainrot trend happens to be. It’s a work in progress."
+        "caption": "Heading into my final year of college, I'm still figuring out how to manage my time. When I'm not procrastinating, you'll probably find me reading crime or mystery novels, watching anime or sci-fi shows, or getting lost in a good poem or shayari. I'm always up for deep conversations, long walks around campus, and random internet rabbit holes. I also spend a fair amount of time chatting with LLMs, and, despite all this, an alarming amount of my screen time still goes to reels and the latest brainrot trends."
     },
     {
         "designation": "Engineering Physics DAMPC",
@@ -165,9 +171,9 @@ export const teamData = [
     },
     {
         "designation": "MEMS DAMPC",
-        "name": "Debashish Das",
-        "link": "/team_images/Debashish_Das.webp",
-        "caption": "Hey guys! I'm Debashish. A bengoli from Jaipur (no I can't do black magic), with a really broken humor. I like playing the piano, and just like keeping myself busy with the most random things, sometimes I run and alsoo a big Ferrari fan, and an anime nerd. Feel free to reach out to me!"
+        "name": "Rupanshi Vijayvargiya",
+        "link": "/team_images 2026-27/Rupanshi_Vijayvargiya.webp",
+        "caption": " "
     },
     {
         "designation": "Web Nominee",
