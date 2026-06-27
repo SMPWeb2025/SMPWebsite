@@ -128,7 +128,7 @@ const getDropdownItems = (section, closeMobileMenu, language) => {
       { text: "Semester-Exchange", link: "/academics/semester-exchange" },
     ],
     "Extra Curriculars": [
-      { text: "Gymkhana", link: "/extra-curriculars/gymkhana" },
+      { text: "Sports", link: "/extra-curriculars/gymkhana" },
       { text: "Culturals", link: "/extra-curriculars/culturals" },
       { text: "Media", link: "/extra-curriculars/media" },
       { text: "Technical Affairs", link: "/extra-curriculars/technical-affairs" },

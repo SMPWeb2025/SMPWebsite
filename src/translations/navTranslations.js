@@ -25,6 +25,7 @@ export const dropdownTranslations = {
   "Extra Curriculars": {
     "Gymkhana": "जिमखाना",
     "Culturals": "सांस्कृतिक गतिविधियाँ",
+    "Sports": "खेल",
     "Media": "मीडिया",
     "Technical Affairs": "तकनीकी मामले",
     "Institute Bodies": "संस्थान की संस्थाएँ",
@@ -65,6 +66,7 @@ export const sidebarTranslations = {
   "IDDDP": "IDDDP",
   "Semester Exchange": "सेमेस्टर विनिमय",
   "Gymkhana": "जिमखाना",
+  "Sports": "खेल",
   "Culturals": "सांस्कृतिक गतिविधियाँ",
   "Media": "मीडिया",
   "Technical Affairs": "तकनीकी मामले",

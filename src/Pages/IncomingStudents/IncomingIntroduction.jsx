@@ -20,11 +20,11 @@ const IncomingIntroduction = () => {
         Before you begin exploring, we urge you to visit the official website of IIT Bombay which covers important official information for prospective students: <Link to="https://www.iitb.ac.in/admissions/why-iitb" className="text-blue-600 hover:underline p-0!" target="_blank">Why IITB?</Link>
     </p>
     <p className="mb-4">
-        We hope this website gives you some clarity. In case of any doubts or concerns, feel free to email us on <Link to="mailto:smpcs2025@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2025@gmail.com</Link> and we will reply to you as soon as possible. Our team is always there to assist you and you can visit <Link to="/about/team" className="text-blue-600 hover:underline p-0!">this page</Link> to access our contact information.
+        We hope this website gives you some clarity. In case of any doubts or concerns, feel free to email us on <Link to="mailto:smpcs2026@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2026@gmail.com</Link> and we will reply to you as soon as possible. Our team is always there to assist you and you can visit <Link to="/about/team" className="text-blue-600 hover:underline p-0!">this page</Link> to access our contact information.
     </p>
     <p className="mb-4">Happy exploring!</p>
     <p className="mb-4">Warm Regards</p>
-    <p className="mb-4"><b>Sara Atnoorkar | Amritansh Joshi</b><br /><b>Overall Coordinators, Student Mentor Program, IIT Bombay</b>
+    <p className="mb-4"><b>Ojas Joshi | Dev Arora</b><br /><b>Overall Coordinators, Student Mentor Program, IIT Bombay</b>
     </p>
     <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
     <iframe
@@ -55,11 +55,11 @@ const IncomingIntroduction = () => {
         अन्वेषण शुरू करने से पहले, हम आपसे आग्रह करते हैं कि IIT बॉम्बे की आधिकारिक वेबसाइट देखें: <Link to="https://www.iitb.ac.in/admissions/why-iitb" className="text-blue-600 hover:underline p-0!" target="_blank">IIT बॉम्बे क्यों?</Link>
     </p>
     <p className="mb-4">
-        हम आशा करते हैं कि यह वेबसाइट आपको कुछ स्पष्टता देगी। किसी भी संदेह या चिंता के मामले में, हमें <Link to="mailto:smpcs2025@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2025@gmail.com</Link> पर ईमेल करें और हम जल्द से जल्द उत्तर देंगे। हमारी टीम हमेशा आपकी सहायता के लिए उपलब्ध है और हमारी संपर्क जानकारी के लिए <Link to="/about/team" className="text-blue-600 hover:underline p-0!">यह पृष्ठ</Link> देखें।
+        हम आशा करते हैं कि यह वेबसाइट आपको कुछ स्पष्टता देगी। किसी भी संदेह या चिंता के मामले में, हमें <Link to="mailto:smpcs2026@gmail.com" className="text-blue-600 hover:underline p-0!" target="_blank">smpcs2026@gmail.com</Link> पर ईमेल करें और हम जल्द से जल्द उत्तर देंगे। हमारी टीम हमेशा आपकी सहायता के लिए उपलब्ध है और हमारी संपर्क जानकारी के लिए <Link to="/about/team" className="text-blue-600 hover:underline p-0!">यह पृष्ठ</Link> देखें।
     </p>
     <p className="mb-4">खुशी से अन्वेषण करें!</p>
     <p className="mb-4">सादर,</p>
-    <p className="mb-4"><b>सारा अत्नूरकर | अमृतांश जोशी</b><br /><b>समग्र समन्वयक, स्टूडेंट मेंटर प्रोग्राम, IIT बॉम्बे</b>
+    <p className="mb-4"><b>Ojas Joshi | Dev Arora</b><br /><b>समग्र समन्वयक, स्टूडेंट मेंटर प्रोग्राम, IIT बॉम्बे</b>
     </p>
     <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
     <iframe

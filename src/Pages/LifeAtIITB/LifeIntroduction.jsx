@@ -25,7 +25,7 @@ const LifeIntroduction = () => {
       <p className="mb-4">For more information, you can contact:</p>
       <p className="mb-4">
         <b>
-        Abhay Pratap Singh<br/>
+        Aditya Adinath Joshi<br/>
         General Secretary, Hostel Affairs (GSHA)<br/>
         Indian Institute of Technology, Bombay<br/>
         <a style={{padding: '0'}} href="mailto:gsecha@iitb.ac.in" className="text-blue-600 underline">gsecha@iitb.ac.in</a><br/>
@@ -68,7 +68,7 @@ const LifeIntroduction = () => {
       <p className="mb-4">अधिक जानकारी के लिए संपर्क करें:</p>
       <p className="mb-4">
         <b>
-        अभय प्रताप सिंह<br/>
+        आदित्य आदिनाथ जोशी<br/>
         महासचिव, हॉस्टल मामले (GSHA)<br/>
         भारतीय प्रौद्योगिकी संस्थान, बॉम्बे<br/>
         <a style={{padding: '0'}} href="mailto:gsecha@iitb.ac.in" className="text-blue-600 underline">gsecha@iitb.ac.in</a><br/>

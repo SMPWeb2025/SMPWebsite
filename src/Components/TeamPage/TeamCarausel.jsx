@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import PixelTransition from './PixelTransition';
+import TeamCard from './TeamCard';
 
 const TeamCarousel = ({ teamData }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -218,34 +219,7 @@ const TeamCarousel = ({ teamData }) => {
                         className="carousel-item md:w-[22rem] w-[16rem] h-[25rem] md:p-6 p-2" 
                         key={member.name}
                     >
-                        <div className="card rounded-2xl shadow-lg shadow-gray-500 w-full h-full border-2 border-black">
-                            <PixelTransition
-                                firstContent={
-                                    <figure className="h-full">
-                                        <img
-                                            loading='lazy'
-                                            src={member.link}
-                                            alt={member.name}
-                                            className="object-cover w-full h-full"
-                                        />
-                                    </figure>
-                                }
-                                secondContent={
-                                    <div className="w-full h-full grid place-items-center bg-[#111]">
-                                        <p className="text-center md:text-sm h-full text-white p-4 flex items-center text-[12px] italic">
-                                            "{member.caption}"
-                                        </p>
-                                    </div>
-                                }
-                                gridSize={12}
-                                pixelColor='#ffffff'
-                                animationStepDuration={0.2}
-                            />
-                            <div className="card-body">
-                                <h2 className="card-title text-center justify-center">{member.name}</h2>
-                                <p className="text-center">{member.designation}</p>
-                            </div>
-                        </div>
+                        <TeamCard member={member} />
                     </div>
                 ))}
             </div>

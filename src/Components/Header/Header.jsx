@@ -46,7 +46,8 @@ function Header() {
           <h1 className="font-bold mt-10 md:mt-20 lg:text-6xl md:text-6xl text-2xl">{t.title}</h1>
           <h3 className="w-3/4 mx-auto text-sm md:text-2xl">
             {t.subtitle}{" "}
-            <a style={{padding: 0, fontWeight: 'bold'}} className="hover-underline text-blue-600" href="mailto:smpcs2025@gmail.com">smpcs2025@gmail.com</a>.
+            <a 
+              style={{padding: 0, fontWeight: 'bold'}} className="hover-underline text-blue-600" href="mailto:smpcs2026@gmail.com"> smpcs2026@gmail.com</a>
           </h3>
         </div>
         <div className="headersmpBtn">

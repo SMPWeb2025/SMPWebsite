@@ -9,73 +9,250 @@ const Culturals = () => {
     const content = (<>
         <h1 className="text-4xl font-bold mb-5">Culturals</h1>
         <p className="mb-4">
-            So you thought it was all about academics? Wrong! IITB is privileged to have one of the best cultural scenes among engineering colleges in India. Apart from hosting Mood Indigo, India's biggest college cultural festival, we have a very active intra-college scene with genre-specific clubs and plenty of hostel and insti-level events all year round.
+            So you thought it was all about academics? Wrong! IITB is privileged to have one of the best cultural (or 'cult') scenes among engineering colleges in India. Apart from hosting Mood Indigo, India's biggest college cultural festival, we have a very active intra-college scene, with genre specific clubs and plenty of hostel and insti-level events all year round. The scene is basically split into <b>10 genres</b>: Music, Photography & Fine Arts (PFA), Speaking/Debating & Comedic Arts, Literary Arts, Photography & Fine Arts, Dance, Dramatics, Film & Media, Indian Languages, Fashion Design and Classical & Folk Arts.
+        </p>
+        <p className="mb-4">
+            Follow all the updates here: <br />
+            Webpage: <a className="text-blue-600 hover:underline" style={{ padding: '0' }} target="_blank" href="https://gymkhana.iitb.ac.in/~culturals/">https://gymkhana.iitb.ac.in/~culturals/</a><br />
+            Facebook Page : <a className="text-blue-600 hover:underline" style={{ padding: '0' }} target="_blank" href="https://facebook.com/IITBCult">https://facebook.com/IITBCult</a>
         </p>
         <h2 className="text-xl font-bold mb-2">Structure</h2>
         <p className="mb-4">
-            At the Institute level, the scene is governed by the Institute Cultural Council, headed by the General Secretary of Cultural Affairs.
+            At the Institute level, the scene is governed by the Institute Cultural Council, headed by the General Secretary of Cultural Affairs. Working with him are Institute Secretaries, for the aforementioned 11 genres. Each secretary is the head of the club(s) under his/her domain. Also, at the hostel level, each hostel has a Cultural Councilor along with a secretary for each of the genres. The incoming freshers are pre allocated to the hostels they are going into the next year and they represent their senior hostels throughout the year.
         </p>
-        <h2 className="text-lg font-medium mb-2 p-0">Freshizza</h2>
+        <h2 className="text-xl font-semibold mb-2 p-0">Freshiezza</h2>
         <p className="mb-4">
-            The most important cultural event of your first semester is Freshiezza, the inter-hostel freshmen cultural competition, usually held in 2 phases over the first semester.
+            The most important cultural event of your first semester here is Freshiezza, the inter-hostel freshmen cultural competition. Usually held in 2 phases over the first semester, Freshiezza is where you battle it out for hostel glory in a host of events from all areas of the cult sphere and explore what insti ‘cult’ has to offer for you. Do participate, if you can, or else at least come and cheer your hostel on. Stay back that weekend, we guarantee you won't regret it.
         </p>
         <h2 className="text-xl font-bold mb-2">Cultural Clubs</h2>
-        <h2 className="text-lg font-semibold mb-2 p-0">Literary Arts: Literati</h2>
-        <p className="mb-4">Quizzes, Creative writing, Rebuses, Blogs and Word Games all fall under the reign of Literati.
-            <div className="flex items-center mt-1">
+        
+        <h2 className="text-lg font-semibold mb-2 p-0">Literati - The Literary Arts Club</h2>
+        <p className="mb-4">Quizzes, Creative writing, Rebuses, Blogs and Word Games all fall under the reign of Literati. GC Event: General quiz, Mixed Bag GC, Word Games GC, Wolf Pack GC <br /><br />
+
+            <span className="font-medium">Connect to Literati:</span>
+            <div className="flex items-center">
                 <a href="https://www.instagram.com/literati_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.insti.app/org/literati" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
                 <a href="https://www.insti.app/org/literati" target="_blank"><img src={instiiAppLogo} alt="Literati" /></a>
             </div>
         </p>
-        <h2 className="text-lg font-semibold mb-2 p-0">Dramatics: Fourth Wall</h2>
-        <p className="mb-4">Stage Plays, Streetplays, Mime, monoact and other genres.
-            <div className="flex items-center mt-1">
+
+        <h2 className="text-lg font-semibold mb-2 p-0">WeSpeak - The Debate Club</h2>
+        <p className="mb-4">WeSpeak is IIT Bombay’s official speaking arts club, with a predominant focus on British Parliamentary debating. From hosting sessions to regular practice drills (which we call as ‘spars’), WeSpeak encourages people from all domains to take part in debating. WeSpeak’s legacy speaks for itself. The club has consistently proven its mettle through various achievements at all levels; from winning major competitions (SLSPD, GLCPD, IITM-PD to name a few) in the Indian circuit, to having the very first Indian teams at the World Finals consistently for two years in a row, WeSpeak has a reputation of honing and harnessing the best of debaters. <br /><br />
+            <span className="font-medium">Connect to WeSpeak:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/wespeakiitb/"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/groups/wespeak.iitb/"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://gymkhana.iitb.ac.in/instiapp/org/we-speak" target="_blank"><img src={instiiAppLogo} alt="Literati" /></a>
+            </div>
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">FourthWall - The Dramatics Club</h2>
+        <p className="mb-4">
+            Stage Plays, Streetplays, Mime, monoact and other genres are the strengths of the club. The spotlight is grabbed by the TheatreFest, AnnProd and Sophieprod. GC events: Main Dramatics General Championship and Street Play General Championship.
+            <br /><br />
+            <span className="font-medium">Connect to Fourth Wall:</span>
+            <div className="flex items-center">
+                <a href="https://fourthwalliitb.wordpress.com/" target="_blank"><FontAwesomeIcon icon={faSquareArrowUpRight} size="lg" /></a>
                 <a href="https://www.facebook.com/IITBombay.fourthwall/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
                 <a href="https://www.insti.app/org/fourthwall" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
             </div>
         </p>
-        <h2 className="text-lg font-semibold mb-2 p-0">Music: Symphony</h2>
-        <p className="mb-4">Symphony organises large scale music events, music learning programs and represents IIT Bombay in multiple intercollege competitions.
-            <div className="flex items-center mt-1">
+        <h2 className="text-lg font-semibold mb-2 p-0">Symphony - The Music Club</h2>
+        <p className="mb-4">
+            Symphony has one of the most active communities in insti. They organise large scale music events, music learning programs and represents IIT Bombay in multiple intercollege competitions. Watch out for Surbahaar - the biggest musical showcase in insti, and Battle of the Bands. GC Event - Goonj
+            <br /><br />
+            <span className="font-medium">Connect to Symphony:</span>
+            <div className="flex items-center">
                 <a href="https://www.instagram.com/symphonyiitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/symphony.iitb" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
                 <a href="https://www.youtube.com/channel/UC5UrEXoJe-xoVgkIlECTMcA" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
             </div>
         </p>
-        <h2 className="text-lg font-semibold mb-2 p-0">Dance: In-Sync</h2>
-        <p className="mb-4">The Annual InSync Dance Show (AIDS), held every January, is the biggest dance showcase in the institute.
-            <div className="flex items-center mt-1">
-                <a href="https://www.instagram.com/insync_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
-                <a href="https://www.insti.app/org/insync" target="_blank"><img src={instiiAppLogo} alt="InSync" /></a>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">SilverScreen - The Film Club</h2>
+        <p className="mb-4">
+            SilverScreen is IIT Bombay’s official filmmaking club and one of the youngest under the Institute Cultural Council. From writing and shooting to editing and direction, we nurture storytellers at every step. The club has consistently dominated Inter-IIT Cultural Meets in Filmmaking, bagging multiple golds while competing with other IITs. Beyond workshops and competitions, we also host our flagship annual showcase “FilmFest” where students screen their original films. GC Event: Filmmaking Competition
+            <br /><br />
+            <span className="font-medium">Connect to Silverscreen:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/silverscreen_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.youtube.com/user/silverscreeniitb" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://www.insti.app/org/silverscreen" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
             </div>
         </p>
-        <h2 className="text-lg font-semibold mb-2 p-0">Vaani</h2>
-        <p className="mb-4">Vaani is IIT Bombay's official Indian languages club. They host monthly open mics in different Indian languages and their flagship event IZHAAR is a 3-day event.
-            <div className="flex items-center mt-1">
+
+        <h2 className="text-lg font-semibold mb-2 p-0">InSync - The Dance Club</h2>
+        <p className="mb-4">
+            The Annual InSync Dance Show (AIDS), held every January, is the biggest dance showcase in the institute and an event you don’t want to miss. And if that’s not enough, Salsa Night brings everyone together on an open dance floor to enjoy salsa with partners or friends. As one of the largest cultural clubs at IIT Bombay, InSync keeps the institute dancing to every beat <br /><br />
+
+            <span className="font-medium">Connect to In-Sync:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/insync_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/groups/insynciitb/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.youtube.com/channel/UCp0-MwKqWJgJNY81nwLrW0w" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://www.insti.app/org/insync" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+            </div>
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">Vaani - Indian Languages Club</h2>
+        <p className="mb-4">
+            Vaani is IIT Bombay’s official Indian languages club, working under the Institute Cultural Council to bring together students from different language backgrounds. We host monthly open mics in different Indian languages, along with workshops, competitions, and creative events that keep the love for language and expression alive. We also have our flagship event, ‘IZHAAR’, is a 3-day event. It kicks off with our grand Mushaira competition for students, followed by two days of powerful performances by renowned artists inspiring students to create, express, and connect. GC: Kavya sandhya GC
+            <br /><br />
+            <span className="font-medium">Connect to Vaani:</span>
+            <div className="flex items-center">
                 <a href="https://www.instagram.com/vaani_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/vaani.iitb/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.youtube.com/c/VaaniIITBombay" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://vaani380.wordpress.com/" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
                 <a href="https://www.insti.app/org/vaani" target="_blank"><FontAwesomeIcon icon={faSquareArrowUpRight} size="lg" /></a>
             </div>
         </p>
-        <h2 className="text-lg font-semibold mb-2 p-0">Photography and Fine Arts - Rang and Pixels</h2>
-        <p className="mb-4">Rang and Pixels is the official photography and fine arts club of IIT Bombay — a community of visual storytellers who capture the world through lenses, brushes, and bold imagination.
-            <div className="flex items-center mt-1">
-                <a href="https://www.instagram.com/rang_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
-                <a href="https://www.instagram.com/pixels_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">Kava - The Culinary Arts Club</h2>
+        <p className="mb-4">
+            Kava is IIT Bombay’s official culinary club and the youngest club under the Institute Cultural Council. From basic knife skills to plating and presentation, the club helps students explore and develop their culinary abilities. The club has built a vibrant food culture in the institute by hosting events like Lukkha night. We have also represented our college in the Inter-IIT Cultural Meets in Culinary Arts. We also host our annual flagship event “Culinary Night”, where people bond over good food and vibes.
+            <br /><br />
+            <span className="font-medium">Connect to Kava:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/culinaryclub_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/culinaryclubIITB/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
             </div>
         </p>
+
+
+        <h2 className="text-lg font-semibold mb-2 p-0">Rang and Pixels  - The Photography and Fine Arts Club - </h2>
+        <p className="mb-4">
+            Rang and Pixels is the official photography and fine arts club of IIT Bombay. We’re a space where frames meet strokes — a community of visual storytellers who capture the world through lenses, brushes, and bold imagination. From street shoots and studio portraits to charcoal sketches and watercolor abstracts, the club brings together artists from across disciplines. Over the years, Rang and Pixels has carved a name for itself at Inter-IIT Cultural Meets. One of our most iconic events is Road Painting, which transforms the campus streets into a vibrant canvas and draws the highest footfall during the cultural season. Apart from workshops and photowalks, we also curate our annual exhibition — Kaladarshan, a celebration of student art, creativity, and expression. GC Event: Photostory Competition and Wet and Dry Medium Painting Competition
+            <br /><br />
+            <span className="font-medium">Connect to Rang:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/rang_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/RANG.IITB/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.insti.app/org/rang" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+                <a href="https://rang-iitb.blogspot.com/" target="_blank"><FontAwesomeIcon icon={faSquareArrowUpRight} size="lg" /></a>
+            </div>
+            <br />
+            <span className="font-medium">Connect to Pixels:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/pixels_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/PixelsIITB/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.insti.app/org/pixels" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+                <a href="https://www.pixelsiitbombay.com/" target="_blank"><FontAwesomeIcon icon={faSquareArrowUpRight} size="lg" /></a>
+            </div>
+        </p>
+
+
+        <h2 className="text-lg font-semibold mb-2 p-0">Design Club</h2>
+        <p className="mb-4">
+            When creativity meets passion, design happens. Design is thoughts given shape; to put together the pieces of a puzzle, not knowing of what would unfold. Have an idea? Give it shape and bring it into existence; scribble it out or express yourself digitally. The Design team came into existence in 2014, with the motive of creating a culture of design in the institute, bringing together aspects from all genres of art. The amazing response we got has encouraged us to go further and expand across the genres, to have infrastructure set aside for enthusiastic people. Designers showcase their talent in Vision, the institute's annual design festival. GC Event: Design GC
+            <br /><br />
+            <span className="font-medium">Connect to Design Club:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/designiitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.youtube.com/channel/UCT-H_0-ai4YaReSqboTiXPA" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://www.facebook.com/thedesignclubiitb/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.insti.app/org/the-design-club" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+            </div>
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">Roots : Classical & Folk Arts Club</h2>
+        <p className="mb-4">
+            So, ‘Roots’ -The Classical and Folk Arts Club of IIT Bombay , as its name suggests, aims to replenish the art form- Classical and Folk arts that had taken birth decades before. A place where dance , music and arts can be enjoyed together in a traditional way! Roots provides you all the sugar candies that’ll simply tempt you to evolve the classical artist within, be it learning , expressing or listening and viewing the maestros! Roots conducts the biggest classical concerts in insti in the event- Virasat.
+            <br /><br />
+            <span className="font-medium">Connect to Roots:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/roots_iitb/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/groups/RootsIITB/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.youtube.com/channel/UCYOtCVjIqR9_PoulDX_3goQ" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://www.insti.app/org/roots" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+            </div>
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">StyleUp - The Fashion Club</h2>
+        <p className="mb-4">
+            Style Up Club, IIT Bombay is a fashion-focused club under the Institute Cultural Council, promoting self-expression through modelling, styling, and runway culture.
+            Its flagship event, Showstopper, showcases fashion through performance. Other key events include Mr. and Miss Freshie, Glamour Grandé, and Halloween, the General Championship inter-hostel costume showcase.
+            <br /><br />
+            <span className="font-medium">Connect to Style Up:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/styleup_iitb/?hl=en" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/styleup.iitb/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.youtube.com/channel/UCLB_Gh4fQQohPGdw-G-Bavg" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://www.insti.app/org/lifestyle-club" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+            </div>
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">Comedy Cons</h2>
+        <p className="mb-4">
+            Comedy Cons is IIT Bombay’s comedy club, a vibrant space for humour, creativity, and self-expression. We believe comedians are made, not born, and our year-round events help you explore and perform comedic art forms like stand-up, improv, sketch, and musical comedy. With guidance from experienced seniors and no prerequisites to join, all you need is confidence, because you're as funny as you think you are!
+
+            <br /><br />
+            <span className="font-medium">Connect to Comedy Cons:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/comedycons_iitb/?hl=en"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://www.facebook.com/groups/1957227557682670/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.youtube.com/@ComedyCons_IITB/about" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://gymkhana.iitb.ac.in/instiapp/org/comedycons" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+            </div> 
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">IIT BBC.</h2>
+        <p className="mb-4">
+            'IITBBC'-IIT Bombay Broadcasting Channel, as the name goes, is the official broadcasting channel of IIT Bombay. Established in 2011 as the institute’s Media and Journalism Body, IITBBC was created with the aim of showcasing the vibrant culture of IIT Bombay. Through our YouTube channel, we connect with people by capturing the essence of campus life, be it through Fresher Introduction Videos, Podcasts, Vox Populi, Documentaries, or Mockumentaries. With every frame, we strive to bring the institute’s spirit closer to its community and beyond.
+
+
+            <br /><br />
+            <span className="font-medium">Connect to IIT BBC:</span>
+            <div className="flex items-center">
+                <a href="https://www.instagram.com/iitbbc/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
+                <a href="https://be-by.facebook.com/iitbbc" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} size="lg" /></a>
+                <a href="https://www.youtube.com/user/IITBBC" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg" /></a>
+                <a href="https://gymkhana.iitb.ac.in/instiapp/org/iit-bbc" target="_blank"><img src={instiiAppLogo} alt="Fourthwall" /></a>
+            </div>
+            <br /> 
+            So, now you have a good idea about the different clubs and the different genres. Too much information? No worries, there will be an orientation (with a fundae session) for each club separately too. Just make it a habit to have a look at the notice-boards daily. For details visit the Cult Homepage.
+        </p>
+
         <h2 className="text-lg font-semibold mb-2 p-0">Intra College events</h2>
         <p className="mb-4">
-            Intra-hostel General Championship (GC) events held throughout the year decide your hostel's position in the Cultural GC.
+            Intra-hostel General Championship (GC) events that are held throughout the year decide your hostel's position in the Cultural GC, winning which is very prestigious. Recently, even freshies have been allowed to represent their senior year hostels in GCs. In addition, the cultural council organizes a huge number of open events spread across the year. These events have no restrictions; some, on the contrary, have freshmen reservations.
         </p>
+
         <h2 className="text-lg font-semibold mb-2 p-0">Inter College events</h2>
         <p className="mb-4">
-            Every December, IITB hosts India's biggest cult fest, Mood Indigo — a 4 day long cultural extravaganza with participation by thousands of students from all over the country.
+            Every December, IITB hosts India's biggest cult fest, Mood Indigo. MI is a 4 day long cultural extravaganza that sees participation by thousands of students from all over the country. Apart from formal and informal competitions and workshops, it also organizes concerts and performances by international artistes. IITB students attend numerous college cult fests but we only send official contingents to two, St. Xavier's Malhar (around 15th Aug) in Mumbai and IIM-B's Unmaad (around 29th Jan). Freshies generally attend Unmaad in large numbers.
         </p>
+
         <h2 className="text-lg font-semibold mb-2 p-0">Performing Arts Festival (PAF)</h2>
         <p className="mb-4">
-            PAF is also known as the 'Baap of all cultural events'. Three or four hostels are grouped together to battle against each other with everything from script to dance, music to drama handled entirely by students.
+            PAF is also known as the 'Baap of all cultural events’. Typically, three or four hostels (out of fourteen) are grouped together to battle against one another. From script to dance, music to dram, every damn thing is handled by the students. PAF is renowned for its 'Prod work' which involves the making of sets and backdrops. A tremendous mixture of art and cultural skills combined with life sized sets, is what makes PAF an event to remember.
         </p>
-    </>);
+        <p className="mb-4">
+            By that time, you will be allotted your 'permanent' hostels and hence will be a good time to make new friends and get acquainted with the hostel culture.
+        </p>
+        <p className="mb-4">
+            At the end of the academic year, the institute hands out awards to those who have excelled in cultural activities, along with the inter-hostel GC and PAF trophies.
+        </p>
+        <p className="mb-4">
+            So there you have it. Cult at IITB is truly in a league of its own, so please do grab every opportunity to be a part of it. And remember, never be hesitant to join a club or attend a meeting just because you feel you're not good enough - most of us knew nothing about our current cult interests/passions when we first started out, back in our first years. The institute clubs welcome students of all levels, from noobs to pros.
+        </p>
 
+        <p className="mb-4">
+            A mandatory word of caution though: do not sacrifice your academics for the sake of extra- curricular activities; prioritize your interests and allocate your time wisely. That being said, we do hope you enjoy every bit of your 4/5 years here, and hopefully the cultural scene would be a major part of your college lives.
+        </p>
+
+        <h2 className="text-lg font-semibold mb-2 p-0">InterIIT Cult</h2>
+        <p className="mb-4">
+            Each and every IIT is different from the other in most of the aspects from the academic valuation to various clubs and their activities.To bridge this gap among all IITs and to enable knowledge sharing and cultural distribution Inter IIT cultural meet was started in 2016 with IIT Bombay organising it for the first time.
+        </p>
+        <p className="mb-4">
+            IIT Bombay won the overall championship in 2016 and were 1st runner up in 2017. All the club secretaries and club people look forward to participating and competing in this ultimate cultural championship. It is an honor to get a chance to represent IIT Bombay and selections are based on the various auditions conducted across different genres.
+        </p>
+        {/* <p className="mb-4">
+            The 4th edition of Inter IIT Cultural Meet will be held in December 2019 and it will include competitions covering all the cultural genres.
+        </p> */}
+    </>);
     const contentHi = (<>
         <h1 className="text-4xl font-bold mb-5">सांस्कृतिक गतिविधियाँ</h1>
         <p className="mb-4">

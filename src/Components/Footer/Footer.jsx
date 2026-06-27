@@ -117,7 +117,7 @@ function Footer() {
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/gymkhana" className="nav-link p-0 ">
-                    {hi ? 'जिमखाना' : 'Gymkhana'}
+                    {hi ? 'खेल' : 'Sports'}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
@@ -162,7 +162,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="m-3">
-                  <Link to="mailto:smpcs2025@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Link to="mailto:smpcs2026@gmail.com" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faEnvelope} size="lg"/>
                   </Link>
                 </li>
