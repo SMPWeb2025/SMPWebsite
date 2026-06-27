@@ -32,10 +32,33 @@ const SemEx = () => {
       
     </>
   )
+  const contentHi = (
+    <>
+      <h1 className="text-4xl font-bold mb-5">सेमेस्टर एक्सचेंज</h1>
+      <p className="mb-4">
+        IIT बॉम्बे आपको एक अनूठा अवसर देता है — दुनिया भर के विश्वविद्यालयों में पढ़ने का, जबकि आप अभी भी यहाँ के छात्र हैं। संस्थान की कई विदेशी विश्वविद्यालयों के साथ साझेदारी है, जिसके तहत आप वहाँ दो सेमेस्टर तक रहकर कोर्स कर सकते हैं। और सबसे बड़ा फायदा? विदेशी विश्वविद्यालय की भारी ट्यूशन फीस नहीं देनी होती!
+      </p>
+      <p className="mb-4">
+        इसके अलावा, आप ऐसे कोर्स कर सकते हैं जो यहाँ उपलब्ध नहीं हैं — अमेरिका में विज्ञान की चुनौतीपूर्ण विषय, यूरोप में Liberal Arts और Finance। शोध परियोजनाएँ भी आपके ज्ञान को विस्तृत करती हैं।
+      </p>
+      <p className="mb-4">
+        सेमेस्टर एक्सचेंज एक जीवन बदलने वाला अनुभव है — किसी नए देश में 4 महीने स्थानीय की तरह जीना, एक अलग संस्कृति में डूबना, और दुनिया भर में दोस्त बनाना।
+      </p>
+      <p className="mb-4">अधिक जानकारी के लिए संपर्क करें:</p>
+      <p className="mb-4">
+        <b>
+        Parag Ingle<br/>
+        Institute Secretary | International Relations<br/>
+        IIT Bombay<br/></b>
+        Email: <a style={{padding: '0'}} href="mailto:isecir@iitb.ac.in" className="text-blue-600 underline">isecir@iitb.ac.in</a><br/>
+        Blog: <a style={{padding: '0'}} target="_blank" href="https://exchangeblogiitb.wordpress.com" className="text-blue-600 underline">https://exchangeblogiitb.wordpress.com</a>
+      </p>
+    </>
+  )
   const sidebar = navData["Academics"];
-  
+
   return (
-    <Page content={content} sidebar={sidebar} sideHeading="Academics" />
+    <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Academics" />
   )
 }
 export default SemEx

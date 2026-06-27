@@ -6,85 +6,100 @@ const InAndAroundCampus = () => {
     <>
       <h1 className="text-4xl font-bold mb-5">In & Around the Campus</h1>
       <p className="mb-4">
-        Throughout your course here in IITB you might need various stuff from everyday items like toothpaste and soap to books for subjects. Oftentimes you would also want to detach yourself from your hectic schedule and go visit a restaurant or watch a movie. It is therefore a good idea to familiarize yourself with the various shops and places within the campus and outside it.
+        Throughout your course here in IITB you might need various stuff from everyday items like toothpaste and soap to books for subjects. It is a good idea to familiarize yourself with the various shops and places within the campus and outside it.
       </p>
       <h2 className="text-xl font-bold mb-2">Books</h2>
       <p className="mb-4">
-        For buying books, we have a shop called Book World on campus on the ground floor of the Gulmohar Building where you can get discounts on course-related books. Alternatively, you could go to “Popular Book Store” at YP Gate. You can also buy second-hand books from the Jay Ambe bookshop in the lane right opposite Main Gate, next to Mahavir. He also accepts books back at the end of the semester at half the price at which they were bought.
+        For buying books, we have a shop called Book World on campus in the Gulmohar Building where you can get discounts on course-related books. Alternatively, the "Popular Book Store" at YP Gate, or Jay Ambe bookshop near Main Gate also accept books back at half price at semester end.
       </p>
       <h2 className="text-xl font-bold mb-2">Daily needs</h2>
       <p className="mb-4">
-        For the most basic of amenities such as toothpaste, toothbrush, pens, soaps, and other such items (which one should use daily), one can go to the hostel Xerox shop itself. Another alternative would be the Hostel 12/18 shops which stock almost everything one would need and more- from slippers to stationery to biscuits and towels. One can also go to Haiko or D-Mart in the Hiranandani Complex for these. Alternatively, the shopping complex at the Y-Point Gate can also take care of most of your needs. The YP market has a post office, a dry cleaner and a tailor and a barber as well, just in case.
-        <br/>
-        Quick commerce apps like Zepto, Blinkit, and Instamart can also be used conveniently to get daily essentials delivered straight to your hostel within minutes.
+        For basic amenities, go to the hostel Xerox shop or the Hostel 12/18 shops. The YP market has a post office, dry cleaner, tailor and barber. Quick commerce apps like Zepto, Blinkit, and Instamart deliver essentials straight to your hostel within minutes.
       </p>
       <h2 className="text-xl font-bold mb-2">Banks and ATMs</h2>
       <p className="mb-4">
-        Two major banks operate inside IITB: Canara Bank and SBI. The Canara bank branch is located on the first floor of the Gulmohar building. There are two Canara bank ATMs inside the campus. One is located on the ground floor of the Gulmohar building, while the other is located opposite hostel 7. There are two SBI ATMs as well. One is located between Hostel 5 and Tansa, while the other is right outside the main gate. On the orientation day, both banks set up temporary stalls in the lecture hall complex to ensure a smooth and hassle-free opening of accounts. Debit cards are provided on the spot as well.
+        Two major banks operate inside IITB: Canara Bank (Gulmohar Building) and SBI. On orientation day, both banks set up temporary stalls in the lecture hall complex for account opening with debit cards provided on the spot.
       </p>
       <h2 className="text-xl font-bold mb-2">Restaurants and Eateries</h2>
       <p className="mb-4">
         <ol className="list-decimal ml-6">
-            <li className="mb-2"><b>Hostel Canteens: </b>Every hostel has its own canteen, which is for most people, the go-to place for inexpensive food. Whether for a quick meal, a refreshing soft drink or a coffee when you’re up studying late, hostel canteens are the way to go! Most hostels have night canteens, with some excellent food.</li>
-            <li className="mb-2"><b>Eateries within the institute:</b> <br/>
-                <ol className="list-decimal ml-5">
-                    <li className="mb-1"><b>Gulmohar Restaurant and Café: </b>Tasty food, reasonable prices and right-next-door!</li>
-                    <li className="mb-1"><b>Domino’s Pizza: </b> Craving a cheesy slice after a long day? You’re in luck—Domino’s is just outside the OAT, right in front of Hostel 1. Whether it's post-event hunger or midnight munchies, it's got you covered.</li>
-                    <li className="mb-1"><b>Academic area:</b> The KReSIT canteen is popular for a quick samosa-chai. Besides this, several departments have canteens of their own, like the Electrical, Civil and Chemical Engineering Buildings. There is also a staff canteen located next to the library.</li>
-                    <li className="mb-1"><b>LHC Food Court:</b> A welcome addition, offering a clean, modern space with multiple stalls serving a variety of meals and snacks—perfect for grabbing a quick bite between lectures without venturing far from class.</li>
-                    <li className="mb-1"><b>Cafe 92: </b> A go to place for some quick bites and tasty fast food servings. Perfectly situated on the lane connecting the academic area to the Main building, the store is always bustling with energy as students head out here after classes.</li>
-                    <li className="mb-1"><b>Café Coffee Day (CCD): </b> Need a caffeine kick or a cozy place to chill? CCD sits snugly on the ground floor of the ESED building, perfect for a study break or a quiet chat.</li>
-                    <li className="mb-1"><b>Laxmi: </b> Vegetarian restaurant right outside the Main Gate.</li>
-                </ol>
-            </li>
-            <li className="mb-2"><b>Hiranandani: </b>The posh neighborhood of Hiranandani located just down the road from IIT-B offers a plethora of options for eating out. When on a budget, head to the Galleria food court. KFC, MOD, Subway, Pizza Hut, Papa Johns, Starbucks – you name it, it’s here. Several fine-dining restaurants are also there for you to explore. Head over to Naturals, Baskin Robbins, Theobroma, Cocoberry or Haagen Dazs for dessert.</li>
+            <li className="mb-2"><b>Hostel Canteens:</b> Every hostel has its own canteen for inexpensive food, quick meals, and late-night snacks.</li>
+            <li className="mb-2"><b>Within the Institute:</b> Gulmohar Restaurant, Domino's Pizza (near Hostel 1), KReSIT canteen, LHC Food Court, Cafe 92, CCD (ESED building), Laxmi (near Main Gate).</li>
+            <li className="mb-2"><b>Hiranandani:</b> KFC, Subway, Pizza Hut, Starbucks, Naturals, Baskin Robbins and many more.</li>
         </ol>
       </p>
-      <p className="mb-4">
-        Mumbai offers plenty to the enthusiastic foodie, there are several great places to eat out. Best explored on your own, though we’ll get you started with some names: Barbeque Nation, Café Madras, Pizza By the Bay and Bademiya are well worth visiting.
-      </p>
-      <h2 className="text-xl font-bold mb-2">Doorstep Delivery</h2>
-      <p className="mb-4">
-        For almost anything else, you always have Swiggy, Zomato, etc! Feel free to explore these for recommendations for food and travel!
-      </p>
-
       <h2 className="text-xl font-bold mb-2">Entertainment</h2>
       <p className="mb-4">
-        
         <ol className="list-decimal ml-6">
-            <li className="mb-2"><b>Cinema: </b>Want to catch a movie on the big screen? There are several cinema halls nearby like PVR (Nirmal Lifestyle, Mulund), Cinepolis (Neptune Magnet Mall, Bhandup), Inox (R-City Mall, Ghatkopar), and Carnival Huma (Kanjurmarg).</li>
-            <li className="mb-2"><b>Sports:</b> Catch the spectacle Indian Cricket Team or Mumbai Indians playing at the Wankhede. Besides cricket, almost every sport has a regional team in Mumbai, including football, hockey, kho-kho, and volleyball. Head to the stadium to catch the action live!</li>
-            <li className="mb-2"><b>Theatre and Music: </b> Mumbai has a vibrant theatre and music culture. For plays, Prithvi is the place to be, and it offers discounts for students on Tuesdays and Wednesdays. Keep your eyes and ears open for the next big event, and you may just be able to catch the next Coldplay concert.</li>
-            <li className="mb-2"><b>Theme Parks: </b> In Mumbai, there are a number of good amusement and water parks such as Water Kingdom, Snow World, and Essel World. Adlabs Imagica and AquaMagica may be a little further away and more expensive than the others, but they rank among the best theme parks in the country.</li>
-            <li className="mb-2"><b>Gaming Arcades: </b> Several malls have arcade gaming zones and bowling like the R-City Mall, Ghatkopar. Hakone (Hiranandani) offers opportunities for Go-Karting and Paintball.</li>
-            <li className="mb-2"><b>Shopping: </b> There are a number of malls in Mumbai, big and small, where you can buy just about any brands you may want. Dadar, CST, and Bandra are great places for some value-for-money shopping.</li>
-            <li className="mb-2"><b>Trekking and Nature: </b> Join a trek with the Adventure Club! For relaxing in nature, check out the Karnala bird sanctuary (beyond Panvel) and the Sanjay Gandhi National Park (Borivali).</li>
-            <li className="mb-2"><b>Sightseeing in Mumbai: </b> Gateway of India, Marine Drive, Haji Ali, Elephanta Caves – just a few of the many things to see in Mumbai. Otherwise, you can take the evening off, and watch the sunset at the beach while sipping naariyal paani.</li>
+            <li className="mb-2"><b>Cinema:</b> PVR (Mulund), Cinepolis (Bhandup), Inox (Ghatkopar), and Carnival Huma (Kanjurmarg).</li>
+            <li className="mb-2"><b>Sports:</b> Watch cricket at Wankhede Stadium.</li>
+            <li className="mb-2"><b>Theatre and Music:</b> Prithvi Theatre offers student discounts on Tuesdays and Wednesdays.</li>
+            <li className="mb-2"><b>Sightseeing:</b> Gateway of India, Marine Drive, Haji Ali, Elephanta Caves.</li>
         </ol>
       </p>
-      <p className="mb-4">
-        A certain obscure site called BookMyShow sells tickets to just about any event you may want to attend.
-      </p>
-
       <h2 className="text-xl font-bold mb-2">Public Transport @ IITB</h2>
       <p className="mb-4">
-        
         <ol className="list-decimal ml-6">
-            <li className="mb-2"><b>Cycling: </b>One may say that they are a popular mode of transportation considering the number of cycles parked outside the hostels. However, their frequency of use often decays exponentially. But it is entirely up to you! Cycling is a quick, eco-friendly and fun way to get from point to point in the institute. Remember that maintenance of your cycle is crucial, especially in Mumbai’s rainy weather. There are two cycle repair shops on campus, one at the Market Gate and the other next to H3. A sturdy lock is also a good investment.</li>
-            <li className="mb-2"><b>Walking:</b> Alumni often reminisce about the good times they had walking to the lecture halls, amongst good company and pristine greenery. It may not always be possible, but when you have the luxury of time, make the most of it!</li>
-            <li className="mb-2"><b>Auto-rickshaws: </b>  Auto-rickshaws are fairly common in the institute and are used for traveling both within and outside the institute. There have been issues of rickshaws refusing to go to destinations outside, though there have been measures taken to curb this.</li>
-            <li className="mb-2"><b>E-Shuttle: </b> With a seating capacity of nearly 10-12 students, E-shuttles are a popular choice for most students as they run the entire distance between the residential and academic area, charging a nominal fee of INR 10 per ride</li>
-            <li className="mb-2"><b>Taxis: </b> Whether while traveling in a group, or when needing a drop to the airport, Uber and Ola have made traveling in comfort easy and economical.</li>
+            <li className="mb-2"><b>Cycling:</b> Quick, eco-friendly and fun. Cycle repair shops at Market Gate and near H3.</li>
+            <li className="mb-2"><b>E-Shuttle:</b> Runs between residential and academic area for INR 10 per ride.</li>
+            <li className="mb-2"><b>Auto-rickshaws:</b> Available inside and outside the institute.</li>
+            <li className="mb-2"><b>Taxis:</b> Uber and Ola for comfortable group travel.</li>
         </ol>
       </p>
-
     </>
-  )
-  const sidebar = navData["Life at IITB"];
-  
-  return (
-    <Page content={content} sidebar={sidebar} sideHeading="Life at IITB" />
-  )
-}
-export default InAndAroundCampus
+  );
 
+  const contentHi = (
+    <>
+      <h1 className="text-4xl font-bold mb-5">परिसर में और आसपास</h1>
+      <p className="mb-4">
+        IIT बॉम्बे में आपके पूरे कोर्स के दौरान आपको टूथपेस्ट और साबुन जैसी रोज़मर्रा की वस्तुओं से लेकर विषयों की किताबों तक की जरूरत होगी। कैंपस के अंदर और बाहर के विभिन्न दुकानों और स्थानों से परिचित होना एक अच्छा विचार है।
+      </p>
+      <h2 className="text-xl font-bold mb-2">किताबें</h2>
+      <p className="mb-4">
+        किताबें खरीदने के लिए कैंपस में गुलमोहर बिल्डिंग में 'Book World' है जहाँ कोर्स से संबंधित किताबों पर छूट मिलती है। YP गेट पर 'Popular Book Store' और मुख्य गेट के पास Jay Ambe बुकशॉप भी हैं — जो सेमेस्टर के अंत में आधे दाम पर किताबें वापस लेते हैं।
+      </p>
+      <h2 className="text-xl font-bold mb-2">दैनिक आवश्यकताएँ</h2>
+      <p className="mb-4">
+        बुनियादी सुविधाओं के लिए हॉस्टल Xerox शॉप या हॉस्टल 12/18 की दुकानों पर जाएँ। YP मार्केट में डाकघर, ड्राई क्लीनर, दर्जी और नाई भी हैं। Zepto, Blinkit और Instamart जैसे क्विक-कॉमर्स ऐप्स मिनटों में आपके हॉस्टल तक सामान पहुँचा देते हैं।
+      </p>
+      <h2 className="text-xl font-bold mb-2">बैंक और ATM</h2>
+      <p className="mb-4">
+        IIT बॉम्बे के अंदर दो प्रमुख बैंक हैं: Canara Bank (गुलमोहर बिल्डिंग) और SBI। ओरिएंटेशन के दिन दोनों बैंक LHC में अस्थायी काउंटर लगाते हैं, जहाँ तुरंत डेबिट कार्ड के साथ खाता खुलवाया जा सकता है।
+      </p>
+      <h2 className="text-xl font-bold mb-2">रेस्तराँ और खाने की जगहें</h2>
+      <p className="mb-4">
+        <ol className="list-decimal ml-6">
+            <li className="mb-2"><b>हॉस्टल कैंटीन:</b> हर हॉस्टल की अपनी कैंटीन है — सस्ते भोजन, त्वरित खाने और देर रात के स्नैक्स के लिए।</li>
+            <li className="mb-2"><b>संस्थान के अंदर:</b> गुलमोहर रेस्तराँ, Domino's (हॉस्टल 1 के पास), KReSIT कैंटीन, LHC फूड कोर्ट, Cafe 92, CCD (ESED बिल्डिंग), लक्ष्मी (मुख्य गेट के पास)।</li>
+            <li className="mb-2"><b>हिरानंदानी:</b> KFC, Subway, Pizza Hut, Starbucks, Naturals, Baskin Robbins और भी बहुत कुछ।</li>
+        </ol>
+      </p>
+      <h2 className="text-xl font-bold mb-2">मनोरंजन</h2>
+      <p className="mb-4">
+        <ol className="list-decimal ml-6">
+            <li className="mb-2"><b>सिनेमा:</b> PVR (मुलुंड), Cinepolis (भांडुप), Inox (घाटकोपर), Carnival Huma (कांजुरमार्ग)।</li>
+            <li className="mb-2"><b>खेल:</b> Wankhede Stadium में क्रिकेट मैच देखें।</li>
+            <li className="mb-2"><b>रंगमंच और संगीत:</b> Prithvi Theatre मंगलवार और बुधवार को छात्रों को छूट देता है।</li>
+            <li className="mb-2"><b>पर्यटन:</b> गेटवे ऑफ इंडिया, मरीन ड्राइव, हाजी अली, एलिफेंटा गुफाएँ।</li>
+        </ol>
+      </p>
+      <h2 className="text-xl font-bold mb-2">IIT बॉम्बे में परिवहन</h2>
+      <p className="mb-4">
+        <ol className="list-decimal ml-6">
+            <li className="mb-2"><b>साइकिल:</b> त्वरित, पर्यावरण-अनुकूल और मजेदार। मार्केट गेट और H3 के पास साइकिल मरम्मत की दुकानें हैं।</li>
+            <li className="mb-2"><b>E-Shuttle:</b> आवासीय और शैक्षणिक क्षेत्र के बीच, प्रति यात्रा ₹10 में।</li>
+            <li className="mb-2"><b>ऑटो-रिक्शा:</b> संस्थान के अंदर और बाहर उपलब्ध।</li>
+            <li className="mb-2"><b>टैक्सी:</b> समूह यात्रा के लिए Uber और Ola।</li>
+        </ol>
+      </p>
+    </>
+  );
+
+  const sidebar = navData["Life at IITB"];
+
+  return (
+    <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Life at IITB" />
+  );
+}
+export default InAndAroundCampus;

@@ -2,23 +2,24 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "./logo.svg";
 import { Link } from "react-router-dom";
+import { useLanguage } from "../../context/LanguageContext";
+import { sectionTranslations, dropdownTranslations } from "../../translations/navTranslations";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { language, toggleLanguage } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 100);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
-    // Add/remove class to body to push content down when mobile menu is open
     if (mobileOpen) {
       document.body.classList.add("mobile-menu-open");
     } else {
@@ -39,23 +40,44 @@ const Navbar = () => {
     setDropdown(null);
   };
 
+  const displaySection = (section) =>
+    language === "hi" ? sectionTranslations[section] || section : section;
+
   return (
     <div className={`navbarsmp ${scrolled ? "scrolled" : ""}`}>
       <div className="navLogo">
-        <Link to='/' 
-              className="inline-block"
-              onClick={() => {
-                  setDropdown(null);
-                  setMobileOpen(false);
-                }}    
-          >
-          <img src={logo} alt="smp logo" className="h-16 w-auto"/>
+        <Link
+          to="/"
+          className="inline-block"
+          onClick={() => {
+            setDropdown(null);
+            setMobileOpen(false);
+          }}
+        >
+          <img src={logo} alt="smp logo" className="h-16 w-auto" />
         </Link>
 
-        
-        <button className="hamburger" onClick={toggleMobile}>
-          ☰
-        </button>
+        <div className="navbar-right-controls">
+          <div className="lang-toggle">
+            <button
+              className={`lang-btn ${language === "en" ? "active" : ""}`}
+              onClick={() => language !== "en" && toggleLanguage()}
+              aria-label="Switch to English"
+            >
+              EN
+            </button>
+            <button
+              className={`lang-btn ${language === "hi" ? "active" : ""}`}
+              onClick={() => language !== "hi" && toggleLanguage()}
+              aria-label="Switch to Hindi"
+            >
+              हिं
+            </button>
+          </div>
+          <button className="hamburger" onClick={toggleMobile}>
+            ☰
+          </button>
+        </div>
       </div>
 
       <div className={`navContainer ${mobileOpen ? "open" : ""}`}>
@@ -64,8 +86,7 @@ const Navbar = () => {
           "Academics",
           "Life at IITB",
           "Extra Curriculars",
-          "About Us",        
-          
+          "About Us",
         ].map((section) => (
           <div
             key={section}
@@ -76,10 +97,10 @@ const Navbar = () => {
               dropdown === section ? setDropdown(null) : setDropdown(section)
             }
           >
-            {section}
+            {displaySection(section)}
             {dropdown === section && (
               <div className="dropdownMenu">
-                {getDropdownItems(section, () => setMobileOpen(false))}
+                {getDropdownItems(section, () => setMobileOpen(false), language)}
               </div>
             )}
           </div>
@@ -89,7 +110,7 @@ const Navbar = () => {
   );
 };
 
-const getDropdownItems = (section, closeMobileMenu) => {
+const getDropdownItems = (section, closeMobileMenu, language) => {
   const items = {
     "About Us": [
       { text: "Our Objective", link: "/about/our-objective" },
@@ -111,7 +132,7 @@ const getDropdownItems = (section, closeMobileMenu) => {
       { text: "Culturals", link: "/extra-curriculars/culturals" },
       { text: "Media", link: "/extra-curriculars/media" },
       { text: "Technical Affairs", link: "/extra-curriculars/technical-affairs" },
-      { text: "Institute Bodies", link: "/extra-curriculars/institute-bodies" }
+      { text: "Institute Bodies", link: "/extra-curriculars/institute-bodies" },
     ],
     "Incoming Students": [
       { text: "Introduction", link: "/incoming-students/introduction" },
@@ -130,16 +151,24 @@ const getDropdownItems = (section, closeMobileMenu) => {
     ],
   };
 
-  return items[section].map(({ text, link }, i) => (
-    <Link to={link} 
-          key={i} 
-          className="dropdownItem" 
-          onClick={() => {
-        if (window.innerWidth <= 992) closeMobileMenu();
-      }}>
-          {text}
-    </Link>
-  ));
+  return items[section].map(({ text, link }, i) => {
+    const displayText =
+      language === "hi"
+        ? dropdownTranslations[section]?.[text] || text
+        : text;
+    return (
+      <Link
+        to={link}
+        key={i}
+        className="dropdownItem"
+        onClick={() => {
+          if (window.innerWidth <= 992) closeMobileMenu();
+        }}
+      >
+        {displayText}
+      </Link>
+    );
+  });
 };
 
 export default Navbar;

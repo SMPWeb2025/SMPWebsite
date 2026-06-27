@@ -12,10 +12,10 @@ const CultureAtIITB = () => {
       <p className="mb-4">
         For Boys – Students will be allotted either Hostel 15 or Hostel 16. <br/>
         For Girls – A separate wing of Hostel 16 (Hostel 16C) is allotted to girls. 
-        <ul className="list-disc ml-6 mb-4">
-          <li>Hostel struture: On each floor, there are three subsections (called wings) – each wing has 6 rooms, each of which will be shared by 2 students.</li>
-        </ul>
       </p>
+      <ul className="list-disc ml-6 mb-4">
+        <li>Hostel structure: On each floor, there are three subsections (called wings) – each wing has 6 rooms, each of which will be shared by 2 students.</li>
+      </ul>
       <p className="mb-4">
         You get the room right when you reach IIT Bombay (on the day of registrations i.e. 20th July 2026), after arriving and noting down your details in the hostel warden’s office.
       </p>
@@ -199,11 +199,60 @@ const CultureAtIITB = () => {
       </p>
     </>
   )
+  const contentHi = (
+    <>
+      <h1 className="text-4xl font-bold mb-5">हॉस्टल संस्कृति</h1>
+      <h2 className="text-xl font-bold mb-2">हॉस्टल आवंटन</h2>
+      <p className="mb-4">
+        इस वर्ष प्रथम वर्ष के छात्रों को कमरों का आवंटन निम्न प्रकार से किया जाएगा:
+      </p>
+      <p className="mb-4">
+        लड़कों के लिए — छात्रों को हॉस्टल 15 या हॉस्टल 16 आवंटित किया जाएगा। <br/>
+        लड़कियों के लिए — हॉस्टल 16 का एक अलग विंग, हॉस्टल 16C, लड़कियों को आवंटित किया जाएगा।
+      </p>
+      <ul className="list-disc ml-6 mb-4">
+        <li>हॉस्टल संरचना: प्रत्येक मंज़िल पर तीन उपखंड होते हैं जिन्हें विंग कहा जाता है। प्रत्येक विंग में 6 कमरे होते हैं, और प्रत्येक कमरा 2 छात्रों द्वारा साझा किया जाएगा।</li>
+      </ul>
+      <p className="mb-4">
+        IIT बॉम्बे पहुँचने पर, पंजीकरण के दिन यानी 20 जुलाई 2026 को, हॉस्टल वार्डन के कार्यालय में अपने विवरण दर्ज कराने के बाद आपको कमरा मिल जाएगा।
+      </p>
+      <h2 className="text-xl font-bold mb-2">बुनियादी सुविधाएँ</h2>
+      <p className="mb-4">
+        प्रत्येक कमरे में बिस्तर, मेज, कुर्सियाँ, छत पंखे, ट्यूब लाइट, अलमारियाँ और 24x7 हाई-स्पीड इंटरनेट है। प्रत्येक 6 कमरों पर 2 वॉशरूम हैं। प्रत्येक हॉस्टल में मेस, कंप्यूटर रूम, जिम, TV, खेल मैदान और इनडोर खेल सुविधाएँ हैं।
+      </p>
+      <h2 className="text-xl font-bold mb-2">हॉस्टल गतिविधियाँ</h2>
+      <p className="mb-4">
+        हॉस्टल में वर्ष भर अनेक गतिविधियाँ होती हैं — इंट्रा-हॉस्टल आयोजन, इंटर-हॉस्टल खेल और सांस्कृतिक प्रतियोगिताएँ, और लोहड़ी, होली, गणेश चतुर्थी, दीवाली जैसे त्योहार।
+      </p>
+      <h2 className="text-xl font-bold mb-2">हॉस्टल भावना और विंग संस्कृति</h2>
+      <p className="mb-4">
+        समय के साथ, सभी हॉस्टल निवासी एक बड़े परिवार का हिस्सा बन जाते हैं। आपके विंगमेट्स (विंगीज़) आपका तत्काल समर्थन समूह होंगे। आप अपने विंगीज़ के साथ मैच, जन्मदिन की पार्टियाँ, ट्रेक और घूमने-फिरने में समय बिताएंगे।
+      </p>
+      <h1 className="text-4xl font-bold mb-5">IIT बॉम्बे की भाषा (Lingo)</h1>
+      <p className="mb-1"><b>Arbit</b> - 'arbitrary' का संक्षिप्त रूप। जब कुछ और न सूझे तब कहते हैं।</p>
+      <p className="mb-1"><b>enthu</b> - उत्साहित। जैसे "कौन है enthu?"</p>
+      <p className="mb-1"><b>Freshie</b> - प्रथम वर्ष का छात्र।</p>
+      <p className="mb-1"><b>Funda(e)</b> - महत्वपूर्ण टिप्स, जो वरिष्ठ छात्र जूनियर को देते हैं।</p>
+      <p className="mb-1"><b>insti</b> - हमारा प्रिय संस्थान।</p>
+      <p className="mb-1"><b>junta</b> - लोगों का समूह। कुछ प्रोफेसर भी इसका उपयोग करते हैं!</p>
+      <p className="mb-1"><b>mug</b> - पढ़ाई करना (या पढ़ाई का नाटक करना)।</p>
+      <p className="mb-1"><b>nightout</b> - पूरी रात जागना — पढ़ने के लिए, फिल्म देखने के लिए, या बस ऐसे ही।</p>
+      <p className="mb-4"><b>YP</b> - Y-Point गेट। स्टेशनरी, किताबें, हेयरकट और बहुत कुछ के लिए।</p>
+      <h1 className="text-4xl font-bold mb-5">IIT बॉम्बे में इंटरनेट उपयोग</h1>
+      <h2 className="text-xl font-bold mb-2">WiFi (अनुशंसित)</h2>
+      <p className="mb-4">
+        कैंपस के लगभग सभी क्षेत्रों में हाई-स्पीड WiFi उपलब्ध है। IITB-Wireless या eduroam से अपने LDAP ID और पासवर्ड से कनेक्ट करें।
+      </p>
+      <h2 className="text-xl font-bold mb-2">हॉस्टल LAN</h2>
+      <p className="mb-4">
+        सभी हॉस्टल कमरों में LAN पोर्ट है। अपना कंप्यूटर कनेक्ट करें और <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://internet.iitb.ac.in">https://internet.iitb.ac.in</a> पर अपने LDAP ID से लॉगिन करें।
+      </p>
+    </>
+  )
   const sidebar = navData["Life at IITB"];
   
   return (
-    <Page content={content} sidebar={sidebar} sideHeading="Life at IITB" />
+    <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Life at IITB" />
   )
 }
 export default CultureAtIITB
-

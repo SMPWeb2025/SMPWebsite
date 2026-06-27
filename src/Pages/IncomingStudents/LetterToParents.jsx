@@ -77,7 +77,9 @@ const LetterToParents = () => {
             Best Wishes,<br />
             Student Mentorship Program
         </p>
-        <br /><br />
+    </>);
+
+    const contentHi = (<>
         <h1 className="text-4xl font-bold mb-5">अभिभावक को पत्र</h1>
         <h2 className="text-xl font-bold mb-2">प्रिय माता-पिता / अभिभावक,</h2>
         <p className="mb-4">
@@ -149,7 +151,7 @@ const LetterToParents = () => {
     const sidebar = navData["Incoming Students"];
 
     return (
-        <Page content={content} sidebar={sidebar} sideHeading="Incoming Students" />
+        <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Incoming Students" />
     )
 }
 
