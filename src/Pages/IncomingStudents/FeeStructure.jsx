@@ -16,7 +16,7 @@ const FeeStructure = () => {
     </>);
     const contentHi = (<>
         <h1 className="text-4xl font-bold mb-5">शुल्क संरचना</h1>
-        <p className="mb-4">2025 के आने वाले बैच के लिए विस्तृत शुल्क संरचना <a target="_blank" className="text-blue-600 hover:underline" style={{padding: 0}} href="https://acad.iitb.ac.in/ug-new-entrants-fees">यहाँ</a> उपलब्ध है।</p>
+        <p className="mb-4">2026 के आने वाले बैच के लिए विस्तृत शुल्क संरचना <a target="_blank" className="text-blue-600 hover:underline" style={{padding: 0}} href="https://acad.iitb.ac.in/sites/default/files/Fee%20cirular_24.06.26.pdf">यहाँ</a> उपलब्ध है।</p>
     </>);
     const sidebar = navData["Incoming Students"];
 
