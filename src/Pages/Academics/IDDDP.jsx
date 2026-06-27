@@ -24,7 +24,6 @@ const IDDDP = () => {
       <p className="mb-4">
         सभी BS, BTech या Dual Degree छात्र अपनी 4-वर्षीय डिग्री को 5-वर्षीय स्नातक + मास्टर्स डिग्री में बदल सकते हैं। IDDDP कई विभागों में उपलब्ध है — Data Science (CMInDS), Systems and Controls, Digital Health (Koita Centre) और Management (Shailesh J Mehta School of Management) सहित। प्रतिष्ठित IDDDP कार्यक्रमों के लिए CPI कट-ऑफ सामान्यतः उच्च होते हैं। अधिक जानकारी के लिए:
       </p>
-      <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://acad.iitb.ac.in/files/IDDDP_Guidelines_2025.pdf">https://acad.iitb.ac.in/files/IDDDP_Guidelines_2025.pdf</a> <br/>
       <a className="text-blue-600 hover:underline" style={{padding: '0'}} target="_blank" href="https://acad.iitb.ac.in/files/IDDP%20Guidelines.pdf">https://acad.iitb.ac.in/files/IDDP%20Guidelines.pdf</a><br/>
     </>
   )
