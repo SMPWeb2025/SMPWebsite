@@ -13,17 +13,11 @@ const Intro = () => {
         <br/>
         On behalf of the Academic Council, I would like to extend a very warm welcome to all of you to IIT Bombay.
         <br/><br/>
-        Academics is something that has always been central to your lives. It is what has brought you here, and it will continue to be the defining aspect of this journey as well as the journey beyond.
+        Academics is something that has always been central to your lives. It is what has brought you here, and it will continue to be the defining aspect of this journey as well as the journey beyond. At the same time, IIT Bombay will offer you much more than academics alone. Over the next few years, you will be exposed to new experiences, opportunities and decisions that will help you unearth your valueset and who you truly are as a person.
         <br/><br/>
-        At the same time, IIT Bombay will offer you much more than academics alone. Over the next few years, you will be exposed to new experiences, opportunities and decisions that will help you unearth your valueset and who you truly are as a person.
+        And at times, this journey may feel overwhelming. When that happens, having a few strong pillars to lean on makes all the difference. Finding people you resonate with, learning from those around you, discovering what excites you, and working towards the kind of person you aspire to be is what leads and sustains this journey.
         <br/><br/>
-        And at times, this journey may feel overwhelming.
-        <br/><br/>
-        When that happens, having a few strong pillars to lean on makes all the difference. Finding people you resonate with, learning from those around you, discovering what excites you, and working towards the kind of person you aspire to be is what leads and sustains this journey.
-        <br/><br/>
-        Most importantly, remember that you are never alone in this journey. One of the greatest strengths of this institute is its people. 
-        <br/><br/>
-        Whether you need help with academics, guidance, or simply someone to talk to, your seniors, ISMP mentors and the Academic Council will always be willing to support you.
+        Most importantly, remember that you are never alone in this journey. One of the greatest strengths of this institute is its people. Whether you need help with academics, guidance, or simply someone to talk to, your seniors, ISMP mentors and the Academic Council will always be willing to support you.
         <br/><br/>
         Congratulations on earning your place here. I hope you make the most of every opportunity, stay true to your values, and leave this institute not only with knowledge, but as a better version of yourself.<br/>
         Welcome to IIT Bombay, and I wish you all the very best for the journey ahead.

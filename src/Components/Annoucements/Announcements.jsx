@@ -26,7 +26,7 @@ function Announcements() {
               <sup>
                 <img src={newGif} alt="" />
               </sup>
-              All the details for the new UG entrants is availabe <a target="_blank" className="text-blue-600 hover:underline" style={{padding: 0}} href="https://acad.iitb.ac.in/information-ug-new-entrants-2025-2026">
+              All the details for the new UG entrants is availabe <a target="_blank" className="text-blue-600 hover:underline" style={{padding: 0}} href="https://acad.iitb.ac.in/information-ug-new-entrants-2026-27">
                 here
               </a>
               . 

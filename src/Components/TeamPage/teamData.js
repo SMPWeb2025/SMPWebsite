@@ -1,17 +1,15 @@
 export const teamData = [
     {
         "designation": "Overall Coordinator",
-        "name": "Amritansh Joshi",
-        
-        // smp.gymkhana.iitb.ac.in/team_images/Amritansh_Joshi.webp
-        "link": "/team_images/Amritansh_Joshi.webp",
-        "caption": "Hi, I’m Amritansh. I play the guitar, love music, and you’ll usually find me at the H5 canteen. Always open to sharing perspectives :)"
+        "name": "Ojas Joshi",
+        "link": "/team_images 2026-27/Ojas_Joshi.webp",
+        "caption": "Hello everyone I'm Ojas. Looking forward to seeing y'all on campus :)"
     },
     {
         "designation": "Overall Coordinator",
-        "name": "Sara Atnoorkar",
-        "link": "/team_images/Sara_Atnoorkar.webp",
-        "caption": "Hi everyone, I’m Sara, a fourthie from DESE. I’m an avid stationary collector, dancer and a YP-Gate-Milkshake-lover. I am one of the overall coordinators of SMP. Do reach out to us for any questions!"
+        "name": "Dev Arora",
+        "link": "/team_images 2026-27/Dev_Arora.webp",
+        "caption": "Hey, I am a fourthie from the EE department. I love sports, badminton more than others. Big fan of GG canteen, you’ll find me there a lot. Happy to help w anything :)"
     },
     {
         "designation": "Counselling, Training and Outreach Head (CTO)",
@@ -48,12 +46,6 @@ export const teamData = [
         "name": "Krupa Pai",
         "link": "/team_images 2026-27/Krupa_Pai.webp",
         "caption": "Hello everyone! I'm Krupa Pai. I have lived in Mumbai all my life but don't assume i know the routes or great places to go to. I love singing and dancing but please don't ask me to perform randomly. I absolutely love listening to songs and dramatizing my life according to them. I also play the guitar. If I'm around, there'll always be someone laughing at your jokes,even the lame ones. "
-    },
-    {
-        "designation": "Aerospace DAMPC",
-        "name": "Gouri Rathi",
-        "link": "/team_images/Gouri_Rathi.webp",
-        "caption": "Hi! I’m Gouri, the DAMP Coordinator for Aerospace. I enjoy puzzles, sudokus, and making sense of messy things -on paper or in real life. Feel free to reach out, always happy to connect."
     },
     {
         "designation": "Chemical DAMPC",
@@ -104,12 +96,6 @@ export const teamData = [
         "caption": "Heyy guys, I am Aarushi, a certified Mumbaikar, part-time napper and full-time garba paglu. Think of me as your go-to person for doubts, banter, random reel sharing or deep 2 AM conversations :))"
     },
     {
-        "designation": "Economics DAMPC",
-        "name": "Pranjal Deshmukh",
-        "link": "/team_images/Pranjal_Deshmukh.webp",
-        "caption": "Hi! I’m Pranjal. From Pune but I’ve lived in a bunch of places. I love talking with my friends and learning about new things, be it through an internet spiral or good conversation—also a foodie (albeit a bit picky). Feel free to reach out!"
-    },
-    {
         "designation": "Electrical DAMPC",
         "name": "Nandana M A",
         "link": "/team_images 2026-27/Nandana_M_A.webp",
@@ -117,9 +103,9 @@ export const teamData = [
     },
     {
         "designation": "Electrical DAMPC",
-        "name": "Keshav Maheshwari",
-        "link": "/team_images/Keshav_Maheshwari.webp",
-        "caption": "You'll find me either playing Tennis or Valorant. But weekends are reserved for F1. Long chats, late night strolls !? HMU if you just wonna talk, I'm all ears."
+        "name": "Tanisha_Hase",
+        "link": "/team_images 2026-27/Tanisha_Hase.webp",
+        "caption": "Hi, I'm Tanisha, a fourthie from Elec. Big foodie, curious about pretty much everything, and always up for a good conversation. Feel free to reach out anytime :)"
     },
     {
         "designation": "Energy DAMPC",
@@ -146,6 +132,12 @@ export const teamData = [
         "caption": "UG at Electrical engineering department. Love to explore new things and learning life on the go."
     },
     {
+        "designation": "IEOR and Applied Geophysics DAMPC",
+        "name": "Arth",
+        "link": "",
+        "caption": ""
+    },
+    {
         "designation": "Mathematics DAMPC",
         "name": "Harsh Agrawal",
         "link": "/team_images 2026-27/Harsh_Agrawal.webp",
@@ -164,16 +156,16 @@ export const teamData = [
         "caption": "Hii all, If you discover a new dessert place, call me..."
     },
     {
-        "designation": "MEMS DAMPC",
-        "name": "Yash Kakade",
-        "link": "/team_images/Yash_Kakade.webp",
-        "caption": "Hi folks! Congrats on making it to IIT Bombay. Having gone through the transition from school to IIT Bombay myself, I understand how exciting and overwhelming this phase can be. I'm here to help you navigate through academics, campus life, or anything else you need support with. Looking forward to being a part of your journey at IITB! PS: If you’re a football fan or binge-watch web series like there's no tomorrow, we already have something in common! Feel free to reach out anytime. I’m always up for a chat :)"
+        "designation": "IDC DAMPC",
+        "name": "Yuva Gharat",
+        "link": "",
+        "caption": ""
     },
     {
         "designation": "MEMS DAMPC",
         "name": "Rupanshi Vijayvargiya",
         "link": "/team_images 2026-27/Rupanshi_Vijayvargiya.webp",
-        "caption": " "
+        "caption": "Hi, I am Rupanshi. I am from Indore. I like playing basketball, dancing, singing, running, and travelling. Feel free to reach out anytime!!"
     },
     {
         "designation": "Web Nominee",
