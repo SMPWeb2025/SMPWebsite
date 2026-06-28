@@ -133,8 +133,8 @@ export const teamData = [
     },
     {
         "designation": "IEOR and Applied Geophysics DAMPC",
-        "name": "Arth",
-        "link": "",
+        "name": "Arth Trivedy",
+        "link": "/team_images 2026-27/Arth_Trivedy.webp",
         "caption": ""
     },
     {
