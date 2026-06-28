@@ -9,7 +9,7 @@ const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { language, toggleLanguage } = useLanguage();
+  const { language } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,7 +58,7 @@ const Navbar = () => {
         </Link>
 
         <div className="navbar-right-controls">
-          <div className="lang-toggle">
+          {/* <div className="lang-toggle">
             <button
               className={`lang-btn ${language === "en" ? "active" : ""}`}
               onClick={() => language !== "en" && toggleLanguage()}
@@ -73,7 +73,7 @@ const Navbar = () => {
             >
               हिं
             </button>
-          </div>
+          </div> */}
           <button className="hamburger" onClick={toggleMobile}>
             ☰
           </button>
