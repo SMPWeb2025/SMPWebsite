@@ -1,93 +1,66 @@
 import Page from "../../Components/BlogPage/Page";
 import navData from "../sideNavData.json";
+import { useTranslation } from "react-i18next";
 
 const InstituteBodies = () => {
+    const { t } = useTranslation("institutebodies");
     const content = (<>
-        <h1 className="text-4xl font-bold mb-5">Institute Bodies(IBs)</h1>
-        <h2 className="text-xl font-bold mb-2">NSS</h2>
-        <h2 className="text-lg font-semibold mb-2">NSS IIT Bombay</h2>
-        <p className="mb-4">
-            How many times have you thought that you wish to give something back to society and country? How many times have you thought that I will surely start when the right time comes? Well, as they say, the best time to start was yesterday and the next best time is now! NSS IIT Bombay gives you an opportunity of contributing to Community service while the time you invest also contributes towards fulfilling your academic requirements.
-        </p>
+        <h1 className="text-4xl font-bold mb-5">{t("text.0")}</h1>
+        <h2 className="text-xl font-bold mb-2">{t("text.1")}</h2>
+        <h2 className="text-lg font-semibold mb-2">{t("text.2")}</h2>
+        <p className="mb-4">{t("text.3")}</p>
 
-        <h2 className="text-lg font-semibold mb-2">What is NSS?</h2>
-        <p className="mb-4">
-            As part of NOCS01 and NOCS02 (Compulsory courses for passing out of IIT Bombay), you can opt for NSS, NSO or NCC. Thus NSS (National Service Scheme) becomes part of your curriculum during your first year where you invest your time for the betterment of society around you. NSS IIT Bombay is the largest volunteer group inside campus working in the field of Community service and has been working in various fields. Education of underprivileged kids, improving their lifestyle, maintaining the biodiversity, using engineering knowledge to improve the innovations by uneducated, sustainable development are a few of the areas.
-        </p>
-        <p className="mb-4">
-            NSS organises sessions on daily basis. First year students have the responsibilities like teaching school subjects and other extra curricular activities to the children, planting tree saplings for specific purposes and maintaining them, innovating different activities like how can we reuse the trash, making something useful from trash, surveying and suggesting improvements in innovations by grassroot innovators, meeting underprivileged people like construction workers, understanding their problems and working towards solving them, creating content for NSS YouTube channels (Open Learning Initiative -an initiative to make educational content available in regional language and Voice for Purpose - an initiative for making audiobooks available for visually challenged). These are just a few activities among the many activities you can participate.
-        </p>
-        <p className="mb-4">
-            First year students, when selected in NSS, are allotted a department inside NSS according to their preferences and the team guides them regarding all the activities. If you have never experienced the joy of giving and want to explore the ecstasy of doing something selflessly, this is the right place to invest your time in!
-        </p>
-        <p className="mb-4">
-        To know more visit us at: <br/>
-        <a href="https://nss.gymkhana.iitb.ac.in/home/" className="text-blue-600 hover:underline p-0!">Website</a>  |  <a href="https://www.instagram.com/nssiitb/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <h2 className="text-lg font-semibold mb-2">{t("text.4")}</h2>
+        <p className="mb-4">{t("text.5")}</p>
+        <p className="mb-4">{t("text.6")}</p>
+        <p className="mb-4">{t("text.7")}</p>
+        <p className="mb-4">{t("text.8")}<br/>
+        <a href="https://nss.gymkhana.iitb.ac.in/home/" className="text-blue-600 hover:underline p-0!">{t("text.9")}</a>{t("text.10")}<a href="https://www.instagram.com/nssiitb/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.11")}</a>
         </p>
 
 
-        <h2 className="text-xl font-bold mb-2">NCC</h2>
-        <p className="mb-4">NCC IIT Bombay intends at developing patriotism, brotherhood and discipline in the cadets, thereby creating dynamic and visionary leaders of future India. The 2 Maharashtra Engineers Regiment is a National Cadet Corps unit under the aegis of Bombay Engineer Group.</p>
-        <p className="mb-4">
-            NCC IIT Bombay strives to fulfil the following aims:
-        </p>
+        <h2 className="text-xl font-bold mb-2">{t("text.12")}</h2>
+        <p className="mb-4">{t("text.13")}</p>
+        <p className="mb-4">{t("text.14")}</p>
         <ul className="ml-6 list-disc">
-            <li className="mb-2"><b>Leadership Qualities: </b>Create a human resource of organized, trained and motivated youth, to provide leadership in all walks of life and be always available for the service of the nation.</li>
-            <li className="mb-2"><b>Personality Development: </b>Develop character, comradeship, discipline, leadership, secular outlook, the spirit of adventure, and ideals of selfless service amongst the youth of the country.</li>
-            <li className="mb-2"><b>Motivation: </b>Provide a suitable environment to motivate the youth to take up a career in the armed forces.</li>
+            <li className="mb-2"><b>{t("text.15")}</b>{t("text.16")}</li>
+            <li className="mb-2"><b>{t("text.17")}</b>{t("text.18")}</li>
+            <li className="mb-2"><b>{t("text.19")}</b>{t("text.20")}</li>
         </ul>
-        <p className="mb-4">
-            To know more visit us at: <br/>
-            <a href="https://gymkhana.iitb.ac.in/~ncc/home/" className="text-blue-600 hover:underline p-0!">Website</a>  |  <a href="https://www.facebook.com/2MahaEngReg/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |  <a href="https://www.instagram.com/ncc_iit_bombay/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <p className="mb-4">{t("text.21")}<br/>
+            <a href="https://gymkhana.iitb.ac.in/~ncc/home/" className="text-blue-600 hover:underline p-0!">{t("text.22")}</a>{t("text.23")}<a href="https://www.facebook.com/2MahaEngReg/" className="text-blue-600 hover:underline p-0!">{t("text.24")}</a>{t("text.25")}<a href="https://www.instagram.com/ncc_iit_bombay/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.26")}</a>
         </p>
 
 
-        <h2 className="text-xl font-bold mb-2">SARC</h2>
-        <p className="mb-4">
-           What distinguishes this college from many others & makes it renowned all over the world? It is our alumni who have achieved great heights in myriad fields and made a mark for themselves in this super-competitive world. But how do we effectively utilize this wealth of knowledge, success and fame that our alumni have achieved? That is where SARC comes in. 
-        </p>
-        <p className="mb-4">
-           Student Alumni Relations Cell (SARC) is an organization run by the students of IIT Bombay. Unlike other student bodies, it is an Institute Body (which means that it is officially supported and formed by the college) which works with the Dean ACR Office & IITB Alumni Association. It is dedicated to strengthening the bond between students and alumni. SARC has been able to gather donations from our alumni for the last many years, which include scholarships, funds for construction and research, allowances for workers, and many other programmes! 
-        </p>
-        <p className="mb-4">
-            SARC conducts several initiatives in its flagship event, Alumination, like Mock Interviews, Group Discussions, Speed Mentoring, Workshops, etc. which help students to interact with alumni in person & get both career & general life guidance. SARC has also launched Alumni Student Mentorship Program (ASMP), whose aim is to allot alumni mentors to students to help them make crucial life-changing decisions. Phonathon allows students to have one-on-one telephonic conversations with alumni. We conduct Reunions as well, where alumni revisit old memories and cherish their everlasting bonds. Anyone involved with SARC gets the golden chance of duologues with eminent and distinguished alumni like Nandan Nilekani, Jairam Ramesh, Pranav Mistry, Bhavish Aggarwal and several others. By executing alumni-driven initiatives for the benefit of students and enabling a mutually fruitful relationship between students and alumni, SARC volunteers get an insider’s view into the alumni’s world. Everyone is encouraged to be a member of the SARC family and get the invaluable experience of fraternizing with alumni and learning from them!
-        </p>
-        <p className="mb-4">
-            To know more visit us at:<br /> 
-            <a href="https://acr.iitbombay.org/sarc/" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/SARC.IITB/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/sarc_iitb/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <h2 className="text-xl font-bold mb-2">{t("text.27")}</h2>
+        <p className="mb-4">{t("text.28")}</p>
+        <p className="mb-4">{t("text.29")}</p>
+        <p className="mb-4">{t("text.30")}</p>
+        <p className="mb-4">{t("text.31")}<br /> 
+            <a href="https://acr.iitbombay.org/sarc/" className="text-blue-600 hover:underline p-0!">{t("text.32")}</a>{t("text.33")}<a href="https://www.facebook.com/SARC.IITB/" className="text-blue-600 hover:underline p-0!">{t("text.34")}</a>{t("text.35")}<a href="https://www.instagram.com/sarc_iitb/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.36")}</a>
         </p>
 
 
-        <h2 className="text-xl font-bold mb-2">
-           Saathi 
-        </h2>
+        <h2 className="text-xl font-bold mb-2">{t("text.37")}</h2>
+        <p className="mb-4">{t("text.38")}</p>
+        <p className="mb-4">{t("text.39")}</p>
         <p className="mb-4">
-            With the onset of puberty, one grows more conscious of the changes happening in their own body as well as their feelings towards others. Unlike others, some of us may not feel comfortable with the gender assigned to us at birth. Similarly, not everyone is attracted only to people of the opposite sex. Some labels commonly used by people to describe themselves are lesbian, gay, bisexual, asexual, transgender, intersex, and queer. Collectively, people who lie outside the typical gender identity and sexuality are known as the LGBTQ+ community. Being a minority, they feel alone, confused and excluded from the mainstream. They may also face discrimination and bullying on revealing their preferences. At IIT Bombay, however, no student needs to feel alone.
+            {t("text.40")}
+            <a href="mailto:saathi-iitb+subscribe@googlegroups.com" className="text-blue-600 hover:underline p-0!">saathi-iitb+subscribe@googlegroups.com</a>. {t("text.42")}
         </p>
+        <p className="mb-4">{t("text.43")}</p>
         <p className="mb-4">
-            Saathi (‘companion’) at IIT Bombay is an LGBTQ+ support and resource group. We are committed to providing a community for LGBTQ+ individuals on campus. We organize events all through the year such as workshops, awareness days, movie screenings and informal meetups. Most of these events are open to all, irrespective of gender identity or sexual orientation. Even if you identify as straight (as many of our members do), these events will be a great place to know more about the community and learn how to be great allies and support your LGBTQ+ friends.
-        </p>
-        <p className="mb-4">
-            All our events are safe spaces wherein we even do not ask anyone their sexuality or gender identity. However, we understand that you may be apprehensive of your identity being disclosed outside the group. You can still get in touch with us via e-mail or Facebook. To remain up-to-date with our events and other information, join our Google group, look up ‘Saathi, IIT Bombay’ on Google Groups or send an email at <a href="saathi-iitb+subscribe@googlegroups.com" className="text-blue-600 hover:underline p-0!">saathi-iitb+subscribe@googlegroups.com</a>. If required, you can also contact us on +91-7738452988, with your anonymity completely assured.
-        </p>
-        <p className="mb-4">
-            We invite you to be a part of Saathi, irrespective of your gender or orientation. We hope that your stay at IIT Bombay will be as bright and vibrant as the colours of the rainbow!
-        </p>
-        <p className="mb-4">
-            Contact us at:<a href="saathi.iitbombay@gmail.com" className="text-blue-600 hover:underline p-0!"> saathi.iitbombay@gmail.com</a>
+            {t("text.44")}{" "}<a href="mailto:saathi.iitbombay@gmail.com" className="text-blue-600 hover:underline p-0!">saathi.iitbombay@gmail.com</a>
             <br/>
-            To know more visit us at: <a href="https://www.saathiiitb.com" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/saathi.iitb/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/saathi.iitb/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+            {t("text.46")}<a href="https://www.saathiiitb.com" className="text-blue-600 hover:underline p-0!">{t("text.47")}</a>{t("text.48")}<a href="https://www.facebook.com/saathi.iitb/" className="text-blue-600 hover:underline p-0!">{t("text.49")}</a>{t("text.50")}<a href="https://www.instagram.com/saathi.iitb/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.51")}</a>
         </p>
 
 
 
-        <h2 className="text-xl font-bold mb-2">E-Cell</h2>
-        <p className="mb-4">
-            IIT Bombay is the Institute which not only creates Best Engineers but also contributes predominantly in the creation of India’s Silicon Valley. E-Cell has been consistently working in enhancing the entrepreneurial ecosystem both inside and outside IIT Bombay. They aim at encouraging students to rise above the job-centric culture and become frontline entrepreneurs, thereby also help the motivated ones by giving them most of the resources they need. E-Cell's main initiatives include Eureka! and E-Summit which has been glorified by the presence of Nandan Nilekani, Sachin Bansal, Travis Kalanick, Kiran Shaw, Aman Gupta, and many more successful entrepreneurs and leaders from across the globe. At E-Cell, you will not only see your ideas come to life but will also be empowered to make those ideas seen by the best and get rewarded.
-        </p>
-        <p className="mb-4">
-            To know more about events visit us at:<br /> 
-            <a href="https://www.ecell.in" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/ecell.in/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/iitbombay_ecell/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <h2 className="text-xl font-bold mb-2">{t("text.52")}</h2>
+        <p className="mb-4">{t("text.53")}</p>
+        <p className="mb-4">{t("text.54")}<br /> 
+            <a href="https://www.ecell.in" className="text-blue-600 hover:underline p-0!">{t("text.55")}</a>{t("text.56")}<a href="https://www.facebook.com/ecell.in/" className="text-blue-600 hover:underline p-0!">{t("text.57")}</a>{t("text.58")}<a href="https://www.instagram.com/iitbombay_ecell/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.59")}</a>
         </p>
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', marginBottom: '2rem' }}>
         <iframe
@@ -108,16 +81,11 @@ const InstituteBodies = () => {
         </div>
 
 
-        <h2 className="text-xl font-bold mb-2">Mood Indigo</h2>
-        <p className="mb-4">
-            Held in December every year, with a footfall of over 1.4 Lakh pouring in- Mood Indigo or Mood I (as we lovingly call it) is the largest college cultural festival in Asia! It is IIT Bombay's very own 'Chaar Din Ka Sapna' with the ideology to bring the entire world to one place, providing opportunities to all enthusiasts and making the 4 days the best days of the year for the audience and workforce alike! Mood I caters to the most talented students from 1600 colleges across the world through magnificent competitions and provides exposure to an unending list of international artists like Mike Portnoy, Porcupine Tree, Katatonia, Sander Van Doorn and Indian legends and Bollywood heartthrobs like Deepika Padukone, Shankar-Ehsaan-Loy, Aamir Khan, Asha Bhosle, Ustad Zakir Hussain, Jagjit Singh etc.
-        </p>
-        <p className="mb-4">
-            At Mood Indigo, you will see your ideas come to life, live your dreams, handle professional artists, organize entire events and make the memories of a lifetime- A must for your freshie year!
-        </p>
-        <p className="mb-4">
-            To know more about events visit us at:<br /> 
-            <a href="https://moodi.org" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/iitbombay.moodi/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/iitbombay.moodi/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <h2 className="text-xl font-bold mb-2">{t("text.60")}</h2>
+        <p className="mb-4">{t("text.61")}</p>
+        <p className="mb-4">{t("text.62")}</p>
+        <p className="mb-4">{t("text.63")}<br /> 
+            <a href="https://moodi.org" className="text-blue-600 hover:underline p-0!">{t("text.64")}</a>{t("text.65")}<a href="https://www.facebook.com/iitbombay.moodi/" className="text-blue-600 hover:underline p-0!">{t("text.66")}</a>{t("text.67")}<a href="https://www.instagram.com/iitbombay.moodi/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.68")}</a>
         </p>
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', marginBottom: '2rem' }}>
             <iframe
@@ -138,22 +106,13 @@ const InstituteBodies = () => {
         </div>
 
 
-        <h2 className="text-xl font-bold mb-2">Techfest</h2> 
-        <p className="mb-4">
-            Techfest welcomes you all to IIT Bombay! Techfest is Asia's largest annual science and technology festival. Started in 1998, with the motto of promoting science and technology, Techfest has surpassed 23 golden years of creating an unmatched aura of a science and technology spectacle year after year.
-        </p>
-        <p className="mb-4">
-            Attracting a footfall of more than 1,75,000 and with a reach of over 2500 national and 500 international colleges, Techfest provides an international platform to the youth to showcase their talents and expertise in fierce competitions, display cutting edge technology and research from all over the globe, as well as interact with world-renowned personalities like Dr. A.P.J. Abdul Kalam, His Holiness The Dalai Lama, Jimmy Wales, Amartya Sen. The grandeur of the international night shows, along with its fun setups keep the spirit of the festive feel alive throughout the 3 days, and this is what makes it so different, so mighty.
-        </p> 
-        <p className="mb-4">
-            Techfest also takes up numerous social initiatives throughout the year, which have been supported by the likes of Sonakshi Sinha, Arjun Kapoor, Prachi Desai, Taapsee Pannu, Yami Gautam, and many others.
-        </p>
-        <p className="mb-4">
-            Techfest is all about the concept of “One Team ”. You don’t need to be a tech enthusiast to be a part of the Techfest. Come and be a part of the integral Techfest family and, in the process, meet your idols, have fun, get your ideas implemented, create a global social impact, and make new lifelong friends.
-        </p>
-        <p className="mb-4">
-            To know more about events visit us at:<br /> 
-            <a href="https://techfest.org" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/iitbombaytechfest/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/techfest_iitbombay/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <h2 className="text-xl font-bold mb-2">{t("text.69")}</h2> 
+        <p className="mb-4">{t("text.70")}</p>
+        <p className="mb-4">{t("text.71")}</p> 
+        <p className="mb-4">{t("text.72")}</p>
+        <p className="mb-4">{t("text.73")}</p>
+        <p className="mb-4">{t("text.74")}<br /> 
+            <a href="https://techfest.org" className="text-blue-600 hover:underline p-0!">{t("text.75")}</a>{t("text.76")}<a href="https://www.facebook.com/iitbombaytechfest/" className="text-blue-600 hover:underline p-0!">{t("text.77")}</a>{t("text.78")}<a href="https://www.instagram.com/techfest_iitbombay/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.79")}</a>
         </p>
         <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', marginBottom: '2rem' }}>
             <iframe
@@ -174,70 +133,26 @@ const InstituteBodies = () => {
         </div>
 
 
-        <h2 className="text-xl font-bold mb-2">Abhyuday</h2> 
-        <p className="mb-4">
-            We can do no great things; only small things with great love. Rooted in the belief that, in a gentle way you can shake the world, Abhyuday is an initiative taken by the socially conscious students of IIT Bombay, looking to sensitize the youth regarding the problems plaguing our society. With our endeavours we aim to provide sustainable and practically feasible solutions to such challenges. Working for a social cause does not require an expertise or experience, it just requires a true intention to bring a change, and surprisingly though , for that you do not need to go out of your way, you can do your bit, by doing what you are best at. Our initiatives enable the volunteers to interact with various sections of the society and feel their problems, only to come back with a fire to change the way it is. Our two day Social-Festival, the largest organized by any student body in the country, focuses on fostering leadership and social impact. We organize a plethora of activities to bring the entire 360 degree view of the problem on the table. We, then move on to building solutions by connecting to various NGOs and enterprises. Apart from this, Abhyuday also works on building collaborations with like-minded organizations such as Satyamev Jayate & The Gates Foundation. At Abhyuday, IIT Bombay you can see your ideas to change the society get a platform. An opportunity to interact one on one with the leaders of today, who have brought a change upon us, will help you develop all the necessary skills a future leader needs to have. Anyone can join Abhyuday, IIT Bombay - only pre-requisite is the passion to bring about a positive change in our society!
-        </p>
+        <h2 className="text-xl font-bold mb-2">{t("text.80")}</h2> 
+        <p className="mb-4">{t("text.81")}</p>
 
-        <p className="mb-4">
-            To know more visit us at:<br /> 
-            <a href="https://www.abhyudayiitb.org" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/abhyuday.iitb/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/iitbombay_abhyuday/?hl=en" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <p className="mb-4">{t("text.82")}<br /> 
+            <a href="https://www.abhyudayiitb.org" className="text-blue-600 hover:underline p-0!">{t("text.83")}</a>{t("text.84")}<a href="https://www.facebook.com/abhyuday.iitb/" className="text-blue-600 hover:underline p-0!">{t("text.85")}</a>{t("text.86")}<a href="https://www.instagram.com/iitbombay_abhyuday/?hl=en" className="text-blue-600 hover:underline p-0!">{t("text.87")}</a>
         </p>
 
 
-        <h2 className="text-xl font-bold mb-2">Sustainability Cell</h2> 
-        <p className="mb-4">
-            The Sustainability Cell is IIT Bombay’s student-driven initiative dedicated to promoting sustainable practices and environmental responsibility across the campus community. The cell works on projects addressing waste management, energy conservation, resource efficiency, and other sustainability challenges while encouraging innovation in environmental solutions. Through awareness campaigns, workshops, events, and collaborative initiatives, it strives to integrate sustainability into everyday campus life and foster informed discussions on climate and environmental issues. By bringing together students interested in sustainability, the cell serves as a platform for developing practical solutions, spreading awareness, and contributing to a more environmentally conscious and sustainable campus.
-        </p>
+        <h2 className="text-xl font-bold mb-2">{t("text.88")}</h2> 
+        <p className="mb-4">{t("text.89")}</p>
 
-        <p className="mb-4">
-            To know more visit us at:<br /> 
-            <a href="https://gymkhana.iitb.ac.in/~sustainabilitycell/" className="text-blue-600 hover:underline p-0!">Website</a>  |   <a href="https://www.facebook.com/SustainabilityCell/" className="text-blue-600 hover:underline p-0!">Facebook</a>  |   <a href="https://www.instagram.com/sustainabilitycell/" className="text-blue-600 hover:underline p-0!">Instagram</a>
+        <p className="mb-4">{t("text.90")}<br /> 
+            <a href="https://gymkhana.iitb.ac.in/~sustainabilitycell/" className="text-blue-600 hover:underline p-0!">{t("text.91")}</a>{t("text.92")}<a href="https://www.facebook.com/SustainabilityCell/" className="text-blue-600 hover:underline p-0!">{t("text.93")}</a>{t("text.94")}<a href="https://www.instagram.com/sustainabilitycell/" className="text-blue-600 hover:underline p-0!">{t("text.95")}</a>
         </p>
       </>);
-
-
-    const contentHi = (<>
-        <h1 className="text-4xl font-bold mb-5">संस्थान की संस्थाएँ</h1>
-        <h2 className="text-xl font-bold mb-2">NSS — NSS IIT बॉम्बे</h2>
-        <p className="mb-4">
-            NSS IIT बॉम्बे आपको समाज सेवा में योगदान देने का अवसर देता है, साथ ही यह आपकी शैक्षणिक आवश्यकताओं को भी पूरा करता है। NOCS01 और NOCS02 (अनिवार्य कोर्स) के भाग के रूप में आप NSS, NSO या NCC का चयन कर सकते हैं।
-        </p>
-        <h2 className="text-xl font-bold mb-2">SARC</h2>
-        <p className="mb-4">
-            स्टूडेंट एलुमनी रिलेशंस सेल (SARC) छात्रों और पूर्व छात्रों के बीच के बंधन को मजबूत करने के लिए समर्पित है। SARC अपने प्रमुख आयोजन Alumination में मॉक इंटरव्यू, ग्रुप डिस्कशन, स्पीड मेंटरिंग और कार्यशालाएँ आयोजित करता है।
-        </p>
-        <h2 className="text-xl font-bold mb-2">साथी</h2>
-        <p className="mb-4">
-            साथी IIT बॉम्बे में एक LGBTQ+ सहायता और संसाधन समूह है। यह कैंपस पर LGBTQ+ व्यक्तियों के लिए एक समुदाय प्रदान करने के लिए प्रतिबद्ध है। वे कार्यशालाओं, जागरूकता दिवसों, फिल्म प्रदर्शनियों और अनौपचारिक बैठकों जैसे वर्ष भर कार्यक्रम आयोजित करते हैं।
-        </p>
-        <h2 className="text-xl font-bold mb-2">NCC</h2>
-        <p className="mb-4">NCC IIT बॉम्बे कैडेटों में देशभक्ति, भाईचारा और अनुशासन विकसित करने का लक्ष्य रखता है, जिससे भविष्य के गतिशील और दूरदर्शी नेता तैयार हो सकें।</p>
-        <h2 className="text-xl font-bold mb-2">E-Cell</h2>
-        <p className="mb-4">
-            E-Cell IIT बॉम्बे के अंदर और बाहर उद्यमशीलता पारिस्थितिकी तंत्र को बढ़ाने में निरंतर काम कर रहा है। उनकी प्रमुख पहलों में Eureka! और E-Summit शामिल हैं। अधिक जानने के लिए <a href="https://www.instagram.com/iitbombay_ecell/" className="text-blue-600 hover:underline p-0!">यहाँ</a> देखें।
-        </p>
-        <h2 className="text-xl font-bold mb-2">Mood Indigo</h2>
-        <p className="mb-4">
-            हर वर्ष दिसंबर में आयोजित, 1.4 लाख से अधिक लोगों की भागीदारी के साथ — Mood Indigo एशिया का सबसे बड़ा कॉलेज सांस्कृतिक उत्सव है! अधिक जानने के लिए <a href="https://instagram.com/iitbombay.moodi?igshid=ZDc4ODBmNjlmNQ==" className="text-blue-600 hover:underline p-0!">यहाँ</a> देखें।
-        </p>
-        <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
-            <iframe border="0" src="https://www.youtube.com/embed/qmOxHKe6f6Y?si=02Ws-rJSdTh7c5ed" title="Mood Indigo आधिकारिक आफ्टरमूवी" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: 0, left: 0, width: '85%', height: '90%', border: '0' }} />
-        </div>
-        <h2 className="text-xl font-bold mb-2">Techfest</h2>
-        <p className="mb-4">
-            Techfest एशिया का सबसे बड़ा वार्षिक विज्ञान और प्रौद्योगिकी महोत्सव है। 1998 में शुरू हुआ, 1,75,000 से अधिक की भागीदारी और 2500 राष्ट्रीय व 500 अंतरराष्ट्रीय कॉलेजों तक पहुँच। देखें: <a href="https://www.techfest.org" className="text-blue-600 hover:underline p-0!">www.techfest.org</a>
-        </p>
-        <h2 className="text-xl font-bold mb-2">अभ्युदय</h2>
-        <p className="mb-4">
-            अभ्युदय IIT बॉम्बे के सामाजिक रूप से जागरूक छात्रों की एक पहल है, जो युवाओं को समाज की समस्याओं के प्रति संवेदनशील बनाने का प्रयास करती है। उनका दो दिवसीय सामाजिक महोत्सव देश में किसी भी छात्र संस्था द्वारा आयोजित सबसे बड़ा है। <a href="https://www.facebook.com/abhyuday.iitb/" className="text-blue-600 hover:underline p-0!" target="_blank">यहाँ</a> देखें।
-        </p>
-    </>);
 
     const sidebar = navData["Extra Curriculars"];
 
     return (
-        <Page content={content} contentHi={contentHi} sidebar={sidebar} sideHeading="Extra Curriculars" />
+        <Page content={content} sidebar={sidebar} sideHeading="Extra Curriculars" />
     )
 }
 

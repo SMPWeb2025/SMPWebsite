@@ -103,7 +103,7 @@ export const teamData = [
     },
     {
         "designation": "Electrical DAMPC",
-        "name": "Tanisha_Hase",
+        "name": "Tanisha Hase",
         "link": "/team_images 2026-27/Tanisha_Hase.webp",
         "caption": "Hi, I'm Tanisha, a fourthie from Elec. Big foodie, curious about pretty much everything, and always up for a good conversation. Feel free to reach out anytime :)"
     },

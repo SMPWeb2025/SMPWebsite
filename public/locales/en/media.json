@@ -1,0 +1,24 @@
+{
+  "title": "Media",
+  "introduction": {
+    "body": "The Institute has a very active media scene in terms of Newsletters, Magazines, Video coverage and IITB Radio. While Insight, the media body of IIT Bombay, releases newsletters specifically for freshmen, amongst others, several departments and institute bodies also put out their own newsletters. IIT BBC pioneers the video content scene in the campus, and to cater to those who enjoy radio, we also have the IITB radio."
+  },
+  "newsletters": {
+    "heading": "Newsletters and Magazines",
+    "body": "Insight is currently the only active media body in the institute run voluntarily by students. Aawaaz was the media body for Hindi but is now dissolved."
+  },
+  "insight": {
+    "heading": "Insight",
+    "body": "If you like writing, have a flair for journalism and you want to work on high impact pieces that usher changes in the institute or simply want to publish a few leisure pieces for light reading and humour you would like to work with the student media body Insight. Insight publishes online content on their website along with offline newsletters which are delivered door to door. Watch out for their Freshmen specific newsletter, started from 2013, which you will be receiving in August!"
+  },
+  "broadcasting": {
+    "heading": "IIT Bombay Broadcasting Channel",
+    "body": "IITBBC is a specific wing of Insight focussing on video coverage of events happening in the institute. If you are interested in real time coverage of news in the institute and working on video editing you should definitely work with IITBBC."
+  },
+  "enspace": {
+    "heading": "EnSpace",
+    "bodyBeforeLink": "E-Cell publishes a magazine EnSpace which aims to promote entrepreneurial awareness through an interesting mix of articles, interviews and informative pieces. You can find the EnSpace publications",
+    "linkText": "here",
+    "bodyAfterLink": "."
+  }
+}

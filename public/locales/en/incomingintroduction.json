@@ -1,0 +1,13 @@
+{
+  "title": "Introduction",
+  "welcome": "Welcome to the website of Student Mentor Program, IIT Bombay!",
+  "intro": "The main aim of this website is to acquaint you with the different facets of this college which you might be curious about. We hope this will help in making the difficult choice ahead of you and give you some insight into the culture at IIT Bombay from a student's perspective!",
+  "aboutSMP": "We are the <bold>Student Mentor Programme</bold> (SMP), a programme within IIT Bombay, with the primary objective of enabling constructive and positive interaction, guidance and mentorship of junior students by senior students. We aim at providing a reliable and comprehensive support system to the student community to motivate them to excel in both academic and non-academic fields, and to make the most of their life at IIT Bombay.",
+  "exploreSections": "This website has a lot of carefully curated information that we believe is relevant to you. Take your time to go through the different sections, we've covered various aspects of <lifeLink>life at IITB</lifeLink> - from academics to <extraLink>extracurriculars</extraLink>.",
+  "whyIITBIntro": "Before you begin exploring, we urge you to visit the official website of IIT Bombay which covers important official information for prospective students:",
+  "whyIITBLinkText": "Why IITB?",
+  "contact": "We hope this website gives you some clarity. In case of any doubts or concerns, feel free to email us on <emailLink>smpcs2026@gmail.com</emailLink> and we will reply to you as soon as possible. Our team is always there to assist you and you can visit <pageLink>this page</pageLink> to access our contact information.",
+  "closing": "Happy exploring!",
+  "regards": "Warm Regards",
+  "coordinatorsTitle": "Overall Coordinators, Student Mentor Program, IIT Bombay"
+}

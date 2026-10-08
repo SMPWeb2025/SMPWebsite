@@ -1,0 +1,36 @@
+{
+  "title": "Accommodation Available",
+  "intro": "It is true that the guest houses at IIT Bombay are extremely pocket-friendly and are known for their cozy atmosphere, but booking needs to be done quite in advance as they are rarely available and the procedure for the same is also pretty long!",
+  "parentNote": {
+      "label": "Note:",
+      "body": "For first year students coming to campus with their parents/guardians, guesthouse and hostel booking is <bold>not allowed</bold> during the orientation period. You are requested to find accommodation for your parents/family members/guardians off-campus during that time."
+  },
+  "batchNote": "For Incoming batch of UG 2026-27 (during the orientation period):",
+  "nearbyHeading": "Hotels/Guesthouses near the campus",
+  "nearbyIntro": "Here's a coveted list of hotels around the institute that are known for their good service and student-friendly rates. Check them out:",
+  "within6kmLabel": "(Within 6km of IIT Bombay)",
+  "within10kmLabel": "(Within 10km of IIT Bombay)",
+  "disclaimer": {
+    "label": "Disclaimer:",
+    "body": "This is not an official list or sponsored list released by IIT Bombay. It is something that students at IIT Bombay have collected over the years."
+  },
+  "guestOptionsIntro": "There are quite a few options for guest accommodation in and around IIT Bombay:",
+  "firstYearAfterOrientation": "For first-year students (after orientations) and all other students:",
+  "guestHouseHeading": "IIT Bombay Guest House",
+  "bookingIntro": "If you are planning to book someone for an overnight stay at IIT, here's what you should know:",
+  "guestHouseCountLabel": "IIT Bombay has 2 Guest Houses :",
+  "jalVihar": "1) Jal Vihar (the Old Guest House)",
+  "vanVihar": "2) Van Vihar (the New Guest House)",
+  "roomDetails": "The rooms in both are equally luxurious with AC rooms, a TV, Internet Connection, attached Toilets et al. Rooms are for two but unless there is a rush, can be booked for one.",
+  "visitWebsite": "Please visit this website to access all information regarding the same:",
+  "roomBookingHeading": "Hostel Room Booking",
+  "limitedCapacityNote": "Since the Guest Houses have limited capacity and IIT Bombay hosts many dignitaries from time to time, rooms can also be booked in Hostels. However, in hostel rooms, you have to make arrangements for mattresses and other basic things on your own. Mattresses might be available for rent with the Hall Manager. We suggest you look around in your wing and you might find someone who can lend you extra mattresses if you plan on hosting someone here.",
+  "chargesHeading": "Charges",
+  "chargesBody": "The charges for the room (without mattress) per night for parents are Rs. 100/- while for other guests are Rs. 300/-",
+  "bookingHeading": "Booking",
+  "bookingBody": "For booking, forms are available with the Hostel Coordinating Unit (HCU) in the Main Building (MB) or you may email hcu.office@iitb.ac.in . Take the copy of the approved form from the HCU to the Hall Manager of the allotted hostel and you are done. You may later collect the key from the Hall Manager office a day prior to the arrival of guests. In emergency situations also, guests can stay in the hostel rooms after entry in the Guest Register kept with the security at hostel entrance. The formalities can be completed on the next working day.",
+  "officeHoursNote": {
+    "label": "Note:",
+    "body": "The HCU or Hall Manager office is open from 9am to 5pm (with lunch break from 12-2pm) except on weekends and holidays. On Saturdays, the office is usually open in the first half. Plan accordingly. During the orientation period, neither of these might be available due to rush. It is advisable to make alternate arrangements."
+  }
+}

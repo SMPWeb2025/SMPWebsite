@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Suspense } from 'react'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import './i18n.js'
 import Home from './Pages/Home/Home.jsx'
 import Layout from './Pages/Layout.jsx'
 
@@ -220,6 +222,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Suspense fallback={<div>Loading...</div>}>
+        <RouterProvider router={router} />
+    </Suspense>
   </React.StrictMode>,
 )

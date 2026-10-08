@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "./logo.svg";
 import { Link } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageContext";
-import { sectionTranslations, dropdownTranslations } from "../../translations/navTranslations";
+import LanguageSwitcher from '../LanguageSwitcher';
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { language } = useLanguage();
+  const { t } = useTranslation("common");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
   };
 
   const displaySection = (section) =>
-    language === "hi" ? sectionTranslations[section] || section : section;
+    t(section, { defaultValue: section });
 
   return (
     <div className={`navbarsmp ${scrolled ? "scrolled" : ""}`}>
@@ -74,6 +74,7 @@ const Navbar = () => {
               हिं
             </button>
           </div> */}
+          <LanguageSwitcher />
           <button className="hamburger" onClick={toggleMobile}>
             ☰
           </button>
@@ -100,7 +101,7 @@ const Navbar = () => {
             {displaySection(section)}
             {dropdown === section && (
               <div className="dropdownMenu">
-                {getDropdownItems(section, () => setMobileOpen(false), language)}
+                {getDropdownItems(section, () => setMobileOpen(false), t)}
               </div>
             )}
           </div>
@@ -110,7 +111,7 @@ const Navbar = () => {
   );
 };
 
-const getDropdownItems = (section, closeMobileMenu, language) => {
+const getDropdownItems = (section, closeMobileMenu, t) => {
   const items = {
     "About Us": [
       { text: "Our Objective", link: "/about/our-objective" },
@@ -152,10 +153,7 @@ const getDropdownItems = (section, closeMobileMenu, language) => {
   };
 
   return items[section].map(({ text, link }, i) => {
-    const displayText =
-      language === "hi"
-        ? dropdownTranslations[section]?.[text] || text
-        : text;
+    const displayText = t(text, { defaultValue: text });
     return (
       <Link
         to={link}

@@ -4,12 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faHeart } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
   const year = new Date().getFullYear();
-  const { language } = useLanguage();
-  const hi = language === 'hi';
+  const { t } = useTranslation("common");
   return (
     <>
       {/* <Announcements/> */}
@@ -30,7 +29,7 @@ function Footer() {
                 />
               </Link>
               <h6 className="pb-4 m-0" style={{ color: "#E1F7F5" }}>
-                {hi ? 'सीखना। बढ़ना। बनना।' : 'Learning. Growing. Becoming'}
+                {t("footer.tagline", { defaultValue: "Learning. Growing. Becoming" })}
               </h6>
               <p className="">© SMP {year}</p>
             </div>
@@ -38,106 +37,106 @@ function Footer() {
             {/* <div className="col mb-2"></div> */}
 
             <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg py-4">
-              <div className="text-xs md:text-2xl font-bold mb-2">{hi ? 'नेविगेट' : 'Navigate'}</div>
+              <div className="text-xs md:text-2xl font-bold mb-2">{t("footer.navigate", { defaultValue: "Navigate" })}</div>
               <ul
                 className="nav flex-column footerItems"
                 style={{ color: "E1F7F5" }}
               >
                 <li className="nav-item mb-2" style={{ color: "E1F7F5" }}>
                   <Link to="/" className="nav-link p-0" style={{ color: "E1F7F5" }}>
-                    {hi ? 'होम' : 'Home'}
+                    {t("footer.home", { defaultValue: "Home" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/incoming-students/introduction" className="nav-link p-0 ">
-                    {hi ? 'आने वाले छात्र' : 'Incoming Students'}
+                    {t("Incoming Students", { defaultValue: "Incoming Students" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/academics/introduction" className="nav-link p-0 ">
-                    {hi ? 'शैक्षणिक' : 'Academics'}
+                    {t("Academics", { defaultValue: "Academics" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="life-at-iitb/introduction" className="nav-link p-0 ">
-                    {hi ? 'IIT बॉम्बे में जीवन' : 'Life at IITB'}
+                    {t("Life at IITB", { defaultValue: "Life at IITB" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/gymkhana" className="nav-link p-0 ">
-                    {hi ? 'पाठ्येतर गतिविधियाँ' : 'Extracurriculars'}
+                    {t("footer.extracurriculars", { defaultValue: "Extracurriculars" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/about/our-objective" className="nav-link p-0 ">
-                    {hi ? 'हमारे बारे में' : 'About Us'}
+                    {t("About Us", { defaultValue: "About Us" })}
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg py-4">
-              <div className="text-xs md:text-2xl font-bold mb-2">{hi ? 'त्वरित लिंक' : 'Quick links'}</div>
+              <div className="text-xs md:text-2xl font-bold mb-2">{t("footer.quickLinks", { defaultValue: "Quick links" })}</div>
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
                   <Link to="incoming-students/things-to-bring" className="nav-link p-0 ">
-                    {hi ? 'क्या लाएँ' : 'Things to bring'}
+                    {t("Things to bring", { defaultValue: "Things to bring" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="academics/curriculum" className="nav-link p-0 ">
-                    {hi ? 'पाठ्यक्रम' : 'Curriculum'}
+                    {t("Curriculum", { defaultValue: "Curriculum" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/incoming-students/accomodation" className="nav-link p-0 ">
-                    {hi ? 'आवास' : 'Accomodation'}
+                    {t("Accomodation", { defaultValue: "Accomodation" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/incoming-students/scholarships" className="nav-link p-0 ">
-                    {hi ? 'छात्रवृत्तियाँ' : 'Scholarships'}
+                    {t("Scholarships", { defaultValue: "Scholarships" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/incoming-students/fee-structure" className="nav-link p-0 ">
-                    {hi ? 'शुल्क संरचना' : 'Fee Structure'}
+                    {t("Fee Structure", { defaultValue: "Fee Structure" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/academics/departments" className="nav-link p-0 ">
-                    {hi ? 'विभाग' : 'Departments'}
+                    {t("Departments", { defaultValue: "Departments" })}
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div className="col-span-1 mb-3 mx-auto text-xs md:text-lg py-4">
-              <div className="text-xs md:text-2xl font-bold mb-2">{hi ? 'त्वरित लिंक' : 'Quick links'}</div>
+              <div className="text-xs md:text-2xl font-bold mb-2">{t("footer.quickLinks", { defaultValue: "Quick links" })}</div>
               <ul className="nav flex-column footerItems">
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/gymkhana" className="nav-link p-0 ">
-                    {hi ? 'खेल' : 'Sports'}
+                    {t("Sports", { defaultValue: "Sports" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/culturals" className="nav-link p-0 ">
-                    {hi ? 'सांस्कृतिक' : 'Culturals'}
+                    {t("Culturals", { defaultValue: "Culturals" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/media" className="nav-link p-0 ">
-                    {hi ? 'मीडिया' : 'Media'}
+                    {t("Media", { defaultValue: "Media" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/institute-bodies" className="nav-link p-0 ">
-                    {hi ? 'संस्थान की संस्थाएँ' : 'Institute Bodies'}
+                    {t("Institute Bodies", { defaultValue: "Institute Bodies" })}
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
                   <Link to="/extra-curriculars/technical-affairs" className="nav-link p-0 ">
-                    {hi ? 'तकनीकी मामले' : 'Technical Affairs'}
+                    {t("Technical Affairs", { defaultValue: "Technical Affairs" })}
                   </Link>
                 </li>
               </ul>
@@ -147,7 +146,7 @@ function Footer() {
             <footer className="flex flex-wrap justify-between items-center py-3 border-t border-black">
               <div className="md:w-1/3 flex items-center justify-center mx-auto">
                 
-                <span className="mb-3 mb-md-0 ">{hi ? 'SMP वेब टीम द्वारा ❤️ के साथ बनाया गया' : 'Made with ❤️ by SMP Web Team'}</span>
+                <span className="mb-3 mb-md-0 ">{t("footer.madeWith", { defaultValue: "Made with ❤️ by SMP Web Team" })}</span>
               </div>
 
               <ul className="md:w-1/3 justify-center list-none flex items-center mx-auto footerItems footer-socials">

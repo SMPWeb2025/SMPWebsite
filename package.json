@@ -20,6 +20,9 @@
     "@tailwindcss/vite": "^4.1.8",
     "bootstrap": "^5.3.6",
     "gsap": "^3.13.0",
+    "i18next": "^26.3.6",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-http-backend": "^4.0.0",
     "jquery": "^3.7.1",
     "lucide-react": "^0.522.0",
     "mathjax-react": "^2.0.1",
@@ -29,6 +32,7 @@
     "react-dom": "^18.3.1",
     "react-fontawesome": "^1.7.1",
     "react-helmet": "^6.1.0",
+    "react-i18next": "^17.0.10",
     "react-router-dom": "^7.6.2",
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.8"
